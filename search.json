@@ -1,0 +1,584 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "yrExcel",
+    "section": "",
+    "text": "About this book\nThis book explains how to use Microsoft Excel.\nThere are many different versions of Excel. This material aims to cover the basic ideas that are generically applicable to most recent versions of Microsoft Excel. The text focuses on Excel 365 (circa 2024). However, the vast majority of this material applies to other versions of Excel as well.\nNote that, other than Microsoft Excel, there exist other “spreadsheet” programs and online offerings that are very similar to Excel in many ways. Some of these other offerings include those listed below.\n\nGoogle Sheets: https://www.google.com/sheets/about/\nLibre Office: https://www.libreoffice.org/\nApache Office: https://www.openoffice.org/\n\nWhile, much of the material presented here will apply to these other spreadsheet programs, some of the material will not. Most significantly, there are numerous functions that will work in Microsoft Excel but not in some of these other programs.",
+    "crumbs": [
+      "About this book"
+    ]
+  },
+  {
+    "objectID": "0000100-mostBasicConcepts-v001.html",
+    "href": "0000100-mostBasicConcepts-v001.html",
+    "title": "1  Getting Around and Entering Data",
+    "section": "",
+    "text": "1.1 worksheets, workbooks, cells",
+    "crumbs": [
+      "The very basics",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+    ]
+  },
+  {
+    "objectID": "0000100-mostBasicConcepts-v001.html#worksheets-workbooks-cells",
+    "href": "0000100-mostBasicConcepts-v001.html#worksheets-workbooks-cells",
+    "title": "1  Getting Around and Entering Data",
+    "section": "",
+    "text": "Terminology\n\nworksheet\n\nThe contents of each “tab” is known as a “worksheet”\n\nworkbook\n\nAn entire Excel file is known as a “workbook”\n\ncell\n\nA single “box” is known as a “cell”",
+    "crumbs": [
+      "The very basics",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+    ]
+  },
+  {
+    "objectID": "0000100-mostBasicConcepts-v001.html#how-to-enter-information-into-cells",
+    "href": "0000100-mostBasicConcepts-v001.html#how-to-enter-information-into-cells",
+    "title": "1  Getting Around and Entering Data",
+    "section": "1.2 How to enter information into cells",
+    "text": "1.2 How to enter information into cells\n\nTerminology\n\nThe “formula bar” at the top of a worksheet shows the contents of the currently selected cell.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPress ESC to cancel changes\nIf you are typing in a cell and want to cancel your changes, just press ESC.",
+    "crumbs": [
+      "The very basics",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+    ]
+  },
+  {
+    "objectID": "0000100-mostBasicConcepts-v001.html#names-of-rows-columns-and-cells",
+    "href": "0000100-mostBasicConcepts-v001.html#names-of-rows-columns-and-cells",
+    "title": "1  Getting Around and Entering Data",
+    "section": "1.3 Names of Rows, Columns and Cells",
+    "text": "1.3 Names of Rows, Columns and Cells\n\nTerminology\n\nName Box\n\nthe “box” in the upper left hand corner of a worksheet that shows the name of the currently selected cell",
+    "crumbs": [
+      "The very basics",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+    ]
+  },
+  {
+    "objectID": "0000100-mostBasicConcepts-v001.html#longggggggggg-data",
+    "href": "0000100-mostBasicConcepts-v001.html#longggggggggg-data",
+    "title": "1  Getting Around and Entering Data",
+    "section": "1.4 Longggggggggg Data",
+    "text": "1.4 Longggggggggg Data",
+    "crumbs": [
+      "The very basics",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+    ]
+  },
+  {
+    "objectID": "0000100-mostBasicConcepts-v001.html#start-a-new-line-in-same-cell",
+    "href": "0000100-mostBasicConcepts-v001.html#start-a-new-line-in-same-cell",
+    "title": "1  Getting Around and Entering Data",
+    "section": "1.5 Start a new line in same cell",
+    "text": "1.5 Start a new line in same cell",
+    "crumbs": [
+      "The very basics",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+    ]
+  },
+  {
+    "objectID": "0000135-formatting-v001.html",
+    "href": "0000135-formatting-v001.html",
+    "title": "2  Formatting cells",
+    "section": "",
+    "text": "2.1 Basic formatting",
+    "crumbs": [
+      "The very basics",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Formatting cells</span>"
+    ]
+  },
+  {
+    "objectID": "0000135-formatting-v001.html#more-advanced-formatting",
+    "href": "0000135-formatting-v001.html#more-advanced-formatting",
+    "title": "2  Formatting cells",
+    "section": "2.2 More Advanced formatting",
+    "text": "2.2 More Advanced formatting",
+    "crumbs": [
+      "The very basics",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Formatting cells</span>"
+    ]
+  },
+  {
+    "objectID": "0000165-selecting-v001.html",
+    "href": "0000165-selecting-v001.html",
+    "title": "3  Selecting cells",
+    "section": "",
+    "text": "When you (single) click on a cell you have “selected” it. For example if you click on a cell and press ctrl-b (windows) or cmd-b (mac) you will make the contents of that cell bold.\nHowever, it it possible to “select” multiple cells at once. That way you can apply formatting changes to multiple cells at the same time. There are two ways to select multiple cells,\n\n“shift click” to select contiguous cells\n“ctrl-click” (win) or “cmd-click” (mac) to select non-contiguous cells\n\nsee below for more info.\n\nusing shift to select several cells\nYou can also select several cells. For example, if you the following:\n\n(single) click on a cell\nthen press shift-arrowKey (where arrowKey is one of the arrow keys, i.e. up-arrow, down-arrow, left-arrow or right-arrow) You will notice that several cells get selected at once.\n\nIf you then do something, it will affect all of those cells at once. For example, if you first select several cells and then press ctrl-b (windows) or cmd-b (mac) you will make the contents of all of the cells that you selected bold.\n\n\nusing ctrl (windows) or cmd (mac) to select several cells\nAlternatively if you press the ctrl (windows) or cmd (mac) keys while simultaneously clicking on different cells, you can select several non-contiguous cells.\nSimilarly if you press ctlr (win) or cmd (mac) and you click-and-drag your mouse you will select several different “ranges” of cells.\nThen anything you do (e.g. press ctrl-b or cmd-b) will affect all of those cells.\n\n\nother ways to select cells",
+    "crumbs": [
+      "The very basics",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Selecting cells</span>"
+    ]
+  },
+  {
+    "objectID": "0010200-introToFormulas-v001.html",
+    "href": "0010200-introToFormulas-v001.html",
+    "title": "4  Intro to Formulas",
+    "section": "",
+    "text": "4.1 What is an Excel formula?\nExcel “formulas” automatically calculate the value in one cell based on the values that appear in other cells. See below for more info…",
+    "crumbs": [
+      "Formulas",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Intro to Formulas</span>"
+    ]
+  },
+  {
+    "objectID": "0010200-introToFormulas-v001.html#numeric-operators-ie.--",
+    "href": "0010200-introToFormulas-v001.html#numeric-operators-ie.--",
+    "title": "4  Intro to Formulas",
+    "section": "4.2 Numeric Operators ie. + - * / ^",
+    "text": "4.2 Numeric Operators ie. + - * / ^",
+    "crumbs": [
+      "Formulas",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Intro to Formulas</span>"
+    ]
+  },
+  {
+    "objectID": "0010200-introToFormulas-v001.html#errors-in-formulas",
+    "href": "0010200-introToFormulas-v001.html#errors-in-formulas",
+    "title": "4  Intro to Formulas",
+    "section": "4.3 Errors in formulas",
+    "text": "4.3 Errors in formulas",
+    "crumbs": [
+      "Formulas",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Intro to Formulas</span>"
+    ]
+  },
+  {
+    "objectID": "0010200-introToFormulas-v001.html#order-of-operations",
+    "href": "0010200-introToFormulas-v001.html#order-of-operations",
+    "title": "4  Intro to Formulas",
+    "section": "4.4 Order of operations",
+    "text": "4.4 Order of operations",
+    "crumbs": [
+      "Formulas",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Intro to Formulas</span>"
+    ]
+  },
+  {
+    "objectID": "0010200-introToFormulas-v001.html#formulas-view-vs-values-view",
+    "href": "0010200-introToFormulas-v001.html#formulas-view-vs-values-view",
+    "title": "4  Intro to Formulas",
+    "section": "4.5 “Formulas View” vs “Values View”",
+    "text": "4.5 “Formulas View” vs “Values View”\n\npress ctrl-` (win) or cmd-` (mac) to “toggle” (i.e. switch between) “formulas view” and “values view”\n(NOTE - the ` key is usually found under the ESC key. The ` symbol is usually found on the same key as the tilde ie. ~)",
+    "crumbs": [
+      "Formulas",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Intro to Formulas</span>"
+    ]
+  },
+  {
+    "objectID": "0010205-relativeAbsoluteRefs-v001.html",
+    "href": "0010205-relativeAbsoluteRefs-v001.html",
+    "title": "5  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
+    "section": "",
+    "text": "5.1 Dragging cells\nIt gets very tedious to copy cells one at a time. To make your life easier, you can copy the cells automatically. To do so:",
+    "crumbs": [
+      "Formulas",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
+    ]
+  },
+  {
+    "objectID": "0010205-relativeAbsoluteRefs-v001.html#dragging-cells",
+    "href": "0010205-relativeAbsoluteRefs-v001.html#dragging-cells",
+    "title": "5  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
+    "section": "",
+    "text": "click on a cell\npoint your cursor to the “dot” that appears in the bottom right hand corner of the selected cell. When you are pointing at the “dot”, the cursor will change from a white + sign to a black + sign.\nClick on the “dot” and drag down (or up/right/left). As you drag the mouse, the formula will be copied to the adjacent cells.\nTo automatically drag the formula down to all the rows in a column of a table, simply double-click on the “dot” instead of dragging the “dot”.",
+    "crumbs": [
+      "Formulas",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
+    ]
+  },
+  {
+    "objectID": "0010205-relativeAbsoluteRefs-v001.html#absolute-a1-and-mixed-a1-or-a1-references",
+    "href": "0010205-relativeAbsoluteRefs-v001.html#absolute-a1-and-mixed-a1-or-a1-references",
+    "title": "5  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
+    "section": "5.2 absolute ($A$1) and mixed (A$1 or $A1) references",
+    "text": "5.2 absolute ($A$1) and mixed (A$1 or $A1) references",
+    "crumbs": [
+      "Formulas",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
+    ]
+  },
+  {
+    "objectID": "0010205-relativeAbsoluteRefs-v001.html#references-to-entire-rows-or-columns-eg-11-aa-etc.",
+    "href": "0010205-relativeAbsoluteRefs-v001.html#references-to-entire-rows-or-columns-eg-11-aa-etc.",
+    "title": "5  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
+    "section": "5.3 References to entire rows or columns (eg 1:1, A:A, etc.)",
+    "text": "5.3 References to entire rows or columns (eg 1:1, A:A, etc.)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReferences to several rows or columns:\n\n\n\n\nYou can also refer to several rows or columns. For example:\n\n\n\n\n\nthe formula =sum(2:4) will sum the entire contents of rows 2,3 and 4\nthe formula =sum(C:F) will sum the entire contents of columns C,D,E and F\n\n\n\n\n\n\n\n\n\n\n5.4 References to cells on other worksheets (e.g. sheet1!A1)\n\n\n\n\n\n\n\n\n\n\nNOTE\n\n\n\n\nIf a sheet name contains a space, then you must surround the sheet name ‘with apostrophes’. For example, the formula:\n\n\n\n\n\n=sum(‘jan finances’!A1:C3)\n\n\n\n\n\nrefers to the range A1:C3 on the sheet named “jan finances”. This formula can be on any sheet in the entire Excel file.",
+    "crumbs": [
+      "Formulas",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
+    ]
+  },
+  {
+    "objectID": "0010205-relativeAbsoluteRefs-v001.html#references-to-cells-on-other-worksheets-e.g.-sheet1a1",
+    "href": "0010205-relativeAbsoluteRefs-v001.html#references-to-cells-on-other-worksheets-e.g.-sheet1a1",
+    "title": "5  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
+    "section": "5.4 References to cells on other worksheets (e.g. sheet1!A1)",
+    "text": "5.4 References to cells on other worksheets (e.g. sheet1!A1)",
+    "crumbs": [
+      "Formulas",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
+    ]
+  },
+  {
+    "objectID": "0010220-introToFunctions-v001.html",
+    "href": "0010220-introToFunctions-v001.html",
+    "title": "7  Intro to Functions",
+    "section": "",
+    "text": "7.1 What is a function?",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Intro to Functions</span>"
+    ]
+  },
+  {
+    "objectID": "0010220-introToFunctions-v001.html#ranges-eg.-a1c3",
+    "href": "0010220-introToFunctions-v001.html#ranges-eg.-a1c3",
+    "title": "7  Intro to Functions",
+    "section": "7.2 Ranges (eg. a1:c3)",
+    "text": "7.2 Ranges (eg. a1:c3)",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Intro to Functions</span>"
+    ]
+  },
+  {
+    "objectID": "0010220-introToFunctions-v001.html#function-calls-with-multiple-parametersarguments",
+    "href": "0010220-introToFunctions-v001.html#function-calls-with-multiple-parametersarguments",
+    "title": "7  Intro to Functions",
+    "section": "7.3 Function calls with multiple parameters/arguments",
+    "text": "7.3 Function calls with multiple parameters/arguments",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Intro to Functions</span>"
+    ]
+  },
+  {
+    "objectID": "0010220-introToFunctions-v001.html#fx-button-and-the-function-editor",
+    "href": "0010220-introToFunctions-v001.html#fx-button-and-the-function-editor",
+    "title": "7  Intro to Functions",
+    "section": "7.4 fx button and the function editor",
+    "text": "7.4 fx button and the function editor",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Intro to Functions</span>"
+    ]
+  },
+  {
+    "objectID": "0010220-introToFunctions-v001.html#combining-functions-and-other-values-in-a-single-formula",
+    "href": "0010220-introToFunctions-v001.html#combining-functions-and-other-values-in-a-single-formula",
+    "title": "7  Intro to Functions",
+    "section": "7.5 Combining functions and other values in a single formula",
+    "text": "7.5 Combining functions and other values in a single formula",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Intro to Functions</span>"
+    ]
+  },
+  {
+    "objectID": "0010240-logicalData-v001.html",
+    "href": "0010240-logicalData-v001.html",
+    "title": "9  logical values (i.e. TRUE, FALSE)",
+    "section": "",
+    "text": "9.1 if function",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>logical values (i.e. TRUE, FALSE)</span>"
+    ]
+  },
+  {
+    "objectID": "0010240-logicalData-v001.html#and-function",
+    "href": "0010240-logicalData-v001.html#and-function",
+    "title": "9  logical values (i.e. TRUE, FALSE)",
+    "section": "9.2 and function",
+    "text": "9.2 and function",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>logical values (i.e. TRUE, FALSE)</span>"
+    ]
+  },
+  {
+    "objectID": "0010240-logicalData-v001.html#or-not-functions",
+    "href": "0010240-logicalData-v001.html#or-not-functions",
+    "title": "9  logical values (i.e. TRUE, FALSE)",
+    "section": "9.3 or, not functions",
+    "text": "9.3 or, not functions",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>logical values (i.e. TRUE, FALSE)</span>"
+    ]
+  },
+  {
+    "objectID": "0010240-logicalData-v001.html#more-complex-examples",
+    "href": "0010240-logicalData-v001.html#more-complex-examples",
+    "title": "9  logical values (i.e. TRUE, FALSE)",
+    "section": "9.4 More complex examples",
+    "text": "9.4 More complex examples",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>logical values (i.e. TRUE, FALSE)</span>"
+    ]
+  },
+  {
+    "objectID": "0010240-logicalData-v001.html#isblank-and-other-logical-functions",
+    "href": "0010240-logicalData-v001.html#isblank-and-other-logical-functions",
+    "title": "9  logical values (i.e. TRUE, FALSE)",
+    "section": "9.5 isblank and other logical functions",
+    "text": "9.5 isblank and other logical functions",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>logical values (i.e. TRUE, FALSE)</span>"
+    ]
+  },
+  {
+    "objectID": "0010300-textData-v001.html",
+    "href": "0010300-textData-v001.html",
+    "title": "11  Text Data",
+    "section": "",
+    "text": "Text functions and operators\n\n\n\n\n\n\n\n\n\n\n\n\nright, left, mid\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n& operator and concatenate function\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlower, upper, len functions",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Text Data</span>"
+    ]
+  },
+  {
+    "objectID": "0010308-castingToText-v001.html",
+    "href": "0010308-castingToText-v001.html",
+    "title": "12  Treating numbers as “plain text”",
+    "section": "",
+    "text": "12.2 Solution using apostrophe (i.e. ’) as first character in cell",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Treating numbers as \"plain text\"</span>"
+    ]
+  },
+  {
+    "objectID": "0010308-castingToText-v001.html#solution-using-formatting-tools",
+    "href": "0010308-castingToText-v001.html#solution-using-formatting-tools",
+    "title": "12  Treating numbers as “plain text”",
+    "section": "12.1 Solution using “formatting” tools",
+    "text": "12.1 Solution using “formatting” tools",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Treating numbers as \"plain text\"</span>"
+    ]
+  },
+  {
+    "objectID": "0010309-dataTypes-v001.html",
+    "href": "0010309-dataTypes-v001.html",
+    "title": "13  Summary of Data Types (numeric, text, logical, date)",
+    "section": "",
+    "text": "In summary, there are 4 basic types of data that Excel recognizes:\n\nnumbers\ntext\nTRUE/FALSE\ndates and times",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Summary of Data Types (numeric, text, logical, date)</span>"
+    ]
+  },
+  {
+    "objectID": "0020100-tablesSorting-v001.html",
+    "href": "0020100-tablesSorting-v001.html",
+    "title": "14  Sorting Data and working with Tables",
+    "section": "",
+    "text": "14.1 Use data tab to sort",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Sorting Data and working with Tables</span>"
+    ]
+  },
+  {
+    "objectID": "0020100-tablesSorting-v001.html#use-data-tab-to-sort",
+    "href": "0020100-tablesSorting-v001.html#use-data-tab-to-sort",
+    "title": "14  Sorting Data and working with Tables",
+    "section": "",
+    "text": "Highlight the range for your data.\nOn the “Data” tab click the “Sort” button.\nIf the data contains column headers, check “My data has headers”.\nFill out the rest of the info for which columns to sort on and in which order.\nclick OK",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Sorting Data and working with Tables</span>"
+    ]
+  },
+  {
+    "objectID": "0020100-tablesSorting-v001.html#excel-tables",
+    "href": "0020100-tablesSorting-v001.html#excel-tables",
+    "title": "14  Sorting Data and working with Tables",
+    "section": "14.2 Excel Tables",
+    "text": "14.2 Excel Tables\nSee this video for an overview of Excel tables: https://www.youtube.com/watch?v=-alMsXBF2D4&t=20s\n\nCovert a range to a table\n\nClick inside your data (or highlight the range)\nOn the “Insert” tab click “Table”\nIf the data contains column headers, check “My data has headers”.\nClick OK\nTo change the look of the table, click inside the table and then click on the “Table Design” tab.\nYou can give a name to the table on this tab where it says “Table name” (in the upper left hand corner of the ribbon). The name of the table will be useful later.\n\n\n\nSorting/Filtering rows\n\nUse the buttons at the top of the columns to sort and/or filter the rows based on the values in the columns.\nIf you want to sort on multiple columns, apply the sorts in the reverse order of what you want the final order to be.\n\n\n\nConvert a table back to a “normal” range\nTo convert the table back to a “normal” cell range,\n\nclick inside the table\nclick on the “Table Design” tab then click on “Convert to Range”.\nNote that the formatting (eg. colors) will not change back. You will need to reformat the colors as you would format any other range. The “format painter” button on the “Home” tab could be helpful to copy the format of another cell. To use the format painter button:\n\nclick on a cell whose format you want to copy\nclick on the “Format Painter” button on the Home tab\nClick and drag over the cells that you want to copy the format to.",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Sorting Data and working with Tables</span>"
+    ]
+  },
+  {
+    "objectID": "0030100-pivotTables-v001.html",
+    "href": "0030100-pivotTables-v001.html",
+    "title": "15  Pivot Tables",
+    "section": "",
+    "text": "15.1 Pivot table tutorial (video tutorial)\nSee this video for an overview of Excel pivot tables: https://www.youtube.com/watch?v=PdJzy956wo4\nClick here to get the practice file: PivotTables-KevinCookies.xlsx",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Pivot Tables</span>"
+    ]
+  },
+  {
+    "objectID": "0030100-pivotTables-v001.html#pivot-table-tutorial-webpage-to-read",
+    "href": "0030100-pivotTables-v001.html#pivot-table-tutorial-webpage-to-read",
+    "title": "15  Pivot Tables",
+    "section": "15.2 Pivot table tutorial (webpage to read)",
+    "text": "15.2 Pivot table tutorial (webpage to read)\nSee this writeup for an overview of Excel pivot tables: https://exceljet.net/articles/excel-pivot-tables\nClick here to get the practice file: sample data for pivot table.xlsx",
+    "crumbs": [
+      "Functions",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Pivot Tables</span>"
+    ]
+  },
+  {
+    "objectID": "0700100-complexFormulas-v001.html",
+    "href": "0700100-complexFormulas-v001.html",
+    "title": "16  Tips for working with formulas",
+    "section": "",
+    "text": "16.1 show-formulas button\nIt can be very helpful to see all the formulas in your spreadsheet at once.\nTo so, on the “Formulas” tab, press the “Show Formulas” button. Note that this displays what Excel actually stores as opposed to the values that Excel calculates. For this reason, when looking at the spreadsheet in the “formulas” view, dates will display as “serial numbers” instead of actual dates.\nIf you press the button again, the spreadsheet will revert back to showing the calculated values. We say that the button “toggles” between showing the formulas (AKA the “formulas view”) and showing the values (AKA the “values view”).\nYou can also press the following hotkey to toggle between formulas and values:\nWindows: ctrl-`\nMac: Option+Command+`\nNote that the ` is NOT the apostrophe, it is the back-tick or “accent” character. It is on the same key as the ~ character. On most american keyboards it is right under the ESC key.",
+    "crumbs": [
+      "Productivity tips",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Tips for working with formulas</span>"
+    ]
+  },
+  {
+    "objectID": "0700100-complexFormulas-v001.html#working-with-complex-formulas",
+    "href": "0700100-complexFormulas-v001.html#working-with-complex-formulas",
+    "title": "16  Tips for working with formulas",
+    "section": "16.2 Working with complex formulas",
+    "text": "16.2 Working with complex formulas\nIt is often helpful when trying to analyze a complex formula to see the arguments in the formula on multiple lines. You can make the formula bar on top of the Excel window larger by pointing at the bottom edge of the formula bar (the cursor will change to a double-headed-arrow) and then drag down. If you then press Alt-Enter (win) or Ctrl+Option+Enter (mac) you will be able to type the formula on multiple lines.\nSee the following for an example of writing a complex formula using this technique.",
+    "crumbs": [
+      "Productivity tips",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Tips for working with formulas</span>"
+    ]
+  },
+  {
+    "objectID": "0700100-complexFormulas-v001.html#lists-of-different-functions",
+    "href": "0700100-complexFormulas-v001.html#lists-of-different-functions",
+    "title": "16  Tips for working with formulas",
+    "section": "16.3 Lists of different functions",
+    "text": "16.3 Lists of different functions\nClick on the Formulas tab to see different categories of formulas in drop-down-lists. Click on a category and then click on a particular function to see a window that describes the different arguments for that function. If you click in a textbox for an argument you will see a description of what to enter for that argument. You can fill in each argument by typing or by clicking on the cells with your mouse. When you are done, press OK to see the results.",
+    "crumbs": [
+      "Productivity tips",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Tips for working with formulas</span>"
+    ]
+  },
+  {
+    "objectID": "0700100-complexFormulas-v001.html#trace-precedents-trace-dependents-remove-arrows-buttons",
+    "href": "0700100-complexFormulas-v001.html#trace-precedents-trace-dependents-remove-arrows-buttons",
+    "title": "16  Tips for working with formulas",
+    "section": "16.4 Trace Precedents, Trace Dependents, Remove Arrows buttons",
+    "text": "16.4 Trace Precedents, Trace Dependents, Remove Arrows buttons\nSelect a cell (i.e. click on it) that contains a formula. Then on the “Formulas” tab press the Trace Precedents button. You will then see arrows pointing to the cells that are referenced by the formula. If you continue to click this button you will see more arrows that point to 2nd level dependencies, etc.\nSelect ANY cell. Then click on the “Trace Dependents” button. You will see arrows that point to any cell that references the selected cell. If you keep pressing this button you will see additional arrows drawn to cells that reference those cells, etc.\nNone oft these arrows affect the way the spreadsheet works. They are simply there to help you understand the spreadsheet.\nClick the “Remove Arrows” button to remove all the arrows from the screen.",
+    "crumbs": [
+      "Productivity tips",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Tips for working with formulas</span>"
+    ]
+  },
+  {
+    "objectID": "0700100-complexFormulas-v001.html#evaluate-formula-button",
+    "href": "0700100-complexFormulas-v001.html#evaluate-formula-button",
+    "title": "16  Tips for working with formulas",
+    "section": "16.5 Evaluate formula button",
+    "text": "16.5 Evaluate formula button\nIt can be helpful to see step by step how a formula is calculated. To so, select a cell that contains a formula (i.e. click on the cell). Then on the “Formulas” tab, press the “Evaluate Formula” button. You will see a window open up that shows the formula with part of the formula underlined. Click on the “Evaluate” button to evaluate JUST that part of the formula. Keep clicking on the Evaluate button to see step by step how the formula gets processed.",
+    "crumbs": [
+      "Productivity tips",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Tips for working with formulas</span>"
+    ]
+  },
+  {
+    "objectID": "0000200-hotkeys-v001.html",
+    "href": "0000200-hotkeys-v001.html",
+    "title": "17  “hot-keys”",
+    "section": "",
+    "text": "17.1 The hotkeys\nThe list of shortcuts below was adapted from https://corporatefinanceinstitute.com/resources/excel/excel-shortcuts-pc-mac/\nThe list below is arranged in order of “importance”. The importance info is based on my personal thoughts. I categorized the importance levels as follows:",
+    "crumbs": [
+      "Apendices",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+    ]
+  },
+  {
+    "objectID": "0000200-hotkeys-v001.html#the-hotkeys",
+    "href": "0000200-hotkeys-v001.html#the-hotkeys",
+    "title": "17  “hot-keys”",
+    "section": "",
+    "text": "importance\nmeaning\n\n\n\n\n0\nBasic and “obvious” (these are common in many other programs too)\n\n\n1\nEvery Excel user should know these\n\n\n2\nExtremely useful to know\n\n\n3\nHelpful, but not so much\n\n\n4+\nMight not be worth memorizing but could be helpful. Can usually do these by pressing buttons.",
+    "crumbs": [
+      "Apendices",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+    ]
+  },
+  {
+    "objectID": "0000200-hotkeys-v001.html#basic-and-obvious-these-are-common-in-many-other-programs-too",
+    "href": "0000200-hotkeys-v001.html#basic-and-obvious-these-are-common-in-many-other-programs-too",
+    "title": "17  “hot-keys”",
+    "section": "17.2 Basic and “obvious” (these are common in many other programs too)",
+    "text": "17.2 Basic and “obvious” (these are common in many other programs too)\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n0\nediting cells\nClear cell data\nDelete\nDelete\n\n\n0\nediting-inside-cell\nConfirm change and get out of cell\nEnter\nReturn\n\n\n0\nediting-inside-cell\nDelete character to left\nBackspace\nDelete\n\n\n0\nediting-inside-cell\nDelete character to right\nDelete\nFn-Delete\n\n\n0\nnavigation/selection\nMove from cell to cell\nArrows\nArrows\n\n\n0\nnavigation/selection\nMove one screen up\nPageUp\nFn-Up\n\n\n0\nnavigation/selection\nMove one screen down\nPageDown\nFn-Down\n\n\n0\nnavigation/selection\nMove to the next cell (Move between items within a menu window)\nTab\nTab\n\n\n0\nworking with files\nNew File\nCtrl-N\n⌘-N\n\n\n0\nworking with files\nOpen File\nCtrl-O\n⌘-O\n\n\n0\nediting cells\nFind and replace\nCtrl-F\nCtrl-F\n\n\n0\nformatting cells\nBold\nCtrl-B\n⌘-B\n\n\n0\nformatting cells\nItalic\nCtrl-I\n⌘-I\n\n\n0\nformatting cells\nUndo\nCtrl-Z\n⌘-Z\n\n\n0\nformatting cells\nRedo\nCtrl-Y\n⌘-Y\n\n\n0\nnavigation/selection\nSelect all contiguous used cells (select entire worksheet if command is repeated)\nCtrl-A\n⌘-A\n\n\n0\ngeneral\nCut\nCtrl-X\n⌘-X\n\n\n0\ngeneral\nCopy\nCtrl-C\n⌘-C\n\n\n0\ngeneral\nPaste\nCtrl-V\n⌘-V\n\n\n0\nother\nNext open program\nAlt-Tab\n⌘-Tab\n\n\n0\nworking with files\nSave File\nCtrl-S\n⌘\n\n\n0\nworking with files\nPrint\nCtrl-P\n⌘-P",
+    "crumbs": [
+      "Apendices",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+    ]
+  },
+  {
+    "objectID": "0000200-hotkeys-v001.html#every-excel-user-should-know-these",
+    "href": "0000200-hotkeys-v001.html#every-excel-user-should-know-these",
+    "title": "17  “hot-keys”",
+    "section": "17.3 Every Excel user should know these",
+    "text": "17.3 Every Excel user should know these\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n1\nediting-inside-cell\nMove withing the contents of the cell\nArrow keys\nArrow keys\n\n\n1\nediting-inside-cell\nJump to beginning of cell contents\nHome\nFn-Left\n\n\n1\nediting-inside-cell\nCancel any changes you made while editing a cell\nEsc\nEsc\n\n\n1\nediting-inside-cell\nEnter new line while editing a cell\nAlt-Enter\nOption-Return\n\n\n1\nediting-inside-cell\nWhen editing a cell reference, automatically rotate between A1, $A$1, A$1 and $A1 forms\nF4\n⌘-T\n\n\n1\nother\nShow formula/show values (` key is to the left of the 1 key on most American keyboards)\nCtrl-`\nCtrl-`\n\n\n1\nediting-inside-cell\nAccept auto-complete suggestion\nTab\nTab",
+    "crumbs": [
+      "Apendices",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+    ]
+  },
+  {
+    "objectID": "0000200-hotkeys-v001.html#extremely-useful-to-know",
+    "href": "0000200-hotkeys-v001.html#extremely-useful-to-know",
+    "title": "17  “hot-keys”",
+    "section": "17.4 Extremely useful to know",
+    "text": "17.4 Extremely useful to know\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n2\nnavigation/selection\nJump to last/first cell in a contiguous range of used cells\nCtrl-Arrow\nCtrl-Arrow\n\n\n2\nnavigation/selection\nJump to beginning of row\nHome\nFn-Left\n\n\n2\nnavigation/selection\nJump to cell A1\nCtrl-Home\nFn-Ctrl-Left\n\n\n2\nnavigation/selection\nSelect a contiguous range\nCtrl-Shift-Arrows\nCtrl-Shift-Arrows\n\n\n2\nnavigation/selection\nExtend selection 1 row or column\nShift-Arrows\nShift-Arrows\n\n\n2\nnavigation/selection\nExtend selection up one screen\nShift-PageUp\nFn-Shift-Up\n\n\n2\nnavigation/selection\nExtend selection down one screen\nShift-PageDown\nFn-Shift-Down\n\n\n2\nnavigation/selection\nExtend selection left one screen\nAlt-shift-PageUp\nFn-Shift-⌘-Up\n\n\n2\nnavigation/selection\nExtend selection right one screen\nAlt-shift-PageDown\nFn-Shift-⌘-Down\n\n\n2\nnavigation/selection\nExtend selection to the start of the sheet\nCtrl-Shift-Home\nCtrl-Shift-Home\n\n\n2\nnavigation/selection\nExtend selection to the last used cell of the sheet\nCtrl-Shift-End\nCtrl-Shift-End",
+    "crumbs": [
+      "Apendices",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+    ]
+  },
+  {
+    "objectID": "0000200-hotkeys-v001.html#helpful-but-not-so-much",
+    "href": "0000200-hotkeys-v001.html#helpful-but-not-so-much",
+    "title": "17  “hot-keys”",
+    "section": "17.5 Helpful, but not so much",
+    "text": "17.5 Helpful, but not so much\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n3\nnavigation/selection\nSelect entire row\nShift-Spacebar\nShift-Spacebar\n\n\n3\nnavigation/selection\nSelect entire column\nCtrl-Spacebar\nCtrl-Spacebar\n\n\n3\ngeneral\nInsert row\nAlt-I-R\nCtrl-I\n\n\n3\ngeneral\nInsert column\nAlt-I-C\nCtrl-I\n\n\n3\nnavigation/selection\nJump one screen left\nAlt-PageUp\nFn-Option-Up\n\n\n3\nnavigation/selection\nJump one screen right\nAlt-PageDown\nFn-Option-Down\n\n\n3\nnavigation/selection\nMove to the next or previous worksheet (Move between tabs if you are in a menu window)\nCtrl-PageUp/Down\nCtrl-PageUp/Down\n\n\n3\nother\nSelect cells which refer to the active cell (useful before deleting a cell in a worksheet)\nCtrl-]\nCtrl-]",
+    "crumbs": [
+      "Apendices",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+    ]
+  },
+  {
+    "objectID": "0000200-hotkeys-v001.html#might-not-be-worth-memorizing",
+    "href": "0000200-hotkeys-v001.html#might-not-be-worth-memorizing",
+    "title": "17  “hot-keys”",
+    "section": "17.6 Might not be worth memorizing",
+    "text": "17.6 Might not be worth memorizing\nCould be helpful for extreme power-users but you can usually do these by pressing buttons or in other ways. For most Excel users, it’s probably not worth memorizing these.\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n4\nediting cells\nClear cell formats\nAlt-h-e-f\n\n\n\n4\nediting cells\nClear all (data, formats, comments)\nAlt-h-e-a\n\n\n\n4\ngeneral\nInsert argument names and parentheses for a function after typing a function name in a formula\nCtrl-Shift-A\nCtrl-Shift-A\n\n\n4\nother\nEnter current date (also see today() function)\nCtrl-;\nCtrl-;\n\n\n4\nother\nEnter current time (also see now() function)\nCtrl-Shift-:\nCtrl-Shift-:\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n5\nediting cells\nCopy data “down” from above cells (highlight a range to copy to multiple cells)\nCtrl-D\nCtrl-D\n\n\n5\nediting cells\nCopy data to the “right” from cells on left (highlight a range to copy multiple cells)\nCtrl-R\nCtrl-R\n\n\n5\nediting-inside-cell\nEdit the active cell (edit mode)\nF2\nF2\n\n\n5\nediting-inside-cell\nJump to end of cell contents\nEnd\nFn-Right\n\n\n5\nformatting cells\nNumber format\nCtrl-Shift-!\nCtrl-Shift-!\n\n\n5\nformatting cells\nDate format\nCtrl-Shift-#\nCtrl-Shift-#\n\n\n5\nformatting cells\nPercent format\nCtrl-Shift-%\nCtrl-Shift-%\n\n\n5\ngeneral\nEdit active cell\nF2\nCtrl-U\n\n\n5\nnavigation\nGo to a specific cell\nF5\nF5\n\n\n5\nediting cells\nClear cell comments\nAlt-h-e-m\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n6\nformatting cells\nBrings up format cells menu\nCtrl-1\n⌘-1\n\n\n6\ngeneral\nInsert or edit cell comment\nShift-F2\nShift-F2\n\n\n6\npaste-special\nPaste Special formats\nCtrl-Alt-V-t\nCtrl-⌘-V-t\n\n\n6\npaste-special\nPaste Special values\nCtrl-Alt-V-v\nCtrl-⌘-V-v\n\n\n6\npaste-special\nPaste Special formulas\nCtrl-Alt-V-f\nCtrl-⌘-V-f\n\n\n6\npaste-special\nPaste Special comments\nCtrl-Alt-V-c\nCtrl-⌘-V-c\n\n\n6\nworking with files\nSave File With New Name (i.e. “Save As”)\nF12\n⌘-⇧-Shift-S\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n7\ngeneral\nDisplay shortcut menu (i.e. same as right click)\nShift-F10\nShift-F10\n\n\n7\nworking with files\nGo to next workbook\nCtrl-Tab\n⌘–\n\n\n7\nworking with files\nClose file\nCtrl-F4\n⌘-W\n\n\n7\nworking with files\nClose all open Excel files\nAlt-F4\n⌘-Q\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n8\nediting-inside-cell\nWhile editing cell, allow use of arrow keys to create reference\nF2\nF2\n\n\n8\nediting-inside-cell\nHighlight within a cell\nShift-Left/Right\nShift-Left/Right\n\n\n8\nediting-inside-cell\nHighlight contiguous items\nCtrl-Shift-Left/Right\nCtrl-Shift-Left/Right\n\n\n8\nediting-inside-cell\nReferencing a cell from another worksheet\nCtrl-PageUp/Down-Arrows\nCtrl-Fn-Down/Up-Arrows\n\n\n8\nformatting cells\nRepeat last action\nF4\n⌘-Y\n\n\n8\nformatting cells\nIncrease font size\nAlt-h-fg\n⌘-Shift-&gt;\n\n\n8\nformatting cells\nDecrease font size\nAlt-h-fk\n⌘-Shift-&lt;\n\n\n8\nformatting cells\nIncrease decimal\nAlt-h-O\n\n\n\n8\nformatting cells\nDecrease decimal\nAlt-h-9\n\n\n\n8\nformatting cells\nIncrease indent\nAlt-h-6\nCtrl-M\n\n\n8\nformatting cells\nDecrease indent\nAlt-h-5\n⌘-Shift-m\n\n\n8\ngeneral\nPaste Special\nAlt-E-S\n⌘-Option-V\n\n\n8\ngeneral\nPaste name into formula\nF3\n\n\n\n8\ngeneral\nInsert worksheet\nShift-F11\nShift-F11\n\n\n8\ngeneral\nDefine a name for a cell\nCtrl-F3\nCtrl-F3\n\n\n8\nother\nShow all constants\nF5-Alt-s-o\n\n\n\n8\nother\nHighlight cells with comments\nF5-Alt-s-c\n\n\n\n8\nother\nAutosum\nAlt-=\n⌘-T\n\n\n8\nribbon\nShow ribbon accelerator keys\nAlt\n\n\n\n8\nribbon\nShow/hide ribbon\nCtrl-F1\n⌘-⌥-R\n\n\n8\nworking with files\nOpen print preview window\nCtrl-F2",
+    "crumbs": [
+      "Apendices",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+    ]
+  },
+  {
+    "objectID": "0010330-moreTopics-v001.html",
+    "href": "0010330-moreTopics-v001.html",
+    "title": "18  Other topics (not finished editing yet)",
+    "section": "",
+    "text": "Custom formatting dates and times.\ntext function\n\nfunctions that spill\nvlookup\nxlookup\nmatch\nindex",
+    "crumbs": [
+      "Apendices",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Other topics (not finished editing yet)</span>"
+    ]
+  },
+  {
+    "objectID": "0999000-toDo-v001.html",
+    "href": "0999000-toDo-v001.html",
+    "title": "19  Links to more info",
+    "section": "",
+    "text": "Dynamic arrays, functions and formulas\nhttps://www.ablebits.com/office-addins-blog/excel-dynamic-arrays-functions-formulas/",
+    "crumbs": [
+      "Apendices",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Links to more info</span>"
+    ]
+  }
+]
