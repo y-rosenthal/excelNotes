@@ -1,0 +1,102 @@
+project:
+  type: book
+  output-dir: _book
+  resources: 
+    - _quarto.yml
+    - yrNocacheHeaders-v001.html
+    - yrstuff.js
+
+book:
+  title: "YR Excel Notes"
+  author: "Y. Rosenthal"
+#  date: "2/6/2024"
+  chapters:
+    - index.qmd
+#    - part: 0000010-partIntro-v001.qmd
+    - part: The very basics
+      chapters:
+      - 0000100-mostBasicConcepts-v001.qmd
+      - 0000135-formatting-v001.qmd
+      - 0000165-selecting-v001.qmd
+#    - part: 0010100-partFormulas-v001.qmd
+    - part: Formulas
+      chapters:
+      - 0010200-introToFormulas-v001.qmd
+      - 0010205-relativeAbsoluteRefs-v001.qmd
+#      - 0010210-moreOnCellReferences-v001.qmd
+      - 0010215-mouseToEnterCellReferences-v001.qmd
+#    - part: 0010219-partFunctions-v001.qmd
+    - part: Functions
+      chapters:
+      - 0010220-introToFunctions-v001.qmd
+      - 0010225-randomValues-v001.qmd
+      - 0010240-logicalData-v001.qmd
+      - 0010300-dateTimeData-v001.qmd
+      - 0010300-textData-v001.qmd
+      - 0010308-castingToText-v001.qmd
+      - 0010309-dataTypes-v001.qmd
+      - 0020100-tablesSorting-v001.qmd
+      - 0030100-pivotTables-v001.qmd
+      
+    - part: Practice
+      chapters:
+      - 0800100-practice-deptStore-v001.qmd
+
+    - part: Productivity tips
+      chapters:
+      - 0700100-complexFormulas-v001.qmd
+      
+    - part: Apendices
+      chapters:
+      - 0000200-hotkeys-v001.qmd
+      - 0010330-moreTopics-v001.qmd
+      - 0999000-toDo-v001.qmd
+
+#    - intro.qmd
+#    - summary.qmd
+#    - references.qmd
+#
+# bibliography: references.bib
+
+execute:
+  error: true
+  warning: true
+format:
+  html:
+    theme: cosmo
+    toc-expand: true
+    fontsize: 80%
+    number-depth: 2
+    link-external-newwindow: true
+    css: styles.css
+    include-in-header: 
+      - file: yrNocacheHeaders-v001.html
+      - text: |
+          <script src="yrstuff.js"></script>
+    include-after-body:
+      text: |
+        <script>
+        const titles = document.querySelectorAll('.title');
+        
+        titles.forEach(title => {
+          if (title.textContent.trim().startsWith('Appendix')) {
+            const chapterNumber = title.querySelector('yrChapterNumber');
+            if (chapterNumber) {
+              chapterNumber.classList.add('yrAppendixChapterNumber');
+            }
+          }
+        });
+        </script>
+#  pdf:
+#    documentclass: scrreprt
+#    fontsize: 9px
+  docx: default
+editor: source
+#  pdf:
+#    documentclass: scrreprt
+#    fontsize: 9px
+
+editor_options: 
+  chunk_output_type: console
+
+

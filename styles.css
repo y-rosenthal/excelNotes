@@ -1,3 +1,13 @@
 img {border: 1px solid black;}
 h1 { background-color: #BBB; color: #111;}
 h2 { background-color: #EEE; color: #111;}
+
+.chapter-number {
+    display: none;
+}
+
+yrchapternumber { font-size: 99%; color: red; }
+
+.yrAppendixChapterNumber {
+    display: none;
+}
