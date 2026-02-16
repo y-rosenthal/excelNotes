@@ -12,727 +12,760 @@
   {
     "objectID": "0000100-mostBasicConcepts-v001.html",
     "href": "0000100-mostBasicConcepts-v001.html",
-    "title": "1  Getting Around and Entering Data",
+    "title": "1  1.  Getting Around and Entering Data",
     "section": "",
     "text": "1.1 worksheets, workbooks, cells",
     "crumbs": [
       "The very basics",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'><yrChapterNumber>1. </yrChapterNumber> Getting Around and Entering Data</span>"
     ]
   },
   {
     "objectID": "0000100-mostBasicConcepts-v001.html#worksheets-workbooks-cells",
     "href": "0000100-mostBasicConcepts-v001.html#worksheets-workbooks-cells",
-    "title": "1  Getting Around and Entering Data",
+    "title": "1  1.  Getting Around and Entering Data",
     "section": "",
     "text": "Terminology\n\nworksheet\n\nThe contents of each “tab” is known as a “worksheet”\n\nworkbook\n\nAn entire Excel file is known as a “workbook”\n\ncell\n\nA single “box” is known as a “cell”",
     "crumbs": [
       "The very basics",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'><yrChapterNumber>1. </yrChapterNumber> Getting Around and Entering Data</span>"
     ]
   },
   {
     "objectID": "0000100-mostBasicConcepts-v001.html#how-to-enter-information-into-cells",
     "href": "0000100-mostBasicConcepts-v001.html#how-to-enter-information-into-cells",
-    "title": "1  Getting Around and Entering Data",
+    "title": "1  1.  Getting Around and Entering Data",
     "section": "1.2 How to enter information into cells",
     "text": "1.2 How to enter information into cells\n\nTerminology\n\nThe “formula bar” at the top of a worksheet shows the contents of the currently selected cell.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPress ESC to cancel changes\nIf you are typing in a cell and want to cancel your changes, just press ESC.",
     "crumbs": [
       "The very basics",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'><yrChapterNumber>1. </yrChapterNumber> Getting Around and Entering Data</span>"
     ]
   },
   {
     "objectID": "0000100-mostBasicConcepts-v001.html#names-of-rows-columns-and-cells",
     "href": "0000100-mostBasicConcepts-v001.html#names-of-rows-columns-and-cells",
-    "title": "1  Getting Around and Entering Data",
+    "title": "1  1.  Getting Around and Entering Data",
     "section": "1.3 Names of Rows, Columns and Cells",
     "text": "1.3 Names of Rows, Columns and Cells\n\nTerminology\n\nName Box\n\nthe “box” in the upper left hand corner of a worksheet that shows the name of the currently selected cell",
     "crumbs": [
       "The very basics",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'><yrChapterNumber>1. </yrChapterNumber> Getting Around and Entering Data</span>"
     ]
   },
   {
     "objectID": "0000100-mostBasicConcepts-v001.html#longggggggggg-data",
     "href": "0000100-mostBasicConcepts-v001.html#longggggggggg-data",
-    "title": "1  Getting Around and Entering Data",
+    "title": "1  1.  Getting Around and Entering Data",
     "section": "1.4 Longggggggggg Data",
     "text": "1.4 Longggggggggg Data",
     "crumbs": [
       "The very basics",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'><yrChapterNumber>1. </yrChapterNumber> Getting Around and Entering Data</span>"
     ]
   },
   {
     "objectID": "0000100-mostBasicConcepts-v001.html#start-a-new-line-in-same-cell",
     "href": "0000100-mostBasicConcepts-v001.html#start-a-new-line-in-same-cell",
-    "title": "1  Getting Around and Entering Data",
+    "title": "1  1.  Getting Around and Entering Data",
     "section": "1.5 Start a new line in same cell",
     "text": "1.5 Start a new line in same cell",
     "crumbs": [
       "The very basics",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Getting Around and Entering Data</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'><yrChapterNumber>1. </yrChapterNumber> Getting Around and Entering Data</span>"
     ]
   },
   {
     "objectID": "0000135-formatting-v001.html",
     "href": "0000135-formatting-v001.html",
-    "title": "2  Formatting cells",
+    "title": "2  2.  Formatting cells",
     "section": "",
     "text": "2.1 Basic formatting",
     "crumbs": [
       "The very basics",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Formatting cells</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'><yrChapterNumber>2. </yrChapterNumber> Formatting cells</span>"
     ]
   },
   {
     "objectID": "0000135-formatting-v001.html#more-advanced-formatting",
     "href": "0000135-formatting-v001.html#more-advanced-formatting",
-    "title": "2  Formatting cells",
+    "title": "2  2.  Formatting cells",
     "section": "2.2 More Advanced formatting",
     "text": "2.2 More Advanced formatting",
     "crumbs": [
       "The very basics",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Formatting cells</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'><yrChapterNumber>2. </yrChapterNumber> Formatting cells</span>"
     ]
   },
   {
     "objectID": "0000165-selecting-v001.html",
     "href": "0000165-selecting-v001.html",
-    "title": "3  Selecting cells",
+    "title": "3  3.  Selecting cells",
     "section": "",
     "text": "When you (single) click on a cell you have “selected” it. For example if you click on a cell and press ctrl-b (windows) or cmd-b (mac) you will make the contents of that cell bold.\nHowever, it it possible to “select” multiple cells at once. That way you can apply formatting changes to multiple cells at the same time. There are two ways to select multiple cells,\n\n“shift click” to select contiguous cells\n“ctrl-click” (win) or “cmd-click” (mac) to select non-contiguous cells\n\nsee below for more info.\n\nusing shift to select several cells\nYou can also select several cells. For example, if you the following:\n\n(single) click on a cell\nthen press shift-arrowKey (where arrowKey is one of the arrow keys, i.e. up-arrow, down-arrow, left-arrow or right-arrow) You will notice that several cells get selected at once.\n\nIf you then do something, it will affect all of those cells at once. For example, if you first select several cells and then press ctrl-b (windows) or cmd-b (mac) you will make the contents of all of the cells that you selected bold.\n\n\nusing ctrl (windows) or cmd (mac) to select several cells\nAlternatively if you press the ctrl (windows) or cmd (mac) keys while simultaneously clicking on different cells, you can select several non-contiguous cells.\nSimilarly if you press ctlr (win) or cmd (mac) and you click-and-drag your mouse you will select several different “ranges” of cells.\nThen anything you do (e.g. press ctrl-b or cmd-b) will affect all of those cells.\n\n\nother ways to select cells",
     "crumbs": [
       "The very basics",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Selecting cells</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'><yrChapterNumber>3. </yrChapterNumber> Selecting cells</span>"
     ]
   },
   {
     "objectID": "0010200-introToFormulas-v001.html",
     "href": "0010200-introToFormulas-v001.html",
-    "title": "4  Intro to Formulas",
+    "title": "4  4.  Intro to Formulas",
     "section": "",
     "text": "4.1 What is an Excel formula?\nExcel “formulas” automatically calculate the value in one cell based on the values that appear in other cells. See below for more info…",
     "crumbs": [
       "Formulas",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Intro to Formulas</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'><yrChapterNumber>4. </yrChapterNumber> Intro to Formulas</span>"
     ]
   },
   {
     "objectID": "0010200-introToFormulas-v001.html#numeric-operators-ie.--",
     "href": "0010200-introToFormulas-v001.html#numeric-operators-ie.--",
-    "title": "4  Intro to Formulas",
+    "title": "4  4.  Intro to Formulas",
     "section": "4.2 Numeric Operators ie. + - * / ^",
     "text": "4.2 Numeric Operators ie. + - * / ^",
     "crumbs": [
       "Formulas",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Intro to Formulas</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'><yrChapterNumber>4. </yrChapterNumber> Intro to Formulas</span>"
     ]
   },
   {
     "objectID": "0010200-introToFormulas-v001.html#errors-in-formulas",
     "href": "0010200-introToFormulas-v001.html#errors-in-formulas",
-    "title": "4  Intro to Formulas",
+    "title": "4  4.  Intro to Formulas",
     "section": "4.3 Errors in formulas",
     "text": "4.3 Errors in formulas",
     "crumbs": [
       "Formulas",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Intro to Formulas</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'><yrChapterNumber>4. </yrChapterNumber> Intro to Formulas</span>"
     ]
   },
   {
     "objectID": "0010200-introToFormulas-v001.html#order-of-operations",
     "href": "0010200-introToFormulas-v001.html#order-of-operations",
-    "title": "4  Intro to Formulas",
+    "title": "4  4.  Intro to Formulas",
     "section": "4.4 Order of operations",
     "text": "4.4 Order of operations",
     "crumbs": [
       "Formulas",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Intro to Formulas</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'><yrChapterNumber>4. </yrChapterNumber> Intro to Formulas</span>"
     ]
   },
   {
     "objectID": "0010200-introToFormulas-v001.html#formulas-view-vs-values-view",
     "href": "0010200-introToFormulas-v001.html#formulas-view-vs-values-view",
-    "title": "4  Intro to Formulas",
+    "title": "4  4.  Intro to Formulas",
     "section": "4.5 “Formulas View” vs “Values View”",
     "text": "4.5 “Formulas View” vs “Values View”\n\npress ctrl-` (win) or cmd-` (mac) to “toggle” (i.e. switch between) “formulas view” and “values view”\n(NOTE - the ` key is usually found under the ESC key. The ` symbol is usually found on the same key as the tilde ie. ~)",
     "crumbs": [
       "Formulas",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Intro to Formulas</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'><yrChapterNumber>4. </yrChapterNumber> Intro to Formulas</span>"
     ]
   },
   {
     "objectID": "0010205-relativeAbsoluteRefs-v001.html",
     "href": "0010205-relativeAbsoluteRefs-v001.html",
-    "title": "5  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
+    "title": "5  5.  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
     "section": "",
     "text": "5.1 Dragging cells\nCell references such as A1 are known as “relative” cell references.\nIf you copy a formula from one cell and paste it into a different cell, the relative cell references in the new formula that you pasted will be different from the cell references in the formula that you copied. For example the following shows a formula used to calculate the paycheck for Joe. The formula for Joe is =B2*C2.\nThe formula for Sue’s check is similar but not exactly the same. The formula for Sue’s paycheck should be =B3*C3. Excel is smart enough to realize this. To see that, do the following:\nSimilarly, if I were to do the same to copy the formula to the cell for Jill we would get the correct formula for Jill.\nI do realize that we skipped Bob. I do not dislike Bob. I skipped Bob to demonstrate that this technique will work even if we skip cells.\nIt gets very tedious to copy cells one at a time. To make your life easier, you can copy the cells automatically. To do so:",
     "crumbs": [
       "Formulas",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'><yrChapterNumber>5. </yrChapterNumber> Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
     ]
   },
   {
     "objectID": "0010205-relativeAbsoluteRefs-v001.html#dragging-cells",
     "href": "0010205-relativeAbsoluteRefs-v001.html#dragging-cells",
-    "title": "5  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
+    "title": "5  5.  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
     "section": "",
     "text": "click on a cell\npoint your cursor to the “dot” that appears in the bottom right hand corner of the selected cell. When you are pointing at the “dot”, the cursor will change from a white + sign to a black + sign.\nClick on the “dot” and drag down (or up/right/left). As you drag the mouse, the formula will be copied to the adjacent cells.\nTo automatically drag the formula down to all the rows in a column of a table, simply double-click on the “dot” instead of dragging the “dot”.",
     "crumbs": [
       "Formulas",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'><yrChapterNumber>5. </yrChapterNumber> Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
     ]
   },
   {
     "objectID": "0010205-relativeAbsoluteRefs-v001.html#absolute-a1-and-mixed-a1-or-a1-references",
     "href": "0010205-relativeAbsoluteRefs-v001.html#absolute-a1-and-mixed-a1-or-a1-references",
-    "title": "5  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
+    "title": "5  5.  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
     "section": "5.2 absolute ($A$1) and mixed (A$1 or $A1) references",
     "text": "5.2 absolute ($A$1) and mixed (A$1 or $A1) references",
     "crumbs": [
       "Formulas",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'><yrChapterNumber>5. </yrChapterNumber> Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
     ]
   },
   {
     "objectID": "0010205-relativeAbsoluteRefs-v001.html#references-to-entire-rows-or-columns-eg-11-aa-etc.",
     "href": "0010205-relativeAbsoluteRefs-v001.html#references-to-entire-rows-or-columns-eg-11-aa-etc.",
-    "title": "5  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
+    "title": "5  5.  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
     "section": "5.3 References to entire rows or columns (eg 1:1, A:A, etc.)",
     "text": "5.3 References to entire rows or columns (eg 1:1, A:A, etc.)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReferences to several rows or columns:\n\n\n\n\nYou can also refer to several rows or columns. For example:\n\n\n\n\n\nthe formula =sum(2:4) will sum the entire contents of rows 2,3 and 4\nthe formula =sum(C:F) will sum the entire contents of columns C,D,E and F\n\n\n\n\n\n\n\n\n\n\n5.4 References to cells on other worksheets (e.g. sheet1!A1)\n\n\n\n\n\n\n\n\n\n\nNOTE\n\n\n\n\nIf a sheet name contains a space, then you must surround the sheet name ‘with apostrophes’. For example, the formula:\n\n\n\n\n\n=sum(‘jan finances’!A1:C3)\n\n\n\n\n\nrefers to the range A1:C3 on the sheet named “jan finances”. This formula can be on any sheet in the entire Excel file.",
     "crumbs": [
       "Formulas",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'><yrChapterNumber>5. </yrChapterNumber> Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
     ]
   },
   {
     "objectID": "0010205-relativeAbsoluteRefs-v001.html#references-to-cells-on-other-worksheets-e.g.-sheet1a1",
     "href": "0010205-relativeAbsoluteRefs-v001.html#references-to-cells-on-other-worksheets-e.g.-sheet1a1",
-    "title": "5  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
+    "title": "5  5.  Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)",
     "section": "5.4 References to cells on other worksheets (e.g. sheet1!A1)",
     "text": "5.4 References to cells on other worksheets (e.g. sheet1!A1)",
     "crumbs": [
       "Formulas",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'><yrChapterNumber>5. </yrChapterNumber> Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span>"
     ]
   },
   {
     "objectID": "0010220-introToFunctions-v001.html",
     "href": "0010220-introToFunctions-v001.html",
-    "title": "7  Intro to Functions",
+    "title": "7  7.  Intro to Functions",
     "section": "",
     "text": "7.1 What is a function?",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Intro to Functions</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'><yrChapterNumber>7. </yrChapterNumber> Intro to Functions</span>"
     ]
   },
   {
     "objectID": "0010220-introToFunctions-v001.html#ranges-eg.-a1c3",
     "href": "0010220-introToFunctions-v001.html#ranges-eg.-a1c3",
-    "title": "7  Intro to Functions",
+    "title": "7  7.  Intro to Functions",
     "section": "7.2 Ranges (eg. a1:c3)",
     "text": "7.2 Ranges (eg. a1:c3)",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Intro to Functions</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'><yrChapterNumber>7. </yrChapterNumber> Intro to Functions</span>"
     ]
   },
   {
     "objectID": "0010220-introToFunctions-v001.html#function-calls-with-multiple-parametersarguments",
     "href": "0010220-introToFunctions-v001.html#function-calls-with-multiple-parametersarguments",
-    "title": "7  Intro to Functions",
+    "title": "7  7.  Intro to Functions",
     "section": "7.3 Function calls with multiple parameters/arguments",
     "text": "7.3 Function calls with multiple parameters/arguments",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Intro to Functions</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'><yrChapterNumber>7. </yrChapterNumber> Intro to Functions</span>"
     ]
   },
   {
     "objectID": "0010220-introToFunctions-v001.html#fx-button-and-the-function-editor",
     "href": "0010220-introToFunctions-v001.html#fx-button-and-the-function-editor",
-    "title": "7  Intro to Functions",
+    "title": "7  7.  Intro to Functions",
     "section": "7.4 fx button and the function editor",
     "text": "7.4 fx button and the function editor",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Intro to Functions</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'><yrChapterNumber>7. </yrChapterNumber> Intro to Functions</span>"
     ]
   },
   {
     "objectID": "0010220-introToFunctions-v001.html#combining-functions-and-other-values-in-a-single-formula",
     "href": "0010220-introToFunctions-v001.html#combining-functions-and-other-values-in-a-single-formula",
-    "title": "7  Intro to Functions",
+    "title": "7  7.  Intro to Functions",
     "section": "7.5 Combining functions and other values in a single formula",
     "text": "7.5 Combining functions and other values in a single formula",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Intro to Functions</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'><yrChapterNumber>7. </yrChapterNumber> Intro to Functions</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html",
     "href": "0010225-randomValues-v001.html",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "",
     "text": "8.1 Intro to “simulations”\nThere are several ways in Excel to generate “random numbers”. These can be used for numerous purposes. A very common use of random numbers is to generate computer “simulations” of complex processes (keep reading).\nComplex processes can often be “modeled” using probability in order to predict possible outcomes. For example, suppose an outdoor amusement park in the north eastern USA has a “busy season” that extends from July 1 through August 31. They expect that on some portion of those days there will be rain. The rain naturally reduces their ticket sales. It’s impossible to predict exactly how many days in a given season will be rainy, or how many tickets will be sold on a rainy day. In addition the severity of the rain (light sunshowers all the way to heavy thunderstorms) can affect the number of tickets sold on rainy days.\nHowever, suppose a business analyst estimates that there will be 5% of the days that are rainy with the severity of the rain ranging from very light sunshowers to heavy thunderstorms and everything in between based on some probability distribution. Some seasons will have more rain and some seasons will have less rain. For some rainy days the rain would be more severe and for some less severe. A statistician could use these numbers to help calculate the expected revenue for the busy season as well as numerous other statistical measures to help the business navigate an unpredicatble future.\nThe situation described above might not be so difficult for a statistician to analyze. However, sometimes the business cases are much more complex and even statisticians could use some help. Spreadsheet “simulation” can often be a tool that helps statisticians and other business professionals navigate complex business scenarios.",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#statistics-to-calculate-probability-of-rolling-23456789101112-with-two-dice",
     "href": "0010225-randomValues-v001.html#statistics-to-calculate-probability-of-rolling-23456789101112-with-two-dice",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.2 Statistics to calculate probability of rolling 2,3,4,5,6,7,8,9,10,11,12 with two dice",
     "text": "8.2 Statistics to calculate probability of rolling 2,3,4,5,6,7,8,9,10,11,12 with two dice\nWe can demonstrate the concept of simulation with a simple example - estimating the probability of rolling a 2,3,4,5,6,7,8,9,10,11,12 on two dice.\nIntroductory statistics courses often demonstrate how to calculate the probability of rolling any of the possible results when rolling two dice. In the following way:\n\nFirst you should recognize that there are 36 possible rolls of two dice. For example:\noutcome#  die1  die2  total (i.e. die1+die2)\n  001      1     1      2\n  002      2     1      3\n  003      3     1      4\n  004      4     1      5\n  005      5     1      6\n  006      6     1      7\n  007      1     2      3\n  008      2     2      4\n  009      3     2      5\n  010      4     2      6\n  011      5     2      7\n  012      6     2      8\n  013      1     3      4\n  014      2     3      5\netc. \n\n\n\n\n\n\nClick here to see all 36 possibilities\n\n\n\n\n\noutcome#  die1  die2  total (i.e. die1+die2)\n  001      1     1      2\n  002      2     1      3\n  003      3     1      4\n  004      4     1      5\n  005      5     1      6\n  006      6     1      7\n  007      1     2      3\n  008      2     2      4\n  009      3     2      5\n  010      4     2      6\n  011      5     2      7\n  012      6     2      8\n  013      1     3      4\n  014      2     3      5\n  015      3     3      6\n  016      4     3      7\n  017      5     3      8\n  018      6     3      9\n  019      1     4      5\n  020      2     4      6\n  021      3     4      7\n  022      4     4      8\n  023      5     4      9\n  024      6     4     10\n  025      1     5      6\n  026      2     5      7\n  027      3     5      8\n  028      4     5      9\n  029      5     5     10\n  030      6     5     11\n  031      1     6      7\n  032      2     6      8\n  033      3     6      9\n  034      4     6     10\n  035      5     6     11\n  036      6     6     12\n:::\n\n\n\nYou can recognize that there is only one way to roll a 12 - i.e. getting a 6 on the first die and a 6 on the 2nd die. Therefore the probability of rolling a total of 12 is 1/36 which is approximately 0.02777, i.e. approximately 2.8 percent of the time the roll will total to 12.\nThere are six different ways to roll a 7 (see below). Therefore the probability of the sum of the two dice totalling to 7 is 6/36 or approximately 0.19444, i.e. approximately 16.667 percent of the time, the roll will total to 7.\n\n\n\n\n\n\nsix ways to get a total of 7\n\n\n\ndie1   die2   total \n  1      6      7\n  2      5      7\n  3      4      7\n  4      3      7\n  5      2      7\n  6      1      7",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#exact-probabilities-of-rolling-each-sum",
     "href": "0010225-randomValues-v001.html#exact-probabilities-of-rolling-each-sum",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.3 Exact probabilities of rolling each sum",
     "text": "8.3 Exact probabilities of rolling each sum\nUsing the method we described above we calculate the exact probability of rolling any specific sum. The following are the results.\n\n\n\n\n\n\nProbabilities of rolling each sum\n\n\n\nSum   # of ways   Probability\n 2        1        1/36  ≈ 0.0278\n 3        2        2/36  ≈ 0.0556\n 4        3        3/36  ≈ 0.0833\n 5        4        4/36  ≈ 0.1111\n 6        5        5/36  ≈ 0.1389\n 7        6        6/36  ≈ 0.1667\n 8        5        5/36  ≈ 0.1389\n 9        4        4/36  ≈ 0.1111\n10        3        3/36  ≈ 0.0833\n11        2        2/36  ≈ 0.0556\n12        1        1/36  ≈ 0.0278",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#estimating-the-probabilities-using-simulation",
     "href": "0010225-randomValues-v001.html#estimating-the-probabilities-using-simulation",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.4 Estimating the probabilities using simulation",
     "text": "8.4 Estimating the probabilities using simulation\nSuppose you did not understand the statistics that we just went through. You could estimate the probability of rolling each of the possible results by doing the following:\n\nRoll two dice 10,000 times\nCount up how many times you got a total of 12 on the two dice.\nDivide that number by 10,000 to arrive at the probability of rolling a sum of 12.\nPerform similar analysis for each of the other possible outcomes.\n\nBelow we will show exactly how simulate that process using Excel. Similar approaches can be used to calculate probabilities and similar measures for much more complicated processes.",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#randbetweenlow-high",
     "href": "0010225-randomValues-v001.html#randbetweenlow-high",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.5 =RANDBETWEEN(low, high)",
     "text": "8.5 =RANDBETWEEN(low, high)\nExcel can generate random integers with RANDBETWEEN(low, high). For example:\n\n=RANDBETWEEN(1,6) returns a random whole number from 1 through 6 (like a die roll).\n=RANDBETWEEN(0,100) returns a random whole number from 0 through 100.\n\nIf you put one of these formulas in a cell and then “drag it down” to create multiple copies of the formula - each resulting formula will potentially result in different values (keep reading).\nImportant: these results are not fixed. Each time the workbook (or worksheet) is recalculated, Excel chooses new random values. Recalculation happens often—commonly any time you change something that affects the sheet (typing in a cell, editing a formula, etc.).\n\nExample - simulating rolls of a die\nThe following shows a spreadsheet with simulated rolls of two dice. First we show the formulas (i.e. “FORMULAS VIEW”) and then we show the possible results of those formulas (i.e. “VALUES VIEW”). You can switch between these views in Excel by pressing ctrl-Note that the \\ is the “backtick” key - not the apostrophe. The ` is located on the same key as the ~ (tilde) - usually in the upper left corner - of most American keyboards.\n\n\n\n\n\n\n(click to collapse) FORMULAS VIEW (press ctrl-` to switch between FORMULAS and VALUES views)\n\n\n\n\n\n            A                     B                     C          \n  +---------------------+---------------------+--------------------+\n1 | first die           | second die          | Total on both dice |\n  +---------------------+---------------------+--------------------+\n2 | =RANDBETWEEN(1,6)   | =RANDBETWEEN(1,6)   | =A2+B2             |\n  +---------------------+---------------------+--------------------+\n3 | =RANDBETWEEN(1,6)   | =RANDBETWEEN(1,6)   | =A3+B3             |\n  +---------------------+---------------------+--------------------+\n4 | =RANDBETWEEN(1,6)   | =RANDBETWEEN(1,6)   | =A4+B4             |\n  +---------------------+---------------------+--------------------+\n5 | =RANDBETWEEN(1,6)   | =RANDBETWEEN(1,6)   | =A5+B5             |\n  +---------------------+---------------------+--------------------+\n\n\n\n\n\n\n\n\n\n(click to collapse) VALUES VIEW (press ctrl-` to switch between FORMULAS and VALUES views)\n\n\n\n\n\n            A                     B                     C           \n  +---------------------+---------------------+--------------------+\n1 | first die           | second die          | Total on both dice |\n  +---------------------+---------------------+--------------------+\n2 |                   2 |                   5 |                  7 |\n  +---------------------+---------------------+--------------------+\n3 |                   2 |                   2 |                  4 |\n  +---------------------+---------------------+--------------------+\n4 |                   6 |                   1 |                  7 |\n  +---------------------+---------------------+--------------------+\n5 |                   4 |                   6 |                 10 |\n  +---------------------+---------------------+--------------------+",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#use-f9-to-regenerate-the-spreadsheet-and-get-new-numbers",
     "href": "0010225-randomValues-v001.html#use-f9-to-regenerate-the-spreadsheet-and-get-new-numbers",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.6 Use F9 to regenerate the spreadsheet and get new numbers",
     "text": "8.6 Use F9 to regenerate the spreadsheet and get new numbers\nIf you make any changes to the spreadsheet, any formulas that include calls to RANDBETWEEN will automatically “recalculate” and potentially generate different numbers. Pressing F9 forces a recalculation, without needing to change anything in the spreadsheet. (Note that the behavior described above is the default. Power users of Excel can modify the way the spreadsheet is recalculated. However, that is beyond the scope of what we will be discussing.)\nFor example, after pressing F9 once, new results of the RANDBETWEEN function will be generated, e.g. \n\n\n\n\n\n\n(click to collapse) VALUES VIEW (press ctrl-` to switch between FORMULAS and VALUES views)\n\n\n\n\n\n            A                     B                     C           \n  +---------------------+---------------------+--------------------+\n1 | first die           | second die          | Total on both dice |\n  +---------------------+---------------------+--------------------+\n2 |                   6 |                   5 |                 11 |\n  +---------------------+---------------------+--------------------+\n3 |                   1 |                   6 |                  7 |\n  +---------------------+---------------------+--------------------+\n4 |                   3 |                   2 |                  5 |\n  +---------------------+---------------------+--------------------+\n5 |                   6 |                   6 |                 12 |\n  +---------------------+---------------------+--------------------+\n\n\n\nAnd after pressing F9 again, you could get yet another set of values such as\n\n\n\n\n\n\n(click to collapse) VALUES VIEW (press ctrl-` to switch between FORMULAS and VALUES views)\n\n\n\n\n\n            A                     B                     C           \n  +---------------------+---------------------+--------------------+\n1 | first die           | second die          | Total on both dice |\n  +---------------------+---------------------+--------------------+\n2 |                   4 |                   1 |                  5 |\n  +---------------------+---------------------+--------------------+\n3 |                   5 |                   1 |                  6 |\n  +---------------------+---------------------+--------------------+\n4 |                   2 |                   1 |                  3 |\n  +---------------------+---------------------+--------------------+\n5 |                   3 |                   5 |                  8 |\n  +---------------------+---------------------+--------------------+",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#estimating-the-probability-of-rolling-23456789101112",
     "href": "0010225-randomValues-v001.html#estimating-the-probability-of-rolling-23456789101112",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.7 Estimating the probability of rolling 2,3,4,5,6,7,8,9,10,11,12",
     "text": "8.7 Estimating the probability of rolling 2,3,4,5,6,7,8,9,10,11,12\nTo estimate the probability of rolling any of the possible sums you can do the following:\n\n“Drag down” the formulas on row 5 in the example above until you have many, many such rows (e.g. 10,000 rows).\nTo calculate the estimated probability of rolling a sum of 2, count the number of times the sum is 2 and divide by the number of rows. You can use the COUNT and COUNTIF functions to help with this (see below).\nIt’s very important to note that because these probabilities are estimated using a finite number of simulated rolls, they will not exactly match the theoretical (exact) probabilities. This difference is due to random sampling variation: with only 10,000 simulated rolls, some outcomes will occur slightly more or less often than their true long-run probabilities. As the number of simulated rolls increases (for example, from 10,000 to 100,000 or more), the estimated probabilities will typically get closer and closer to the exact values.\nPerform similar calculations to estimate the probability of rolling the other possible sums, i.e. 3,4,5,6,7,8,9,10,11,12\nSee the spreadsheet below:\n\n\n\n\n\n\n\nFORMULAS VIEW (click here to collapse)\n\n\n\n\n\n                A                   B                   C             D       E                F                    \n      +-------------------+-------------------+--------------------+------+------+------------------------------+\n      |                   |                   | Total on       |      |      |                                  |\n    1 | first die         | second die        | both dice      |      | Sum  | Estimated Probability            |\n      +-------------------+-------------------+----------------+------+-------------------+---------------------+\n    2 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A2+B2         |      | 2    | =COUNTIF($C$2:$C$10001,E2)/10000 |\n    3 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A3+B3         |      | 3    | =COUNTIF($C$2:$C$10001,E3)/10000 |\n    4 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A4+B4         |      | 4    | =COUNTIF($C$2:$C$10001,E4)/10000 |\n    5 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A5+B5         |      | 5    | =COUNTIF($C$2:$C$10001,E5)/10000 |\n    6 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A6+B6         |      | 6    | =COUNTIF($C$2:$C$10001,E6)/10000 |\n    7 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A7+B7         |      | 7    | =COUNTIF($C$2:$C$10001,E7)/10000 |\n    8 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A8+B8         |      | 8    | =COUNTIF($C$2:$C$10001,E8)/10000 |\n    9 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A9+B9         |      | 9    | =COUNTIF($C$2:$C$10001,E9)/10000 |\n   10 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A10+B10       |      | 10   | =COUNTIF($C$2:$C$10001,E10)/10000|\n   11 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A11+B11       |      | 11   | =COUNTIF($C$2:$C$10001,E11)/10000|\n   12 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A12+B12       |      | 12   | =COUNTIF($C$2:$C$10001,E12)/10000|\n   13 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A13+B13       |      |      |                                  |\n   14 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A14+B14       |      |      |                                  |\n   15 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A15+B15       |      |      |                                  |\n   16 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A16+B16       |      |      |                                  |\n   17 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A17+B17       |      |      |                                  |\n   18 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A18+B18       |      |      |                                  |\n   19 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A19+B19       |      |      |                                  |\n   20 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A20+B20       |      |      |                                  |\n   21 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A21+B21       |      |      |                                  |\n   22 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A22+B22       |      |      |                                  |\n  ... |        ...        |        ...        |        ...     |      |      |                                  |\n10002 | =RANDBETWEEN(1,6) | =RANDBETWEEN(1,6) | =A10002+B10002 |      |      |                                  |\n      +-------------------+-------------------+----------------+------+------+----------------------------------+\n\n\n\n\n\n\n\n\n\nVALUES VIEW (click here to collapse)\n\n\n\n\n\n              A           B               C             D       E              F           \n        +-----------+-----------+ ----------+------+-------+----------------------+\n        |           |           | Total on  |      |       |                      |\n    1   | first die | second die| both dice |      | Sum   | Estimated Probability|\n        +-----------+-----------+-----------+------+-------+----------------------+\n    2   |         3 |         4 |         7 |      |     2 | 0.0275               |\n    3   |         6 |         2 |         8 |      |     3 | 0.0561               |\n    4   |         1 |         5 |         6 |      |     4 | 0.0832               |\n    5   |         2 |         2 |         4 |      |     5 | 0.1107               |\n    6   |         5 |         1 |         6 |      |     6 | 0.1389               |\n    7   |         4 |         3 |         7 |      |     7 | 0.1946               |\n    8   |         6 |         1 |         7 |      |     8 | 0.1398               |\n    9   |         2 |         6 |         8 |      |     9 | 0.1101               |\n   10   |         1 |         1 |         2 |      |    10 | 0.0829               |\n   11   |         5 |         6 |        11 |      |    11 | 0.0554               |\n   12   |         6 |         6 |        12 |      |    12 | 0.0278               |\n   13   |         2 |         3 |         5 |      |       |                      |\n   14   |         4 |         2 |         6 |      |       |                      |\n   15   |         3 |         3 |         6 |      |       |                      |\n   16   |         1 |         6 |         7 |      |       |                      |\n   17   |         5 |         2 |         7 |      |       |                      |\n   18   |         6 |         4 |        10 |      |       |                      |\n   19   |         2 |         5 |         7 |      |       |                      |\n   20   |         4 |         6 |        10 |      |       |                      |\n   21   |         5 |         2 |         7 |      |       |                      |\n   22   |         5 |         6 |        11 |      |       |                      |\n   ...  |   ...     |   ...     |    ...    |      |       |                      |\n10002   |         4 |         5 |         9 |      |       |                      |\n        +-----------+-----------+-----------+------+-------+----------------------+",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#more-typical-applications-of-simulation",
     "href": "0010225-randomValues-v001.html#more-typical-applications-of-simulation",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.8 More typical applications of simulation",
     "text": "8.8 More typical applications of simulation\nRandom values are useful for simulating variation and testing all sorts of “what if” behavior, for example:\n\nSampling and simulation: simulate customer arrivals, defect rates, or demand to see how a model behaves.\nTesting spreadsheets: stress-test formulas with many different inputs to catch edge cases.\nTeaching probability/statistics: generate data to compute averages, histograms, percentiles, etc.\nGames and random draws: dice rolls, shuffling, random assignments into groups.\nMonte Carlo analysis: repeatedly compute outcomes under uncertainty (costs, returns, completion times).",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#paste-values---how-to-copy-formulas-and-paste-them-with-just-the-values",
     "href": "0010225-randomValues-v001.html#paste-values---how-to-copy-formulas-and-paste-them-with-just-the-values",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.9 Paste values - how to copy formulas and paste them with just the values",
     "text": "8.9 Paste values - how to copy formulas and paste them with just the values\nBecause random functions change on recalculation, you’ll often want to freeze the results.\nA common workflow:\n\nSelect the cells containing random formulas (like RANDBETWEEN(...) or RAND()-based formulas).\nCopy (Ctrl+C).\nPaste as Values so the numbers become permanent (no longer formulas).\n\nTypical methods: - Right-click → Paste Special → Values - Home tab → Paste dropdown → Values (clipboard icon with “123”)\nAfter you paste values, pressing F9 will no longer change those pasted numbers (because they’re just constants now).",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#generating-random-numbers-with-a-set-number-of-decimal-points-using-randbetween-divided-by-a-power-of-10",
     "href": "0010225-randomValues-v001.html#generating-random-numbers-with-a-set-number-of-decimal-points-using-randbetween-divided-by-a-power-of-10",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.10 Generating random numbers with a set number of decimal points using RANDBETWEEN(…) divided by (a power of 10)",
     "text": "8.10 Generating random numbers with a set number of decimal points using RANDBETWEEN(…) divided by (a power of 10)\nRANDBETWEEN generates integers. To get a random number with a fixed number of decimal places, generate an integer in the scaled range, then divide by a power of 10.\nGeneral pattern:\n\nFor d decimal places:\n=RANDBETWEEN(min*10^d, max*10^d) / 10^d\n\nExamples:\n\nOne decimal place between 0.0 and 9.9:\n=RANDBETWEEN(0,99)/10\nTwo decimal places between 0.00 and 1.00:\n=RANDBETWEEN(0,100)/100\nTwo decimal places between 2.50 and 7.25:\nScale by 100: 2.50 → 250, 7.25 → 725\n=RANDBETWEEN(250,725)/100\nThree decimal places between -1.000 and 1.000:\n=RANDBETWEEN(-1000,1000)/1000\n\nTip: If you want the display to consistently show a certain number of decimals, also apply Number formatting (that’s separate from how the value is generated).",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#rand",
     "href": "0010225-randomValues-v001.html#rand",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.11 RAND()",
     "text": "8.11 RAND()\nRAND() returns a random decimal number that is:\n\ngreater than or equal to 0\nless than 1\n\nSo RAND() gives values in the interval [0, 1).\nNote that RAND() will never produce exactly 1.0000 but could theoretically generate exactly 0.0000 (although this is highly unlikely). That is what the range [0,1) means - the [0 means “including the 0 while 1) means not including 1.\nFor example:\n\n0.0372\n0.8149\n0.5001\n\nLike RANDBETWEEN, RAND() is volatile: it changes on recalculation (including when you press F9).",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#use-rand-to-generate-number-between-a-specific-range",
     "href": "0010225-randomValues-v001.html#use-rand-to-generate-number-between-a-specific-range",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.12 Use RAND() to generate number between a specific range",
     "text": "8.12 Use RAND() to generate number between a specific range\nA standard way to scale RAND() to a range is:\n\nRandom decimal between a and b:\n=a + (b-a)*RAND()\n\nExamples:\n\nBetween 0 and 100:\n=100*RAND()\nCould produce any of the following:\n59.823434   2.934850   87.243239    etc.\nBetween 50 and 60. Note that in the formula below, the 10*RAND() generates a random number between [0,10) and then adds that number to 50, thus resulting in a final number between [50,60).\n=50 + 10*RAND()\nCould produce any of the following:\n53.63912   50.213480   59.239657   etc\nBetween -3 and 3:\n=-3 + 6*RAND()\nCould produce any of the following:\n2.972912   -1.983420   0.983549   etc",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010225-randomValues-v001.html#use-rand-to-generate-numbers-with-specific-numbers-of-digits-after-decimal-point",
     "href": "0010225-randomValues-v001.html#use-rand-to-generate-numbers-with-specific-numbers-of-digits-after-decimal-point",
-    "title": "8  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
+    "title": "8  8.  Simulations and random numbers - RANDBETWEEN(low,high) and RAND()",
     "section": "8.13 Use RAND() to generate numbers with specific numbers of digits after decimal point",
     "text": "8.13 Use RAND() to generate numbers with specific numbers of digits after decimal point\n\nA number between [0,10) that has two digits after the decimal point :\n=ROUND(10*RAND(), 2)\nCould produce any of the following:\n2.21   0.40   9.48   etc\nAnother way to do the same thing (a number between [0,10) that has two digits after the decimal point) :\n=ROUND(10*RAND()*100,0)/100\nCould produce any of the following (see explanation below):\n2.21   0.40   9.48   etc\nExplanation: RAND() generates a random decimal between 0 and 1. Multiplying by 10 scales that range to 0–10. Multiplying by 100 shifts the decimal two places so we can round to a whole number. After rounding, dividing by 100 shifts the decimal back to its original position, leaving a random number between 0 and 10 with exactly two decimal places.\nGenerate integers using RAND(), you can combine with INT (or ROUND):\nExample: Integer from 1 to 6 (dice) - see RANDBETWEEN above for a much more intuitive way to do this. In any case, this is a technique that is often employed.\n=INT(6*RAND())+1\nCould produce any of the following:\n2   1   6   etc\nExplanation: RAND() returns a value between 0 (inclusive) and 1 (exclusive). Multiplying by 6 scales this to a range from 0 up to (but not including) 6. The INT function then discards the decimal part, producing an integer from 0 to 5. Finally, adding 1 shifts the range to integers from 1 through 6, which correctly simulates rolling a six-sided die.",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'><yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span>"
     ]
   },
   {
     "objectID": "0010240-logicalData-v001.html",
     "href": "0010240-logicalData-v001.html",
-    "title": "9  logical values (i.e. TRUE, FALSE)",
+    "title": "9  9.  logical values (i.e. TRUE, FALSE)",
     "section": "",
     "text": "9.1 if function",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>logical values (i.e. TRUE, FALSE)</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'><yrChapterNumber>9. </yrChapterNumber> logical values (i.e. TRUE, FALSE)</span>"
     ]
   },
   {
     "objectID": "0010240-logicalData-v001.html#and-function",
     "href": "0010240-logicalData-v001.html#and-function",
-    "title": "9  logical values (i.e. TRUE, FALSE)",
+    "title": "9  9.  logical values (i.e. TRUE, FALSE)",
     "section": "9.2 and function",
     "text": "9.2 and function",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>logical values (i.e. TRUE, FALSE)</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'><yrChapterNumber>9. </yrChapterNumber> logical values (i.e. TRUE, FALSE)</span>"
     ]
   },
   {
     "objectID": "0010240-logicalData-v001.html#or-not-functions",
     "href": "0010240-logicalData-v001.html#or-not-functions",
-    "title": "9  logical values (i.e. TRUE, FALSE)",
+    "title": "9  9.  logical values (i.e. TRUE, FALSE)",
     "section": "9.3 or, not functions",
     "text": "9.3 or, not functions",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>logical values (i.e. TRUE, FALSE)</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'><yrChapterNumber>9. </yrChapterNumber> logical values (i.e. TRUE, FALSE)</span>"
     ]
   },
   {
     "objectID": "0010240-logicalData-v001.html#more-complex-examples",
     "href": "0010240-logicalData-v001.html#more-complex-examples",
-    "title": "9  logical values (i.e. TRUE, FALSE)",
+    "title": "9  9.  logical values (i.e. TRUE, FALSE)",
     "section": "9.4 More complex examples",
     "text": "9.4 More complex examples",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>logical values (i.e. TRUE, FALSE)</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'><yrChapterNumber>9. </yrChapterNumber> logical values (i.e. TRUE, FALSE)</span>"
     ]
   },
   {
     "objectID": "0010240-logicalData-v001.html#isblank-and-other-logical-functions",
     "href": "0010240-logicalData-v001.html#isblank-and-other-logical-functions",
-    "title": "9  logical values (i.e. TRUE, FALSE)",
+    "title": "9  9.  logical values (i.e. TRUE, FALSE)",
     "section": "9.5 isblank and other logical functions",
     "text": "9.5 isblank and other logical functions",
     "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>logical values (i.e. TRUE, FALSE)</span>"
-    ]
-  },
-  {
-    "objectID": "0010300-textData-v001.html",
-    "href": "0010300-textData-v001.html",
-    "title": "11  Text Data",
-    "section": "",
-    "text": "Text functions and operators\n\n\n\n\n\n\n\n\n\nright, left, mid\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n& operator and concatenate function\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlower, upper, len functions",
-    "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Text Data</span>"
-    ]
-  },
-  {
-    "objectID": "0010308-castingToText-v001.html",
-    "href": "0010308-castingToText-v001.html",
-    "title": "12  Treating numbers as “plain text”",
-    "section": "",
-    "text": "12.2 Solution using apostrophe (i.e. ’) as first character in cell",
-    "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Treating numbers as \"plain text\"</span>"
-    ]
-  },
-  {
-    "objectID": "0010308-castingToText-v001.html#solution-using-formatting-tools",
-    "href": "0010308-castingToText-v001.html#solution-using-formatting-tools",
-    "title": "12  Treating numbers as “plain text”",
-    "section": "12.1 Solution using “formatting” tools",
-    "text": "12.1 Solution using “formatting” tools",
-    "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Treating numbers as \"plain text\"</span>"
-    ]
-  },
-  {
-    "objectID": "0010309-dataTypes-v001.html",
-    "href": "0010309-dataTypes-v001.html",
-    "title": "13  Summary of Data Types (numeric, text, logical, date)",
-    "section": "",
-    "text": "In summary, there are 4 basic types of data that Excel recognizes:\n\nnumbers\ntext\nTRUE/FALSE\ndates and times",
-    "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Summary of Data Types (numeric, text, logical, date)</span>"
-    ]
-  },
-  {
-    "objectID": "0020100-tablesSorting-v001.html",
-    "href": "0020100-tablesSorting-v001.html",
-    "title": "14  Sorting Data and working with Tables",
-    "section": "",
-    "text": "14.1 Use data tab to sort\nSee this video for an overview of Excel tables: https://www.youtube.com/watch?v=Bm_uWOUiUFI\nClick here to get the practice file: NBA Statistics for Excel Sorting.xlsx\nThis is also a good video: https://www.youtube.com/watch?v=-alMsXBF2D4&t=20s",
-    "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Sorting Data and working with Tables</span>"
-    ]
-  },
-  {
-    "objectID": "0020100-tablesSorting-v001.html#use-data-tab-to-sort",
-    "href": "0020100-tablesSorting-v001.html#use-data-tab-to-sort",
-    "title": "14  Sorting Data and working with Tables",
-    "section": "",
-    "text": "Highlight the range for your data.\nOn the “Data” tab click the “Sort” button.\nIf the data contains column headers, check “My data has headers”.\nFill out the rest of the info for which columns to sort on and in which order.\nclick OK",
-    "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Sorting Data and working with Tables</span>"
-    ]
-  },
-  {
-    "objectID": "0020100-tablesSorting-v001.html#excel-tables",
-    "href": "0020100-tablesSorting-v001.html#excel-tables",
-    "title": "14  Sorting Data and working with Tables",
-    "section": "14.2 Excel Tables",
-    "text": "14.2 Excel Tables\nSee this video for an overview of Excel tables: https://www.youtube.com/watch?v=-alMsXBF2D4&t=20s\n\nCovert a range to a table\n\nClick inside your data (or highlight the range)\nOn the “Insert” tab click “Table”\nIf the data contains column headers, check “My data has headers”.\nClick OK\nTo change the look of the table, click inside the table and then click on the “Table Design” tab.\nYou can give a name to the table on this tab where it says “Table name” (in the upper left hand corner of the ribbon). The name of the table will be useful later.\n\n\n\nSorting/Filtering rows\n\nUse the buttons at the top of the columns to sort and/or filter the rows based on the values in the columns.\nIf you want to sort on multiple columns, apply the sorts in the reverse order of what you want the final order to be.\n\n\n\nConvert a table back to a “normal” range\nTo convert the table back to a “normal” cell range,\n\nclick inside the table\nclick on the “Table Design” tab then click on “Convert to Range”.\nNote that the formatting (eg. colors) will not change back. You will need to reformat the colors as you would format any other range. The “format painter” button on the “Home” tab could be helpful to copy the format of another cell. To use the format painter button:\n\nclick on a cell whose format you want to copy\nclick on the “Format Painter” button on the Home tab\nClick and drag over the cells that you want to copy the format to.",
-    "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Sorting Data and working with Tables</span>"
-    ]
-  },
-  {
-    "objectID": "0030100-pivotTables-v001.html",
-    "href": "0030100-pivotTables-v001.html",
-    "title": "15  Pivot Tables",
-    "section": "",
-    "text": "15.1 Pivot table tutorial (video tutorial)\nFollow along with one (or both if you like) of the tutorials below. The first one is a video. The 2nd one is a webpage that is written out.\nSee this video for an overview of Excel pivot tables: https://www.youtube.com/watch?v=PdJzy956wo4\nClick here to get the practice file: PivotTables-KevinCookies.xlsx",
-    "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Pivot Tables</span>"
-    ]
-  },
-  {
-    "objectID": "0030100-pivotTables-v001.html#pivot-table-tutorial-webpage-to-read",
-    "href": "0030100-pivotTables-v001.html#pivot-table-tutorial-webpage-to-read",
-    "title": "15  Pivot Tables",
-    "section": "15.2 Pivot table tutorial (webpage to read)",
-    "text": "15.2 Pivot table tutorial (webpage to read)\nSee this writeup for an overview of Excel pivot tables: https://exceljet.net/articles/excel-pivot-tables\nClick here to get the practice file: sample data for pivot table.xlsx",
-    "crumbs": [
-      "Functions",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Pivot Tables</span>"
-    ]
-  },
-  {
-    "objectID": "0800100-practice-deptStore-v001.html",
-    "href": "0800100-practice-deptStore-v001.html",
-    "title": "16   Practice - Department Store case",
-    "section": "",
-    "text": "The following is a set of practice questions.\nThis file contains the questions (in a word document).\n005000-practice-QUESTIONS-v008.docx\nThe following is an Excel file with blanks to enter your answers.\n005000-practice-WORKSHEET-STARTING-v008.xlsx\nThe following is an Excel file that contains suggested solutions.\n005000-practice-WORKSHEET-ANSWERS-v008.xlsx",
-    "crumbs": [
-      "Practice",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'><yrChapterNumber></yrChapterNumber> Practice - Department Store case</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'><yrChapterNumber>9. </yrChapterNumber> logical values (i.e. TRUE, FALSE)</span>"
     ]
   },
   {
     "objectID": "0700100-complexFormulas-v001.html",
     "href": "0700100-complexFormulas-v001.html",
-    "title": "17  Tips for working with formulas",
+    "title": "10  10.  Tips for working with formulas",
     "section": "",
-    "text": "17.1 show-formulas button\nThe following are approaches to help you work with formulas.\nThe “Formulas” tab contains several tools for working with formulas. Some of these are described below.\nIt can be very helpful to see all the formulas in your spreadsheet at once.\nTo so, on the “Formulas” tab, press the “Show Formulas” button. Note that this displays what Excel actually stores as opposed to the values that Excel calculates. For this reason, when looking at the spreadsheet in the “formulas” view, dates will display as “serial numbers” instead of actual dates.\nIf you press the button again, the spreadsheet will revert back to showing the calculated values. We say that the button “toggles” between showing the formulas (AKA the “formulas view”) and showing the values (AKA the “values view”).\nYou can also press the following hotkey to toggle between formulas and values:\nWindows: ctrl-`\nMac: Option+Command+`\nNote that the ` is NOT the apostrophe, it is the back-tick or “accent” character. It is on the same key as the ~ character. On most american keyboards it is right under the ESC key.",
+    "text": "10.1 show-formulas button\nThe following are approaches to help you work with formulas.\nThe “Formulas” tab contains several tools for working with formulas. Some of these are described below.\nIt can be very helpful to see all the formulas in your spreadsheet at once.\nTo so, on the “Formulas” tab, press the “Show Formulas” button. Note that this displays what Excel actually stores as opposed to the values that Excel calculates. For this reason, when looking at the spreadsheet in the “formulas” view, dates will display as “serial numbers” instead of actual dates.\nIf you press the button again, the spreadsheet will revert back to showing the calculated values. We say that the button “toggles” between showing the formulas (AKA the “formulas view”) and showing the values (AKA the “values view”).\nYou can also press the following hotkey to toggle between formulas and values:\nWindows: ctrl-`\nMac: Option+Command+`\nNote that the ` is NOT the apostrophe, it is the back-tick or “accent” character. It is on the same key as the ~ character. On most american keyboards it is right under the ESC key.",
     "crumbs": [
-      "Productivity tips",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Tips for working with formulas</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'><yrChapterNumber>10. </yrChapterNumber> Tips for working with formulas</span>"
     ]
   },
   {
     "objectID": "0700100-complexFormulas-v001.html#working-with-complex-formulas",
     "href": "0700100-complexFormulas-v001.html#working-with-complex-formulas",
-    "title": "17  Tips for working with formulas",
-    "section": "17.2 Working with complex formulas",
-    "text": "17.2 Working with complex formulas\nIt is often helpful when trying to analyze a complex formula to see the arguments in the formula on multiple lines. You can make the formula bar on top of the Excel window larger by pointing at the bottom edge of the formula bar (the cursor will change to a double-headed-arrow) and then drag down. If you then press Alt-Enter (win) or Ctrl+Option+Enter (mac) you will be able to type the formula on multiple lines.\nSee the following for an example of writing a complex formula using this technique.",
+    "title": "10  10.  Tips for working with formulas",
+    "section": "10.2 Working with complex formulas",
+    "text": "10.2 Working with complex formulas\nIt is often helpful when trying to analyze a complex formula to see the arguments in the formula on multiple lines. You can make the formula bar on top of the Excel window larger by pointing at the bottom edge of the formula bar (the cursor will change to a double-headed-arrow) and then drag down. If you then press Alt-Enter (win) or Ctrl+Option+Enter (mac) you will be able to type the formula on multiple lines.\nSee the following for an example of writing a complex formula using this technique.",
     "crumbs": [
-      "Productivity tips",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Tips for working with formulas</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'><yrChapterNumber>10. </yrChapterNumber> Tips for working with formulas</span>"
     ]
   },
   {
     "objectID": "0700100-complexFormulas-v001.html#lists-of-different-functions",
     "href": "0700100-complexFormulas-v001.html#lists-of-different-functions",
-    "title": "17  Tips for working with formulas",
-    "section": "17.3 Lists of different functions",
-    "text": "17.3 Lists of different functions\nClick on the Formulas tab to see different categories of formulas in drop-down-lists. Click on a category and then click on a particular function to see a window that describes the different arguments for that function. If you click in a textbox for an argument you will see a description of what to enter for that argument. You can fill in each argument by typing or by clicking on the cells with your mouse. When you are done, press OK to see the results.",
+    "title": "10  10.  Tips for working with formulas",
+    "section": "10.3 Lists of different functions",
+    "text": "10.3 Lists of different functions\nClick on the Formulas tab to see different categories of formulas in drop-down-lists. Click on a category and then click on a particular function to see a window that describes the different arguments for that function. If you click in a textbox for an argument you will see a description of what to enter for that argument. You can fill in each argument by typing or by clicking on the cells with your mouse. When you are done, press OK to see the results.",
     "crumbs": [
-      "Productivity tips",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Tips for working with formulas</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'><yrChapterNumber>10. </yrChapterNumber> Tips for working with formulas</span>"
     ]
   },
   {
     "objectID": "0700100-complexFormulas-v001.html#trace-precedents-trace-dependents-remove-arrows-buttons",
     "href": "0700100-complexFormulas-v001.html#trace-precedents-trace-dependents-remove-arrows-buttons",
-    "title": "17  Tips for working with formulas",
-    "section": "17.4 Trace Precedents, Trace Dependents, Remove Arrows buttons",
-    "text": "17.4 Trace Precedents, Trace Dependents, Remove Arrows buttons\nSelect a cell (i.e. click on it) that contains a formula. Then on the “Formulas” tab press the Trace Precedents button. You will then see arrows pointing to the cells that are referenced by the formula. If you continue to click this button you will see more arrows that point to 2nd level dependencies, etc.\nSelect ANY cell. Then click on the “Trace Dependents” button. You will see arrows that point to any cell that references the selected cell. If you keep pressing this button you will see additional arrows drawn to cells that reference those cells, etc.\nNone oft these arrows affect the way the spreadsheet works. They are simply there to help you understand the spreadsheet.\nClick the “Remove Arrows” button to remove all the arrows from the screen.",
+    "title": "10  10.  Tips for working with formulas",
+    "section": "10.4 Trace Precedents, Trace Dependents, Remove Arrows buttons",
+    "text": "10.4 Trace Precedents, Trace Dependents, Remove Arrows buttons\nSelect a cell (i.e. click on it) that contains a formula. Then on the “Formulas” tab press the Trace Precedents button. You will then see arrows pointing to the cells that are referenced by the formula. If you continue to click this button you will see more arrows that point to 2nd level dependencies, etc.\nSelect ANY cell. Then click on the “Trace Dependents” button. You will see arrows that point to any cell that references the selected cell. If you keep pressing this button you will see additional arrows drawn to cells that reference those cells, etc.\nNone oft these arrows affect the way the spreadsheet works. They are simply there to help you understand the spreadsheet.\nClick the “Remove Arrows” button to remove all the arrows from the screen.",
     "crumbs": [
-      "Productivity tips",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Tips for working with formulas</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'><yrChapterNumber>10. </yrChapterNumber> Tips for working with formulas</span>"
     ]
   },
   {
     "objectID": "0700100-complexFormulas-v001.html#evaluate-formula-button",
     "href": "0700100-complexFormulas-v001.html#evaluate-formula-button",
-    "title": "17  Tips for working with formulas",
-    "section": "17.5 Evaluate formula button",
-    "text": "17.5 Evaluate formula button\nIt can be helpful to see step by step how a formula is calculated. To so, select a cell that contains a formula (i.e. click on the cell). Then on the “Formulas” tab, press the “Evaluate Formula” button. You will see a window open up that shows the formula with part of the formula underlined. Click on the “Evaluate” button to evaluate JUST that part of the formula. Keep clicking on the Evaluate button to see step by step how the formula gets processed.",
+    "title": "10  10.  Tips for working with formulas",
+    "section": "10.5 Evaluate formula button",
+    "text": "10.5 Evaluate formula button\nIt can be helpful to see step by step how a formula is calculated. To so, select a cell that contains a formula (i.e. click on the cell). Then on the “Formulas” tab, press the “Evaluate Formula” button. You will see a window open up that shows the formula with part of the formula underlined. Click on the “Evaluate” button to evaluate JUST that part of the formula. Keep clicking on the Evaluate button to see step by step how the formula gets processed.",
     "crumbs": [
-      "Productivity tips",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Tips for working with formulas</span>"
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'><yrChapterNumber>10. </yrChapterNumber> Tips for working with formulas</span>"
+    ]
+  },
+  {
+    "objectID": "0010300-textData-v001.html",
+    "href": "0010300-textData-v001.html",
+    "title": "12  12.  Text Data",
+    "section": "",
+    "text": "Text functions and operators\n\n\n\n\n\n\n\n\n\nright, left, mid\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n& operator and concatenate function\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nlower, upper, len functions",
+    "crumbs": [
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'><yrChapterNumber>12. </yrChapterNumber> Text Data</span>"
+    ]
+  },
+  {
+    "objectID": "0010308-castingToText-v001.html",
+    "href": "0010308-castingToText-v001.html",
+    "title": "13  13.  Treating numbers as “plain text”",
+    "section": "",
+    "text": "13.2 Solution using apostrophe (i.e. ’) as first character in cell",
+    "crumbs": [
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'><yrChapterNumber>13. </yrChapterNumber> Treating numbers as \"plain text\"</span>"
+    ]
+  },
+  {
+    "objectID": "0010308-castingToText-v001.html#solution-using-formatting-tools",
+    "href": "0010308-castingToText-v001.html#solution-using-formatting-tools",
+    "title": "13  13.  Treating numbers as “plain text”",
+    "section": "13.1 Solution using “formatting” tools",
+    "text": "13.1 Solution using “formatting” tools",
+    "crumbs": [
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'><yrChapterNumber>13. </yrChapterNumber> Treating numbers as \"plain text\"</span>"
+    ]
+  },
+  {
+    "objectID": "0010309-dataTypes-v001.html",
+    "href": "0010309-dataTypes-v001.html",
+    "title": "14  14.  Summary of Data Types (numeric, text, logical, date)",
+    "section": "",
+    "text": "In summary, there are 4 basic types of data that Excel recognizes:\n\nnumbers\ntext\nTRUE/FALSE\ndates and times",
+    "crumbs": [
+      "Intro to Excel Functions",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'><yrChapterNumber>14. </yrChapterNumber> Summary of Data Types (numeric, text, logical, date)</span>"
+    ]
+  },
+  {
+    "objectID": "0200100-countCounta-v001.html",
+    "href": "0200100-countCounta-v001.html",
+    "title": "15  15.  COUNT and COUNTA in Excel",
+    "section": "",
+    "text": "15.1 Combined Example: COUNT and COUNTA\nCOUNT counts numeric cells only (including dates and times).\nCOUNTA counts all non-empty cells.\nSyntax",
+    "crumbs": [
+      "More Functions",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'><yrChapterNumber>15. </yrChapterNumber> COUNT and COUNTA in Excel</span>"
+    ]
+  },
+  {
+    "objectID": "0200100-countCounta-v001.html#combined-example-count-and-counta",
+    "href": "0200100-countCounta-v001.html#combined-example-count-and-counta",
+    "title": "15  15.  COUNT and COUNTA in Excel",
+    "section": "",
+    "text": "Formulas View\n        A                B        C                  D\n   +----------------+----------+------------------+--------------------+\n1  | VALUES         |          | Count Numbers    | Count Non-Blank    |\n   +----------------+----------+------------------+--------------------+\n2  | 10             |          | =COUNT(A2:A6)    | =COUNTA(A2:A6)     |\n   +----------------+----------+------------------+--------------------+\n3  | 25             |          |                  |                    |\n   +----------------+----------+------------------+--------------------+\n4  | Apple          |          |                  |                    |\n   +----------------+----------+------------------+--------------------+\n5  |                |          |                  |                    |\n   +----------------+----------+------------------+--------------------+\n6  | 12/1/2025      |          |                  |                    |\n   +----------------+----------+------------------+--------------------+\n\n\nValues View\n        A                B        C                  D\n   +----------------+----------+------------------+--------------------+\n1  | VALUES         |          | Count Numbers    | Count Non-Blank    |\n   +----------------+----------+------------------+--------------------+\n2  | 10             |          | 3                | 4                  |\n   +----------------+----------+------------------+--------------------+\n3  | 25             |          |                  |                    |\n   +----------------+----------+------------------+--------------------+\n4  | Apple          |          |                  |                    |\n   +----------------+----------+------------------+--------------------+\n5  |                |          |                  |                    |\n   +----------------+----------+------------------+--------------------+\n6  | 12/1/2025      |          |                  |                    |\n   +----------------+----------+------------------+--------------------+\n\n\nWhy the Results Differ\n\nCOUNT(A2:A6) returns 3 : 10, 25, and the date are numeric (see info about dates). “Apple” is not numeric so it wasn’t counted.\nCOUNTA(A2:A6) returns 4 : all non-empty cells are counted (includeing “Apple”)",
+    "crumbs": [
+      "More Functions",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'><yrChapterNumber>15. </yrChapterNumber> COUNT and COUNTA in Excel</span>"
+    ]
+  },
+  {
+    "objectID": "0020100-tablesSorting-v001.html",
+    "href": "0020100-tablesSorting-v001.html",
+    "title": "16  16.  Sorting Data and working with Tables",
+    "section": "",
+    "text": "16.1 Use data tab to sort\nSee this video for an overview of Excel tables: https://www.youtube.com/watch?v=Bm_uWOUiUFI\nClick here to get the practice file: NBA Statistics for Excel Sorting.xlsx\nThis is also a good video: https://www.youtube.com/watch?v=-alMsXBF2D4&t=20s",
+    "crumbs": [
+      "Tables and Pivot Tables",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'><yrChapterNumber>16. </yrChapterNumber> Sorting Data and working with Tables</span>"
+    ]
+  },
+  {
+    "objectID": "0020100-tablesSorting-v001.html#use-data-tab-to-sort",
+    "href": "0020100-tablesSorting-v001.html#use-data-tab-to-sort",
+    "title": "16  16.  Sorting Data and working with Tables",
+    "section": "",
+    "text": "Highlight the range for your data.\nOn the “Data” tab click the “Sort” button.\nIf the data contains column headers, check “My data has headers”.\nFill out the rest of the info for which columns to sort on and in which order.\nclick OK",
+    "crumbs": [
+      "Tables and Pivot Tables",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'><yrChapterNumber>16. </yrChapterNumber> Sorting Data and working with Tables</span>"
+    ]
+  },
+  {
+    "objectID": "0020100-tablesSorting-v001.html#excel-tables",
+    "href": "0020100-tablesSorting-v001.html#excel-tables",
+    "title": "16  16.  Sorting Data and working with Tables",
+    "section": "16.2 Excel Tables",
+    "text": "16.2 Excel Tables\nSee this video for an overview of Excel tables: https://www.youtube.com/watch?v=-alMsXBF2D4&t=20s\n\nCovert a range to a table\n\nClick inside your data (or highlight the range)\nOn the “Insert” tab click “Table”\nIf the data contains column headers, check “My data has headers”.\nClick OK\nTo change the look of the table, click inside the table and then click on the “Table Design” tab.\nYou can give a name to the table on this tab where it says “Table name” (in the upper left hand corner of the ribbon). The name of the table will be useful later.\n\n\n\nSorting/Filtering rows\n\nUse the buttons at the top of the columns to sort and/or filter the rows based on the values in the columns.\nIf you want to sort on multiple columns, apply the sorts in the reverse order of what you want the final order to be.\n\n\n\nConvert a table back to a “normal” range\nTo convert the table back to a “normal” cell range,\n\nclick inside the table\nclick on the “Table Design” tab then click on “Convert to Range”.\nNote that the formatting (eg. colors) will not change back. You will need to reformat the colors as you would format any other range. The “format painter” button on the “Home” tab could be helpful to copy the format of another cell. To use the format painter button:\n\nclick on a cell whose format you want to copy\nclick on the “Format Painter” button on the Home tab\nClick and drag over the cells that you want to copy the format to.",
+    "crumbs": [
+      "Tables and Pivot Tables",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'><yrChapterNumber>16. </yrChapterNumber> Sorting Data and working with Tables</span>"
+    ]
+  },
+  {
+    "objectID": "0030100-pivotTables-v001.html",
+    "href": "0030100-pivotTables-v001.html",
+    "title": "17  17.  Pivot Tables",
+    "section": "",
+    "text": "17.1 Pivot table tutorial (video tutorial)\nFollow along with one (or both if you like) of the tutorials below. The first one is a video. The 2nd one is a webpage that is written out.\nSee this video for an overview of Excel pivot tables: https://www.youtube.com/watch?v=PdJzy956wo4\nClick here to get the practice file: PivotTables-KevinCookies.xlsx",
+    "crumbs": [
+      "Tables and Pivot Tables",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'><yrChapterNumber>17. </yrChapterNumber> Pivot Tables</span>"
+    ]
+  },
+  {
+    "objectID": "0030100-pivotTables-v001.html#pivot-table-tutorial-webpage-to-read",
+    "href": "0030100-pivotTables-v001.html#pivot-table-tutorial-webpage-to-read",
+    "title": "17  17.  Pivot Tables",
+    "section": "17.2 Pivot table tutorial (webpage to read)",
+    "text": "17.2 Pivot table tutorial (webpage to read)\nSee this writeup for an overview of Excel pivot tables: https://exceljet.net/articles/excel-pivot-tables\nClick here to get the practice file: sample data for pivot table.xlsx",
+    "crumbs": [
+      "Tables and Pivot Tables",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'><yrChapterNumber>17. </yrChapterNumber> Pivot Tables</span>"
+    ]
+  },
+  {
+    "objectID": "0800100-practice-deptStore-v001.html",
+    "href": "0800100-practice-deptStore-v001.html",
+    "title": "18  18.  Practice - Department Store case",
+    "section": "",
+    "text": "The following is a set of practice questions.\nThis file contains the questions (in a word document).\n005000-practice-QUESTIONS-v008.docx\nThe following is an Excel file with blanks to enter your answers.\n005000-practice-WORKSHEET-STARTING-v008.xlsx\nThe following is an Excel file that contains suggested solutions.\n005000-practice-WORKSHEET-ANSWERS-v008.xlsx",
+    "crumbs": [
+      "Practice",
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'><yrChapterNumber>18. </yrChapterNumber> Practice - Department Store case</span>"
+    ]
+  },
+  {
+    "objectID": "0800200-practice-salepeople-v001.html",
+    "href": "0800200-practice-salepeople-v001.html",
+    "title": "19  19.  Practice - salepeople exercise",
+    "section": "",
+    "text": "To download the file for the exercise\nclick here\nThe questions appear on the “Questions” worksheet (the first tab).",
+    "crumbs": [
+      "Practice",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'><yrChapterNumber>19. </yrChapterNumber> Practice - salepeople exercise</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html",
     "href": "0000200-hotkeys-v001.html",
-    "title": "18  “hot-keys”",
+    "title": "20  20.  “hot-keys”",
     "section": "",
-    "text": "18.1 The hotkeys\nExcel keyboard “hot-keys” can make you MUCH more productive.\nThe list of shortcuts below was adapted from https://corporatefinanceinstitute.com/resources/excel/excel-shortcuts-pc-mac/\nThe list below is arranged in order of “importance”. The importance info is based on my personal thoughts. I categorized the importance levels as follows:",
+    "text": "20.1 The hotkeys\nExcel keyboard “hot-keys” can make you MUCH more productive.\nThe list of shortcuts below was adapted from https://corporatefinanceinstitute.com/resources/excel/excel-shortcuts-pc-mac/\nThe list below is arranged in order of “importance”. The importance info is based on my personal thoughts. I categorized the importance levels as follows:",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#the-hotkeys",
     "href": "0000200-hotkeys-v001.html#the-hotkeys",
-    "title": "18  “hot-keys”",
+    "title": "20  20.  “hot-keys”",
     "section": "",
     "text": "importance\nmeaning\n\n\n\n\n0\nBasic and “obvious” (these are common in many other programs too)\n\n\n1\nEvery Excel user should know these\n\n\n2\nExtremely useful to know\n\n\n3\nHelpful, but not so much\n\n\n4+\nMight not be worth memorizing but could be helpful. Can usually do these by pressing buttons.",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#basic-and-obvious-these-are-common-in-many-other-programs-too",
     "href": "0000200-hotkeys-v001.html#basic-and-obvious-these-are-common-in-many-other-programs-too",
-    "title": "18  “hot-keys”",
-    "section": "18.2 Basic and “obvious” (these are common in many other programs too)",
-    "text": "18.2 Basic and “obvious” (these are common in many other programs too)\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n0\nediting cells\nClear cell data\nDelete\nDelete\n\n\n0\nediting-inside-cell\nConfirm change and get out of cell\nEnter\nReturn\n\n\n0\nediting-inside-cell\nDelete character to left\nBackspace\nDelete\n\n\n0\nediting-inside-cell\nDelete character to right\nDelete\nFn-Delete\n\n\n0\nnavigation/selection\nMove from cell to cell\nArrows\nArrows\n\n\n0\nnavigation/selection\nMove one screen up\nPageUp\nFn-Up\n\n\n0\nnavigation/selection\nMove one screen down\nPageDown\nFn-Down\n\n\n0\nnavigation/selection\nMove to the next cell (Move between items within a menu window)\nTab\nTab\n\n\n0\nworking with files\nNew File\nCtrl-N\n⌘-N\n\n\n0\nworking with files\nOpen File\nCtrl-O\n⌘-O\n\n\n0\nediting cells\nFind and replace\nCtrl-F\nCtrl-F\n\n\n0\nformatting cells\nBold\nCtrl-B\n⌘-B\n\n\n0\nformatting cells\nItalic\nCtrl-I\n⌘-I\n\n\n0\nformatting cells\nUndo\nCtrl-Z\n⌘-Z\n\n\n0\nformatting cells\nRedo\nCtrl-Y\n⌘-Y\n\n\n0\nnavigation/selection\nSelect all contiguous used cells (select entire worksheet if command is repeated)\nCtrl-A\n⌘-A\n\n\n0\ngeneral\nCut\nCtrl-X\n⌘-X\n\n\n0\ngeneral\nCopy\nCtrl-C\n⌘-C\n\n\n0\ngeneral\nPaste\nCtrl-V\n⌘-V\n\n\n0\nother\nNext open program\nAlt-Tab\n⌘-Tab\n\n\n0\nworking with files\nSave File\nCtrl-S\n⌘\n\n\n0\nworking with files\nPrint\nCtrl-P\n⌘-P",
+    "title": "20  20.  “hot-keys”",
+    "section": "20.2 Basic and “obvious” (these are common in many other programs too)",
+    "text": "20.2 Basic and “obvious” (these are common in many other programs too)\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n0\nediting cells\nClear cell data\nDelete\nDelete\n\n\n0\nediting-inside-cell\nConfirm change and get out of cell\nEnter\nReturn\n\n\n0\nediting-inside-cell\nDelete character to left\nBackspace\nDelete\n\n\n0\nediting-inside-cell\nDelete character to right\nDelete\nFn-Delete\n\n\n0\nnavigation/selection\nMove from cell to cell\nArrows\nArrows\n\n\n0\nnavigation/selection\nMove one screen up\nPageUp\nFn-Up\n\n\n0\nnavigation/selection\nMove one screen down\nPageDown\nFn-Down\n\n\n0\nnavigation/selection\nMove to the next cell (Move between items within a menu window)\nTab\nTab\n\n\n0\nworking with files\nNew File\nCtrl-N\n⌘-N\n\n\n0\nworking with files\nOpen File\nCtrl-O\n⌘-O\n\n\n0\nediting cells\nFind and replace\nCtrl-F\nCtrl-F\n\n\n0\nformatting cells\nBold\nCtrl-B\n⌘-B\n\n\n0\nformatting cells\nItalic\nCtrl-I\n⌘-I\n\n\n0\nformatting cells\nUndo\nCtrl-Z\n⌘-Z\n\n\n0\nformatting cells\nRedo\nCtrl-Y\n⌘-Y\n\n\n0\nnavigation/selection\nSelect all contiguous used cells (select entire worksheet if command is repeated)\nCtrl-A\n⌘-A\n\n\n0\ngeneral\nCut\nCtrl-X\n⌘-X\n\n\n0\ngeneral\nCopy\nCtrl-C\n⌘-C\n\n\n0\ngeneral\nPaste\nCtrl-V\n⌘-V\n\n\n0\nother\nNext open program\nAlt-Tab\n⌘-Tab\n\n\n0\nworking with files\nSave File\nCtrl-S\n⌘\n\n\n0\nworking with files\nPrint\nCtrl-P\n⌘-P",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#every-excel-user-should-know-these",
     "href": "0000200-hotkeys-v001.html#every-excel-user-should-know-these",
-    "title": "18  “hot-keys”",
-    "section": "18.3 Every Excel user should know these",
-    "text": "18.3 Every Excel user should know these\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n1\nediting-inside-cell\nMove withing the contents of the cell\nArrow keys\nArrow keys\n\n\n1\nediting-inside-cell\nJump to beginning of cell contents\nHome\nFn-Left\n\n\n1\nediting-inside-cell\nCancel any changes you made while editing a cell\nEsc\nEsc\n\n\n1\nediting-inside-cell\nEnter new line while editing a cell\nAlt-Enter\nOption-Return\n\n\n1\nediting-inside-cell\nWhen editing a cell reference, automatically rotate between A1, $A$1, A$1 and $A1 forms\nF4\n⌘-T\n\n\n1\nother\nShow formula/show values (` key is to the left of the 1 key on most American keyboards)\nCtrl-`\nCtrl-`\n\n\n1\nediting-inside-cell\nAccept auto-complete suggestion\nTab\nTab",
+    "title": "20  20.  “hot-keys”",
+    "section": "20.3 Every Excel user should know these",
+    "text": "20.3 Every Excel user should know these\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n1\nediting-inside-cell\nMove withing the contents of the cell\nArrow keys\nArrow keys\n\n\n1\nediting-inside-cell\nJump to beginning of cell contents\nHome\nFn-Left\n\n\n1\nediting-inside-cell\nCancel any changes you made while editing a cell\nEsc\nEsc\n\n\n1\nediting-inside-cell\nEnter new line while editing a cell\nAlt-Enter\nOption-Return\n\n\n1\nediting-inside-cell\nWhen editing a cell reference, automatically rotate between A1, $A$1, A$1 and $A1 forms\nF4\n⌘-T\n\n\n1\nother\nShow formula/show values (` key is to the left of the 1 key on most American keyboards)\nCtrl-`\nCtrl-`\n\n\n1\nediting-inside-cell\nAccept auto-complete suggestion\nTab\nTab",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#extremely-useful-to-know",
     "href": "0000200-hotkeys-v001.html#extremely-useful-to-know",
-    "title": "18  “hot-keys”",
-    "section": "18.4 Extremely useful to know",
-    "text": "18.4 Extremely useful to know\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n2\nnavigation/selection\nJump to last/first cell in a contiguous range of used cells\nCtrl-Arrow\nCtrl-Arrow\n\n\n2\nnavigation/selection\nJump to beginning of row\nHome\nFn-Left\n\n\n2\nnavigation/selection\nJump to cell A1\nCtrl-Home\nFn-Ctrl-Left\n\n\n2\nnavigation/selection\nSelect a contiguous range\nCtrl-Shift-Arrows\nCtrl-Shift-Arrows\n\n\n2\nnavigation/selection\nExtend selection 1 row or column\nShift-Arrows\nShift-Arrows\n\n\n2\nnavigation/selection\nExtend selection up one screen\nShift-PageUp\nFn-Shift-Up\n\n\n2\nnavigation/selection\nExtend selection down one screen\nShift-PageDown\nFn-Shift-Down\n\n\n2\nnavigation/selection\nExtend selection left one screen\nAlt-shift-PageUp\nFn-Shift-⌘-Up\n\n\n2\nnavigation/selection\nExtend selection right one screen\nAlt-shift-PageDown\nFn-Shift-⌘-Down\n\n\n2\nnavigation/selection\nExtend selection to the start of the sheet\nCtrl-Shift-Home\nCtrl-Shift-Home\n\n\n2\nnavigation/selection\nExtend selection to the last used cell of the sheet\nCtrl-Shift-End\nCtrl-Shift-End",
+    "title": "20  20.  “hot-keys”",
+    "section": "20.4 Extremely useful to know",
+    "text": "20.4 Extremely useful to know\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n2\nnavigation/selection\nJump to last/first cell in a contiguous range of used cells\nCtrl-Arrow\nCtrl-Arrow\n\n\n2\nnavigation/selection\nJump to beginning of row\nHome\nFn-Left\n\n\n2\nnavigation/selection\nJump to cell A1\nCtrl-Home\nFn-Ctrl-Left\n\n\n2\nnavigation/selection\nSelect a contiguous range\nCtrl-Shift-Arrows\nCtrl-Shift-Arrows\n\n\n2\nnavigation/selection\nExtend selection 1 row or column\nShift-Arrows\nShift-Arrows\n\n\n2\nnavigation/selection\nExtend selection up one screen\nShift-PageUp\nFn-Shift-Up\n\n\n2\nnavigation/selection\nExtend selection down one screen\nShift-PageDown\nFn-Shift-Down\n\n\n2\nnavigation/selection\nExtend selection left one screen\nAlt-shift-PageUp\nFn-Shift-⌘-Up\n\n\n2\nnavigation/selection\nExtend selection right one screen\nAlt-shift-PageDown\nFn-Shift-⌘-Down\n\n\n2\nnavigation/selection\nExtend selection to the start of the sheet\nCtrl-Shift-Home\nCtrl-Shift-Home\n\n\n2\nnavigation/selection\nExtend selection to the last used cell of the sheet\nCtrl-Shift-End\nCtrl-Shift-End",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#helpful-but-not-so-much",
     "href": "0000200-hotkeys-v001.html#helpful-but-not-so-much",
-    "title": "18  “hot-keys”",
-    "section": "18.5 Helpful, but not so much",
-    "text": "18.5 Helpful, but not so much\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n3\nnavigation/selection\nSelect entire row\nShift-Spacebar\nShift-Spacebar\n\n\n3\nnavigation/selection\nSelect entire column\nCtrl-Spacebar\nCtrl-Spacebar\n\n\n3\ngeneral\nInsert row\nAlt-I-R\nCtrl-I\n\n\n3\ngeneral\nInsert column\nAlt-I-C\nCtrl-I\n\n\n3\nnavigation/selection\nJump one screen left\nAlt-PageUp\nFn-Option-Up\n\n\n3\nnavigation/selection\nJump one screen right\nAlt-PageDown\nFn-Option-Down\n\n\n3\nnavigation/selection\nMove to the next or previous worksheet (Move between tabs if you are in a menu window)\nCtrl-PageUp/Down\nCtrl-PageUp/Down\n\n\n3\nother\nSelect cells which refer to the active cell (useful before deleting a cell in a worksheet)\nCtrl-]\nCtrl-]",
+    "title": "20  20.  “hot-keys”",
+    "section": "20.5 Helpful, but not so much",
+    "text": "20.5 Helpful, but not so much\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n3\nnavigation/selection\nSelect entire row\nShift-Spacebar\nShift-Spacebar\n\n\n3\nnavigation/selection\nSelect entire column\nCtrl-Spacebar\nCtrl-Spacebar\n\n\n3\ngeneral\nInsert row\nAlt-I-R\nCtrl-I\n\n\n3\ngeneral\nInsert column\nAlt-I-C\nCtrl-I\n\n\n3\nnavigation/selection\nJump one screen left\nAlt-PageUp\nFn-Option-Up\n\n\n3\nnavigation/selection\nJump one screen right\nAlt-PageDown\nFn-Option-Down\n\n\n3\nnavigation/selection\nMove to the next or previous worksheet (Move between tabs if you are in a menu window)\nCtrl-PageUp/Down\nCtrl-PageUp/Down\n\n\n3\nother\nSelect cells which refer to the active cell (useful before deleting a cell in a worksheet)\nCtrl-]\nCtrl-]",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#might-not-be-worth-memorizing",
     "href": "0000200-hotkeys-v001.html#might-not-be-worth-memorizing",
-    "title": "18  “hot-keys”",
-    "section": "18.6 Might not be worth memorizing",
-    "text": "18.6 Might not be worth memorizing\nCould be helpful for extreme power-users but you can usually do these by pressing buttons or in other ways. For most Excel users, it’s probably not worth memorizing these.\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n4\nediting cells\nClear cell formats\nAlt-h-e-f\n\n\n\n4\nediting cells\nClear all (data, formats, comments)\nAlt-h-e-a\n\n\n\n4\ngeneral\nInsert argument names and parentheses for a function after typing a function name in a formula\nCtrl-Shift-A\nCtrl-Shift-A\n\n\n4\nother\nEnter current date (also see today() function)\nCtrl-;\nCtrl-;\n\n\n4\nother\nEnter current time (also see now() function)\nCtrl-Shift-:\nCtrl-Shift-:\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n5\nediting cells\nCopy data “down” from above cells (highlight a range to copy to multiple cells)\nCtrl-D\nCtrl-D\n\n\n5\nediting cells\nCopy data to the “right” from cells on left (highlight a range to copy multiple cells)\nCtrl-R\nCtrl-R\n\n\n5\nediting-inside-cell\nEdit the active cell (edit mode)\nF2\nF2\n\n\n5\nediting-inside-cell\nJump to end of cell contents\nEnd\nFn-Right\n\n\n5\nformatting cells\nNumber format\nCtrl-Shift-!\nCtrl-Shift-!\n\n\n5\nformatting cells\nDate format\nCtrl-Shift-#\nCtrl-Shift-#\n\n\n5\nformatting cells\nPercent format\nCtrl-Shift-%\nCtrl-Shift-%\n\n\n5\ngeneral\nEdit active cell\nF2\nCtrl-U\n\n\n5\nnavigation\nGo to a specific cell\nF5\nF5\n\n\n5\nediting cells\nClear cell comments\nAlt-h-e-m\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n6\nformatting cells\nBrings up format cells menu\nCtrl-1\n⌘-1\n\n\n6\ngeneral\nInsert or edit cell comment\nShift-F2\nShift-F2\n\n\n6\npaste-special\nPaste Special formats\nCtrl-Alt-V-t\nCtrl-⌘-V-t\n\n\n6\npaste-special\nPaste Special values\nCtrl-Alt-V-v\nCtrl-⌘-V-v\n\n\n6\npaste-special\nPaste Special formulas\nCtrl-Alt-V-f\nCtrl-⌘-V-f\n\n\n6\npaste-special\nPaste Special comments\nCtrl-Alt-V-c\nCtrl-⌘-V-c\n\n\n6\nworking with files\nSave File With New Name (i.e. “Save As”)\nF12\n⌘-⇧-Shift-S\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n7\ngeneral\nDisplay shortcut menu (i.e. same as right click)\nShift-F10\nShift-F10\n\n\n7\nworking with files\nGo to next workbook\nCtrl-Tab\n⌘–\n\n\n7\nworking with files\nClose file\nCtrl-F4\n⌘-W\n\n\n7\nworking with files\nClose all open Excel files\nAlt-F4\n⌘-Q\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n8\nediting-inside-cell\nWhile editing cell, allow use of arrow keys to create reference\nF2\nF2\n\n\n8\nediting-inside-cell\nHighlight within a cell\nShift-Left/Right\nShift-Left/Right\n\n\n8\nediting-inside-cell\nHighlight contiguous items\nCtrl-Shift-Left/Right\nCtrl-Shift-Left/Right\n\n\n8\nediting-inside-cell\nReferencing a cell from another worksheet\nCtrl-PageUp/Down-Arrows\nCtrl-Fn-Down/Up-Arrows\n\n\n8\nformatting cells\nRepeat last action\nF4\n⌘-Y\n\n\n8\nformatting cells\nIncrease font size\nAlt-h-fg\n⌘-Shift-&gt;\n\n\n8\nformatting cells\nDecrease font size\nAlt-h-fk\n⌘-Shift-&lt;\n\n\n8\nformatting cells\nIncrease decimal\nAlt-h-O\n\n\n\n8\nformatting cells\nDecrease decimal\nAlt-h-9\n\n\n\n8\nformatting cells\nIncrease indent\nAlt-h-6\nCtrl-M\n\n\n8\nformatting cells\nDecrease indent\nAlt-h-5\n⌘-Shift-m\n\n\n8\ngeneral\nPaste Special\nAlt-E-S\n⌘-Option-V\n\n\n8\ngeneral\nPaste name into formula\nF3\n\n\n\n8\ngeneral\nInsert worksheet\nShift-F11\nShift-F11\n\n\n8\ngeneral\nDefine a name for a cell\nCtrl-F3\nCtrl-F3\n\n\n8\nother\nShow all constants\nF5-Alt-s-o\n\n\n\n8\nother\nHighlight cells with comments\nF5-Alt-s-c\n\n\n\n8\nother\nAutosum\nAlt-=\n⌘-T\n\n\n8\nribbon\nShow ribbon accelerator keys\nAlt\n\n\n\n8\nribbon\nShow/hide ribbon\nCtrl-F1\n⌘-⌥-R\n\n\n8\nworking with files\nOpen print preview window\nCtrl-F2",
+    "title": "20  20.  “hot-keys”",
+    "section": "20.6 Might not be worth memorizing",
+    "text": "20.6 Might not be worth memorizing\nCould be helpful for extreme power-users but you can usually do these by pressing buttons or in other ways. For most Excel users, it’s probably not worth memorizing these.\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n4\nediting cells\nClear cell formats\nAlt-h-e-f\n\n\n\n4\nediting cells\nClear all (data, formats, comments)\nAlt-h-e-a\n\n\n\n4\ngeneral\nInsert argument names and parentheses for a function after typing a function name in a formula\nCtrl-Shift-A\nCtrl-Shift-A\n\n\n4\nother\nEnter current date (also see today() function)\nCtrl-;\nCtrl-;\n\n\n4\nother\nEnter current time (also see now() function)\nCtrl-Shift-:\nCtrl-Shift-:\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n5\nediting cells\nCopy data “down” from above cells (highlight a range to copy to multiple cells)\nCtrl-D\nCtrl-D\n\n\n5\nediting cells\nCopy data to the “right” from cells on left (highlight a range to copy multiple cells)\nCtrl-R\nCtrl-R\n\n\n5\nediting-inside-cell\nEdit the active cell (edit mode)\nF2\nF2\n\n\n5\nediting-inside-cell\nJump to end of cell contents\nEnd\nFn-Right\n\n\n5\nformatting cells\nNumber format\nCtrl-Shift-!\nCtrl-Shift-!\n\n\n5\nformatting cells\nDate format\nCtrl-Shift-#\nCtrl-Shift-#\n\n\n5\nformatting cells\nPercent format\nCtrl-Shift-%\nCtrl-Shift-%\n\n\n5\ngeneral\nEdit active cell\nF2\nCtrl-U\n\n\n5\nnavigation\nGo to a specific cell\nF5\nF5\n\n\n5\nediting cells\nClear cell comments\nAlt-h-e-m\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n6\nformatting cells\nBrings up format cells menu\nCtrl-1\n⌘-1\n\n\n6\ngeneral\nInsert or edit cell comment\nShift-F2\nShift-F2\n\n\n6\npaste-special\nPaste Special formats\nCtrl-Alt-V-t\nCtrl-⌘-V-t\n\n\n6\npaste-special\nPaste Special values\nCtrl-Alt-V-v\nCtrl-⌘-V-v\n\n\n6\npaste-special\nPaste Special formulas\nCtrl-Alt-V-f\nCtrl-⌘-V-f\n\n\n6\npaste-special\nPaste Special comments\nCtrl-Alt-V-c\nCtrl-⌘-V-c\n\n\n6\nworking with files\nSave File With New Name (i.e. “Save As”)\nF12\n⌘-⇧-Shift-S\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n7\ngeneral\nDisplay shortcut menu (i.e. same as right click)\nShift-F10\nShift-F10\n\n\n7\nworking with files\nGo to next workbook\nCtrl-Tab\n⌘–\n\n\n7\nworking with files\nClose file\nCtrl-F4\n⌘-W\n\n\n7\nworking with files\nClose all open Excel files\nAlt-F4\n⌘-Q\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n8\nediting-inside-cell\nWhile editing cell, allow use of arrow keys to create reference\nF2\nF2\n\n\n8\nediting-inside-cell\nHighlight within a cell\nShift-Left/Right\nShift-Left/Right\n\n\n8\nediting-inside-cell\nHighlight contiguous items\nCtrl-Shift-Left/Right\nCtrl-Shift-Left/Right\n\n\n8\nediting-inside-cell\nReferencing a cell from another worksheet\nCtrl-PageUp/Down-Arrows\nCtrl-Fn-Down/Up-Arrows\n\n\n8\nformatting cells\nRepeat last action\nF4\n⌘-Y\n\n\n8\nformatting cells\nIncrease font size\nAlt-h-fg\n⌘-Shift-&gt;\n\n\n8\nformatting cells\nDecrease font size\nAlt-h-fk\n⌘-Shift-&lt;\n\n\n8\nformatting cells\nIncrease decimal\nAlt-h-O\n\n\n\n8\nformatting cells\nDecrease decimal\nAlt-h-9\n\n\n\n8\nformatting cells\nIncrease indent\nAlt-h-6\nCtrl-M\n\n\n8\nformatting cells\nDecrease indent\nAlt-h-5\n⌘-Shift-m\n\n\n8\ngeneral\nPaste Special\nAlt-E-S\n⌘-Option-V\n\n\n8\ngeneral\nPaste name into formula\nF3\n\n\n\n8\ngeneral\nInsert worksheet\nShift-F11\nShift-F11\n\n\n8\ngeneral\nDefine a name for a cell\nCtrl-F3\nCtrl-F3\n\n\n8\nother\nShow all constants\nF5-Alt-s-o\n\n\n\n8\nother\nHighlight cells with comments\nF5-Alt-s-c\n\n\n\n8\nother\nAutosum\nAlt-=\n⌘-T\n\n\n8\nribbon\nShow ribbon accelerator keys\nAlt\n\n\n\n8\nribbon\nShow/hide ribbon\nCtrl-F1\n⌘-⌥-R\n\n\n8\nworking with files\nOpen print preview window\nCtrl-F2",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>\"hot-keys\"</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0010330-moreTopics-v001.html",
     "href": "0010330-moreTopics-v001.html",
-    "title": "19  Other topics (not finished editing yet)",
+    "title": "21  21.  Other topics (not finished editing yet)",
     "section": "",
     "text": "Custom formatting dates and times.\ntext function\n\nfunctions that spill\nvlookup\nxlookup\nmatch\nindex",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Other topics (not finished editing yet)</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'><yrChapterNumber>21. </yrChapterNumber> Other topics (not finished editing yet)</span>"
     ]
   },
   {
     "objectID": "0999000-toDo-v001.html",
     "href": "0999000-toDo-v001.html",
-    "title": "20  Links to more info",
+    "title": "22  22.  Links to more info",
     "section": "",
     "text": "Dynamic arrays, functions and formulas\nhttps://www.ablebits.com/office-addins-blog/excel-dynamic-arrays-functions-formulas/",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Links to more info</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'><yrChapterNumber>22. </yrChapterNumber> Links to more info</span>"
     ]
   }
 ]

@@ -15,42 +15,47 @@ book:
 #    - part: 0000010-partIntro-v001.qmd
     - part: The very basics
       chapters:
-      - 0000100-mostBasicConcepts-v001.qmd
-      - 0000135-formatting-v001.qmd
-      - 0000165-selecting-v001.qmd
+      - 0000100-mostBasicConcepts-v001.qmd  # yrChapterNumber 1
+      - 0000135-formatting-v001.qmd         # yrChapterNumber 2
+      - 0000165-selecting-v001.qmd           # yrChapterNumber 3
 #    - part: 0010100-partFormulas-v001.qmd
     - part: Formulas
       chapters:
-      - 0010200-introToFormulas-v001.qmd
-      - 0010205-relativeAbsoluteRefs-v001.qmd
+      - 0010200-introToFormulas-v001.qmd       # yrChapterNumber 4
+      - 0010205-relativeAbsoluteRefs-v001.qmd  # yrChapterNumber 5
 #      - 0010210-moreOnCellReferences-v001.qmd
-      - 0010215-mouseToEnterCellReferences-v001.qmd
+      - 0010215-mouseToEnterCellReferences-v001.qmd  # yrChapterNumber 6
 #    - part: 0010219-partFunctions-v001.qmd
-    - part: Functions
+    - part: Intro to Excel Functions
       chapters:
-      - 0010220-introToFunctions-v001.qmd
-      - 0010225-randomValues-v001.qmd
-      - 0010240-logicalData-v001.qmd
-      - 0010300-dateTimeData-v001.qmd
-      - 0010300-textData-v001.qmd
-      - 0010308-castingToText-v001.qmd
-      - 0010309-dataTypes-v001.qmd
-      - 0020100-tablesSorting-v001.qmd
-      - 0030100-pivotTables-v001.qmd
+      - 0010220-introToFunctions-v001.qmd     # yrChapterNumber 7
+      - 0010225-randomValues-v001.qmd         # yrChapterNumber 8
+      - 0010240-logicalData-v001.qmd          # yrChapterNumber 9
+      - 0700100-complexFormulas-v001.qmd      # yrChapterNumber 10
+      - 0010300-dateTimeData-v001.qmd         # yrChapterNumber 11
+      - 0010300-textData-v001.qmd             # yrChapterNumber 12
+      - 0010308-castingToText-v001.qmd       # yrChapterNumber 13
+      - 0010309-dataTypes-v001.qmd                # yrChapterNumber 14
+      
+    - part: More Functions
+      chapters:
+      - 0200100-countCounta-v001.qmd            # yrChapterNumber 15
+    
+    - part: Tables and Pivot Tables
+      chapters:
+      - 0020100-tablesSorting-v001.qmd        # yrChapterNumber 16
+      - 0030100-pivotTables-v001.qmd        # yrChapterNumber 17
       
     - part: Practice
       chapters:
-      - 0800100-practice-deptStore-v001.qmd
+      - 0800100-practice-deptStore-v001.qmd        # yrChapterNumber 18
+      - 0800200-practice-salepeople-v001.qmd        # yrChapterNumber 19
 
-    - part: Productivity tips
-      chapters:
-      - 0700100-complexFormulas-v001.qmd
-      
     - part: Apendices
       chapters:
-      - 0000200-hotkeys-v001.qmd
-      - 0010330-moreTopics-v001.qmd
-      - 0999000-toDo-v001.qmd
+      - 0000200-hotkeys-v001.qmd        # yrChapterNumber 20
+      - 0010330-moreTopics-v001.qmd        # yrChapterNumber 21
+      - 0999000-toDo-v001.qmd        # yrChapterNumber 22
 
 #    - intro.qmd
 #    - summary.qmd
