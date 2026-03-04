@@ -747,25 +747,36 @@
     ]
   },
   {
+    "objectID": "0900000-listOfDatasets-v001.html",
+    "href": "0900000-listOfDatasets-v001.html",
+    "title": "21  21.  Sample Datasets",
+    "section": "",
+    "text": "The following are some datasets that can be downloaded.\nClick the headers to sort by that column.\n\n\n\n\n\n\n\n\n\n\n\nDataset\nTopic\nRows\n# Nominal Variables\n# Numeric Variables\nDownload Link\n\n\n\n\nTitanic\nPassenger survival prediction\n891\n5\n4\nhttps://www.openml.org/d/40945\n\n\nAdult Income\nPredict income &gt;50K\n48842\n8\n6\nhttps://archive.ics.uci.edu/ml/datasets/adult\n\n\nBank Marketing\nMarketing campaign term deposit prediction\n45211\n10\n6\nhttps://archive.ics.uci.edu/ml/datasets/bank+marketing\n\n\nOnline Retail\nE-commerce transactions\n541909\n4\n2\nhttps://archive.ics.uci.edu/ml/datasets/online+retail\n\n\nAmes Housing\nHouse price prediction\n2930\n40\n35\nhttps://www.kaggle.com/datasets/prevek18/ames-housing-dataset\n\n\nBoston Housing\nBoston housing prices\n506\n1\n12\nhttps://scikit-learn.org/stable/datasets/real_world.html#boston-dataset\n\n\nTelco Customer Churn\nTelecom churn prediction\n7043\n10\n3\nhttps://www.kaggle.com/datasets/blastchar/telco-customer-churn\n\n\nIBM HR Attrition\nEmployee attrition prediction\n1470\n9\n26\nhttps://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset\n\n\nSuperstore Sales\nRetail sales analytics\n9994\n6\n4\nhttps://www.kaggle.com/datasets/vivek468/superstore-dataset-final\n\n\nMarketing Campaign\nCustomer marketing response\n2240\n5\n10\nhttps://www.kaggle.com/datasets/imakash3011/customer-personality-analysis\n\n\nAirbnb NYC Listings\nShort-term rental marketplace\n48895\n3\n4\nhttps://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data\n\n\nVideo Game Sales\nGlobal video game sales\n16598\n3\n4\nhttps://www.kaggle.com/datasets/gregorut/videogamesales\n\n\nWine Quality\nWine chemistry and quality prediction\n6497\n1\n11\nhttps://archive.ics.uci.edu/ml/datasets/wine+quality\n\n\nAuto MPG\nCar fuel efficiency\n398\n2\n5\nhttps://archive.ics.uci.edu/ml/datasets/auto+mpg\n\n\nHeart Disease (Cleveland)\nHeart disease diagnosis\n303\n4\n9\nhttps://archive.ics.uci.edu/ml/datasets/heart+disease\n\n\nCar Evaluation\nCar purchase decision classification\n1728\n6\n0\nhttps://archive.ics.uci.edu/ml/datasets/car+evaluation\n\n\nDefault of Credit Card Clients\nCredit default prediction\n30000\n3\n20\nhttps://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients\n\n\nAdvertising\nAdvertising spend vs sales\n200\n0\n4\nhttps://www.kaggle.com/datasets/ashydv/advertising-dataset\n\n\nGerman Credit\nCredit risk classification\n1000\n13\n7\nhttps://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)\n\n\nBanknote Authentication\nDetect counterfeit banknotes\n1372\n0\n4\nhttps://archive.ics.uci.edu/ml/datasets/banknote+authentication\n\n\nMushroom\nEdible vs poisonous mushrooms classification\n8124\n22\n0\nhttps://archive.ics.uci.edu/ml/datasets/mushroom\n\n\nStudent Performance\nStudent grade prediction\n395\n17\n16\nhttps://archive.ics.uci.edu/ml/datasets/student+performance",
+    "crumbs": [
+      "Apendices",
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'><yrChapterNumber>21. </yrChapterNumber> Sample Datasets</span>"
+    ]
+  },
+  {
     "objectID": "0010330-moreTopics-v001.html",
     "href": "0010330-moreTopics-v001.html",
-    "title": "21  21.  Other topics (not finished editing yet)",
+    "title": "22  22.  Other topics (not finished editing yet)",
     "section": "",
     "text": "Custom formatting dates and times.\ntext function\n\nfunctions that spill\nvlookup\nxlookup\nmatch\nindex",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'><yrChapterNumber>21. </yrChapterNumber> Other topics (not finished editing yet)</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'><yrChapterNumber>22. </yrChapterNumber> Other topics (not finished editing yet)</span>"
     ]
   },
   {
     "objectID": "0999000-toDo-v001.html",
     "href": "0999000-toDo-v001.html",
-    "title": "22  22.  Links to more info",
+    "title": "23  23.  Links to more info",
     "section": "",
     "text": "Dynamic arrays, functions and formulas\nhttps://www.ablebits.com/office-addins-blog/excel-dynamic-arrays-functions-formulas/",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'><yrChapterNumber>22. </yrChapterNumber> Links to more info</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'><yrChapterNumber>23. </yrChapterNumber> Links to more info</span>"
     ]
   }
 ]

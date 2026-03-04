@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>9&nbsp; 9.  logical values (i.e.&nbsp;TRUE, FALSE) – YR Excel Notes</title>
+<title>21&nbsp; 21.  Sample Datasets – YR Excel Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./0700100-complexFormulas-v001.html" rel="next">
-<link href="./0010225-randomValues-v001.html" rel="prev">
+<link href="./0010330-moreTopics-v001.html" rel="next">
+<link href="./0000200-hotkeys-v001.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -42,9 +42,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-dcbfc57d77cecfb36a223989b6e6cd2b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -76,6 +73,83 @@ ul.task-list li input[type="checkbox"] {
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <script src="yrstuff.js"></script>
+<script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+<script src="https://unpkg.com/tablesort@5.3.0/dist/sorts/tablesort.number.min.js"></script>
+
+<style>
+table th {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+table th::after {
+  margin-left: 6px;
+  font-size: 0.8em;
+}
+
+table th.sort-up::after {
+  content: "▲";
+}
+
+table th.sort-down::after {
+  content: "▼";
+}
+
+table td a {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+
+    /* enable table sorting */
+    document.querySelectorAll("table").forEach(function(tbl){
+
+      new Tablesort(tbl);
+
+      tbl.addEventListener("beforeSort", function(){
+        tbl.querySelectorAll("th").forEach(th=>{
+          th.classList.remove("sort-up","sort-down");
+        });
+      });
+
+      tbl.addEventListener("afterSort", function(){
+        const ths = tbl.querySelectorAll("th");
+        ths.forEach(th=>{
+          if(th.classList.contains("sort-up") || th.classList.contains("sort-down")){
+            return;
+          }
+
+          if(th.getAttribute("aria-sort") === "ascending"){
+            th.classList.add("sort-up");
+          }
+
+          if(th.getAttribute("aria-sort") === "descending"){
+            th.classList.add("sort-down");
+          }
+        });
+      });
+
+    });
+
+    /* convert plain URLs in tables to links that open in same new tab */
+    document.querySelectorAll("table td").forEach(function(td){
+      const txt = td.textContent.trim();
+
+      if(txt.startsWith("http://") || txt.startsWith("https://")){
+        td.innerHTML =
+          '<a href="' + txt + '" target="datasets-tab" rel="noopener">' +
+          txt +
+          '</a>';
+      }
+    });
+
+  });
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -90,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0010220-introToFunctions-v001.html">Intro to Excel Functions</a></li><li class="breadcrumb-item"><a href="./0010240-logicalData-v001.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title"><yrchapternumber>9. </yrchapternumber> logical values (i.e. TRUE, FALSE)</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0000200-hotkeys-v001.html">Apendices</a></li><li class="breadcrumb-item"><a href="./0900000-listOfDatasets-v001.html"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title"><yrchapternumber>21. </yrchapternumber> Sample Datasets</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -202,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./0010240-logicalData-v001.html" class="sidebar-item-text sidebar-link active">
+  <a href="./0010240-logicalData-v001.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title"><yrchapternumber>9. </yrchapternumber> logical values (i.e. TRUE, FALSE)</span></span></a>
   </div>
 </li>
@@ -318,7 +392,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./0900000-listOfDatasets-v001.html" class="sidebar-item-text sidebar-link">
+  <a href="./0900000-listOfDatasets-v001.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title"><yrchapternumber>21. </yrchapternumber> Sample Datasets</span></span></a>
   </div>
 </li>
@@ -341,25 +415,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#if-function" id="toc-if-function" class="nav-link active" data-scroll-target="#if-function"><span class="header-section-number">9.1</span> if function</a></li>
-  <li><a href="#and-function" id="toc-and-function" class="nav-link" data-scroll-target="#and-function"><span class="header-section-number">9.2</span> and function</a></li>
-  <li><a href="#or-not-functions" id="toc-or-not-functions" class="nav-link" data-scroll-target="#or-not-functions"><span class="header-section-number">9.3</span> or, not functions</a></li>
-  <li><a href="#more-complex-examples" id="toc-more-complex-examples" class="nav-link" data-scroll-target="#more-complex-examples"><span class="header-section-number">9.4</span> More complex examples</a></li>
-  <li><a href="#isblank-and-other-logical-functions" id="toc-isblank-and-other-logical-functions" class="nav-link" data-scroll-target="#isblank-and-other-logical-functions"><span class="header-section-number">9.5</span> isblank and other logical functions</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0010220-introToFunctions-v001.html">Intro to Excel Functions</a></li><li class="breadcrumb-item"><a href="./0010240-logicalData-v001.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title"><yrchapternumber>9. </yrchapternumber> logical values (i.e. TRUE, FALSE)</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0000200-hotkeys-v001.html">Apendices</a></li><li class="breadcrumb-item"><a href="./0900000-listOfDatasets-v001.html"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title"><yrchapternumber>21. </yrchapternumber> Sample Datasets</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title"><yrchapternumber>9. </yrchapternumber> logical values (i.e.&nbsp;TRUE, FALSE)</span></h1>
+<h1 class="title"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title"><yrchapternumber>21. </yrchapternumber> Sample Datasets</span></h1>
 </div>
 
 
@@ -376,150 +440,208 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-layout-panel" data-layout-ncol="1">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/109.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="ExcelFormulas-v011/109.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/110.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="ExcelFormulas-v011/110.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/111.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="ExcelFormulas-v011/111.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/112.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="ExcelFormulas-v011/112.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/113.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="ExcelFormulas-v011/113.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/114.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="ExcelFormulas-v011/114.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-</div>
-<section id="if-function" class="level2" data-number="9.1">
-<h2 data-number="9.1" class="anchored" data-anchor-id="if-function"><span class="header-section-number">9.1</span> if function</h2>
-<div class="quarto-layout-panel" data-layout-ncol="1">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/115.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="ExcelFormulas-v011/115.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/116.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="ExcelFormulas-v011/116.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/117.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="ExcelFormulas-v011/117.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/118.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="ExcelFormulas-v011/118.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/119.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="ExcelFormulas-v011/119.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-</div>
-</section>
-<section id="and-function" class="level2" data-number="9.2">
-<h2 data-number="9.2" class="anchored" data-anchor-id="and-function"><span class="header-section-number">9.2</span> and function</h2>
-<div class="quarto-layout-panel" data-layout-ncol="1">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/121.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-12"><img src="ExcelFormulas-v011/121.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/122.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-13"><img src="ExcelFormulas-v011/122.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/123.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-14"><img src="ExcelFormulas-v011/123.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/124.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="ExcelFormulas-v011/124.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/125.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-16"><img src="ExcelFormulas-v011/125.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/126.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-17"><img src="ExcelFormulas-v011/126.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/127.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-18"><img src="ExcelFormulas-v011/127.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-</div>
-</section>
-<section id="or-not-functions" class="level2" data-number="9.3">
-<h2 data-number="9.3" class="anchored" data-anchor-id="or-not-functions"><span class="header-section-number">9.3</span> or, not functions</h2>
-<div class="quarto-layout-panel" data-layout-ncol="1">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/128.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="ExcelFormulas-v011/128.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/129.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img src="ExcelFormulas-v011/129.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/130.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img src="ExcelFormulas-v011/130.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-</div>
-</section>
-<section id="more-complex-examples" class="level2" data-number="9.4">
-<h2 data-number="9.4" class="anchored" data-anchor-id="more-complex-examples"><span class="header-section-number">9.4</span> More complex examples</h2>
-<div class="quarto-layout-panel" data-layout-ncol="1">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/131.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img src="ExcelFormulas-v011/131.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-</div>
-</section>
-<section id="isblank-and-other-logical-functions" class="level2" data-number="9.5">
-<h2 data-number="9.5" class="anchored" data-anchor-id="isblank-and-other-logical-functions"><span class="header-section-number">9.5</span> isblank and other logical functions</h2>
-<div class="quarto-layout-panel" data-layout-ncol="1">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<p><a href="ExcelFormulas-v011/133.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img src="ExcelFormulas-v011/133.jpg" class="img-fluid"></a></p>
-</div>
-</div>
-</div>
+<p>The following are some datasets that can be downloaded.</p>
+<p>Click the headers to sort by that column.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 19%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Dataset</th>
+<th>Topic</th>
+<th style="text-align: right;">Rows</th>
+<th style="text-align: right;"># Nominal Variables</th>
+<th style="text-align: right;"># Numeric Variables</th>
+<th>Download Link</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Titanic</td>
+<td>Passenger survival prediction</td>
+<td style="text-align: right;">891</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">4</td>
+<td>https://www.openml.org/d/40945</td>
+</tr>
+<tr class="even">
+<td>Adult Income</td>
+<td>Predict income &gt;50K</td>
+<td style="text-align: right;">48842</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">6</td>
+<td>https://archive.ics.uci.edu/ml/datasets/adult</td>
+</tr>
+<tr class="odd">
+<td>Bank Marketing</td>
+<td>Marketing campaign term deposit prediction</td>
+<td style="text-align: right;">45211</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">6</td>
+<td>https://archive.ics.uci.edu/ml/datasets/bank+marketing</td>
+</tr>
+<tr class="even">
+<td>Online Retail</td>
+<td>E-commerce transactions</td>
+<td style="text-align: right;">541909</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2</td>
+<td>https://archive.ics.uci.edu/ml/datasets/online+retail</td>
+</tr>
+<tr class="odd">
+<td>Ames Housing</td>
+<td>House price prediction</td>
+<td style="text-align: right;">2930</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">35</td>
+<td>https://www.kaggle.com/datasets/prevek18/ames-housing-dataset</td>
+</tr>
+<tr class="even">
+<td>Boston Housing</td>
+<td>Boston housing prices</td>
+<td style="text-align: right;">506</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">12</td>
+<td>https://scikit-learn.org/stable/datasets/real_world.html#boston-dataset</td>
+</tr>
+<tr class="odd">
+<td>Telco Customer Churn</td>
+<td>Telecom churn prediction</td>
+<td style="text-align: right;">7043</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">3</td>
+<td>https://www.kaggle.com/datasets/blastchar/telco-customer-churn</td>
+</tr>
+<tr class="even">
+<td>IBM HR Attrition</td>
+<td>Employee attrition prediction</td>
+<td style="text-align: right;">1470</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">26</td>
+<td>https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset</td>
+</tr>
+<tr class="odd">
+<td>Superstore Sales</td>
+<td>Retail sales analytics</td>
+<td style="text-align: right;">9994</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">4</td>
+<td>https://www.kaggle.com/datasets/vivek468/superstore-dataset-final</td>
+</tr>
+<tr class="even">
+<td>Marketing Campaign</td>
+<td>Customer marketing response</td>
+<td style="text-align: right;">2240</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">10</td>
+<td>https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis</td>
+</tr>
+<tr class="odd">
+<td>Airbnb NYC Listings</td>
+<td>Short-term rental marketplace</td>
+<td style="text-align: right;">48895</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+<td>https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data</td>
+</tr>
+<tr class="even">
+<td>Video Game Sales</td>
+<td>Global video game sales</td>
+<td style="text-align: right;">16598</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+<td>https://www.kaggle.com/datasets/gregorut/videogamesales</td>
+</tr>
+<tr class="odd">
+<td>Wine Quality</td>
+<td>Wine chemistry and quality prediction</td>
+<td style="text-align: right;">6497</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">11</td>
+<td>https://archive.ics.uci.edu/ml/datasets/wine+quality</td>
+</tr>
+<tr class="even">
+<td>Auto MPG</td>
+<td>Car fuel efficiency</td>
+<td style="text-align: right;">398</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">5</td>
+<td>https://archive.ics.uci.edu/ml/datasets/auto+mpg</td>
+</tr>
+<tr class="odd">
+<td>Heart Disease (Cleveland)</td>
+<td>Heart disease diagnosis</td>
+<td style="text-align: right;">303</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">9</td>
+<td>https://archive.ics.uci.edu/ml/datasets/heart+disease</td>
+</tr>
+<tr class="even">
+<td>Car Evaluation</td>
+<td>Car purchase decision classification</td>
+<td style="text-align: right;">1728</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">0</td>
+<td>https://archive.ics.uci.edu/ml/datasets/car+evaluation</td>
+</tr>
+<tr class="odd">
+<td>Default of Credit Card Clients</td>
+<td>Credit default prediction</td>
+<td style="text-align: right;">30000</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">20</td>
+<td>https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients</td>
+</tr>
+<tr class="even">
+<td>Advertising</td>
+<td>Advertising spend vs sales</td>
+<td style="text-align: right;">200</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4</td>
+<td>https://www.kaggle.com/datasets/ashydv/advertising-dataset</td>
+</tr>
+<tr class="odd">
+<td>German Credit</td>
+<td>Credit risk classification</td>
+<td style="text-align: right;">1000</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">7</td>
+<td>https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)</td>
+</tr>
+<tr class="even">
+<td>Banknote Authentication</td>
+<td>Detect counterfeit banknotes</td>
+<td style="text-align: right;">1372</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">4</td>
+<td>https://archive.ics.uci.edu/ml/datasets/banknote+authentication</td>
+</tr>
+<tr class="odd">
+<td>Mushroom</td>
+<td>Edible vs poisonous mushrooms classification</td>
+<td style="text-align: right;">8124</td>
+<td style="text-align: right;">22</td>
+<td style="text-align: right;">0</td>
+<td>https://archive.ics.uci.edu/ml/datasets/mushroom</td>
+</tr>
+<tr class="even">
+<td>Student Performance</td>
+<td>Student grade prediction</td>
+<td style="text-align: right;">395</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">16</td>
+<td>https://archive.ics.uci.edu/ml/datasets/student+performance</td>
+</tr>
+</tbody>
+</table>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -928,13 +1050,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./0010225-randomValues-v001.html" class="pagination-link" aria-label="<yrChapterNumber>8. </yrChapterNumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title"><yrchapternumber>8. </yrchapternumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span></span>
+      <a href="./0000200-hotkeys-v001.html" class="pagination-link" aria-label="<yrChapterNumber>20. </yrChapterNumber> &quot;hot-keys&quot;">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title"><yrchapternumber>20. </yrchapternumber> “hot-keys”</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./0700100-complexFormulas-v001.html" class="pagination-link" aria-label="<yrChapterNumber>10. </yrChapterNumber> Tips for working with formulas">
-        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title"><yrchapternumber>10. </yrchapternumber> Tips for working with formulas</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./0010330-moreTopics-v001.html" class="pagination-link" aria-label="<yrChapterNumber>22. </yrChapterNumber> Other topics (not finished editing yet)">
+        <span class="nav-page-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title"><yrchapternumber>22. </yrchapternumber> Other topics (not finished editing yet)</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -951,38 +1073,6 @@ titles.forEach(title => {
   }
 });
 </script>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
-(function() {
-  let previousOnload = window.onload;
-  window.onload = () => {
-    if (previousOnload) {
-      previousOnload();
-    }
-    lightboxQuarto.on('slide_before_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      const href = trigger.getAttribute('href');
-      if (href !== null) {
-        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-        if (imgEl !== null) {
-          const srcAttr = imgEl.getAttribute("src");
-          if (srcAttr && srcAttr.startsWith("data:")) {
-            slideConfig.href = srcAttr;
-          }
-        }
-      } 
-    });
-  
-    lightboxQuarto.on('slide_after_load', (data) => {
-      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(slideNode);
-      }
-    });
-  
-  };
-  
-})();
-          </script>
 
 
 

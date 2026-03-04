@@ -54,8 +54,9 @@ book:
     - part: Apendices
       chapters:
       - 0000200-hotkeys-v001.qmd        # yrChapterNumber 20
-      - 0010330-moreTopics-v001.qmd        # yrChapterNumber 21
-      - 0999000-toDo-v001.qmd        # yrChapterNumber 22
+      - 0900000-listOfDatasets-v001.qmd # yrChapterNumber 21
+      - 0010330-moreTopics-v001.qmd        # yrChapterNumber 22
+      - 0999000-toDo-v001.qmd        # yrChapterNumber 23
 
 #    - intro.qmd
 #    - summary.qmd
