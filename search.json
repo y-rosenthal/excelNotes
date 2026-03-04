@@ -593,190 +593,201 @@
     ]
   },
   {
+    "objectID": "0204000-summaryOfFunctions-v001.html",
+    "href": "0204000-summaryOfFunctions-v001.html",
+    "title": "16  16 Summary of Functions",
+    "section": "",
+    "text": "Expand All\n\n\nCollapse All\n\n\n\n\n\nNumeric Functions\n\n\nAVERAGE(number1,[number2],…)\nReturns the arithmetic mean of the supplied numbers. Text and empty cells are ignored.\n\nnumber1 – The first number, cell reference, or range to average.\n[number2], … – Optional additional numbers, ranges, or references to include in the average.\n\nExample: =AVERAGE(A1:A10) returns the mean of values in A1 through A10.\n\n\nSUM(number1,[number2],…)\nAdds numbers together and returns their total.\n\nnumber1 – The first number, cell reference, or range to add.\n[number2], … – Optional additional numbers, ranges, or references to include in the total.\n\nExample: =SUM(A1:A10) adds all values in A1 through A10.\n\n\n\nCounting Functions\n\n\n\nCOUNT(value1,[value2],…)\nCounts the number of cells containing numeric values.\n\nvalue1 – The first value, cell reference, or range to evaluate.\n[value2], … – Optional additional values or ranges to include.\n\nExample: =COUNT(A1:A10) counts how many cells in the range contain numbers.\n\n\nCOUNTA(value1,[value2],…)\nCounts the number of non-empty cells (numbers, text, logical values, or errors).\n\nvalue1 – The first value, reference, or range to evaluate.\n[value2], … – Optional additional values or ranges to include.\n\nExample: =COUNTA(A1:A10) counts all cells in the range that are not empty.\n\n\n… also see COUNTIF and COUNTIFS in the “…IF/…IFS” functions section below\n\n\n\nmax, min, large, small functions\n\n\n\nMAX(number1,[number2],…)\nReturns the largest numeric value in a list or range.\n\nnumber1 – The first number, reference, or range.\n[number2], … – Optional additional numbers or ranges.\n\nExample: =MAX(A1:A10) returns the largest value in the range.\n\n\nMIN(number1,[number2],…)\nReturns the smallest numeric value in a list or range.\n\nnumber1 – The first number, reference, or range.\n[number2], … – Optional additional numbers or ranges.\n\nExample: =MIN(A1:A10) returns the smallest value in the range.\n\n\nLARGE(array,k)\nReturns the k-th largest value in a dataset.\n\narray – The range or array containing numeric values.\nk – The position from largest (1 = largest value, 2 = second largest, etc.).\n\nExample: =LARGE(A1:A10,2) returns the second-largest value.\n\n\nSMALL(array,k)\nReturns the k-th smallest value in a dataset.\n\narray – The range or array containing numeric values.\nk – The position from smallest (1 = smallest value, 2 = second smallest, etc.).\n\nExample: =SMALL(A1:A10,3) returns the third-smallest value.\n\n\n\nLogical Functions\n\n\n\nIF(logical_test,[value_if_true],[value_if_false])\nPerforms a logical test and returns one value if the test is TRUE and another if FALSE.\n\nlogical_test – A condition that evaluates to TRUE or FALSE (e.g., A1&gt;10).\n[value_if_true] – Value returned if the test is TRUE.\n[value_if_false] – Value returned if the test is FALSE.\n\nExample: =IF(A1&gt;50,\"Pass\",\"Fail\")\n\n\nIFS(logical_test1 , value_if_true1 , … )\nEvaluates multiple conditions and returns the value associated with the first TRUE condition.\n\nlogical_test1 – First condition to evaluate.\nvalue_if_true1 – Value returned if the first condition is TRUE.\nAdditional logical tests and results can follow.\n\nExample: =IFS(A1&gt;=90,\"A\",A1&gt;=80,\"B\",A1&gt;=70,\"C\")\n\n\nAND(logical1,[logical2],…)\nReturns TRUE if all supplied conditions evaluate to TRUE.\n\nlogical1 – First logical condition.\n[logical2], … – Optional additional logical conditions.\n\nExample: =AND(A1&gt;0,A1&lt;100)\n\n\nOR(logical1,[logical2],…)\nReturns TRUE if any of the supplied conditions evaluate to TRUE.\n\nlogical1 – First logical condition.\n[logical2], … – Optional additional logical conditions.\n\nExample: =OR(A1=\"Yes\",A1=\"Y\")\n\n\nIFERROR(value,value_if_error)\nReturns a specified value if a formula results in an error.\n\nvalue – The formula or expression to evaluate.\nvalue_if_error – Value returned if an error occurs.\n\nExample: =IFERROR(A1/B1,\"Division Error\")\n\n\n\n“IS” Functions\n\n\n\nISBLANK(value)\nChecks whether a cell is empty.\n\nvalue – The cell or expression to test.\n\nReturns TRUE if the cell is blank, otherwise FALSE.\n\n\nISERROR(value) … also se IFERROR in the Logical Functions section\nChecks whether a value results in an error.\n\nvalue – The value or formula to test.\n\nReturns TRUE if the result is any Excel error (e.g., #DIV/0!, #N/A).\n\n\nISEVEN(number)\nChecks whether a number is even.\n\nnumber – The number to evaluate.\n\nReturns TRUE if the number is even, otherwise FALSE.\n\n\nISODD(number)\nChecks whether a number is odd.\n\nnumber – The number to evaluate.\n\nReturns TRUE if the number is odd, otherwise FALSE.\n\n\n\n“…IF/…IFS” functions\n\n\n\nSUMIF(range,criteria,[sum_range])\nAdds values that meet a specified condition.\n\nrange – Cells evaluated against the condition.\ncriteria – The condition used to determine which cells to include.\n[sum_range] – Optional range of values to sum; if omitted, range is summed.\n\nExample: =SUMIF(A1:A10,\"&gt;10\",B1:B10)\n\n\nSUMIFS(sum_range,criteria_range1,criteria1,…)\nAdds values that meet multiple conditions.\n\nsum_range – The range of numbers to sum.\ncriteria_range1 – First range to evaluate.\ncriteria1 – Condition applied to the first range.\nAdditional criteria ranges and conditions may follow.\n\n\n\nAVERAGEIF(range,criteria,[average_range])\nCalculates the average of values that meet a specified condition.\n\nrange – Range evaluated against the condition.\ncriteria – Condition used to select cells.\n[average_range] – Optional range containing the values to average.\n\n\n\nAVERAGEIFS(average_range,criteria_range1,criteria1,…)\nCalculates the average of values that meet multiple conditions.\n\naverage_range – Range containing numbers to average.\ncriteria_range1 – First range evaluated.\ncriteria1 – Condition applied to the range.\n\n\n\nCOUNTIF(range,criteria)\nCounts the number of cells that meet a specified condition.\n\nrange – Cells to evaluate.\ncriteria – Condition used to count matching cells.\n\nExample: =COUNTIF(A1:A10,\"&gt;=50\")\n\n\nCOUNTIFS(criteria_range1,criteria1,…)\nCounts cells that meet multiple conditions.\n\ncriteria_range1 – First range evaluated.\ncriteria1 – Condition applied to the range.\nAdditional range–criteria pairs can follow.\n\n\n\n\nDate and Time Functions\n\n\n\nTODAY()\nReturns the current system date.\nThis function takes no arguments and updates automatically when the worksheet recalculates.\n\n\nDATE(year, month, day)\nCreates a valid Excel date from separate year, month, and day values.\n\nyear – Four-digit year.\nmonth – Month number (1–12).\nday – Day of the month.\n\nExample: =DATE(2026,3,4)\n\n\nMONTH(serial_number)\nReturns the month (1–12) from a date.\n\nserial_number – A valid Excel date or reference containing a date.\n\n\n\nYEAR(serial_number)\nReturns the year from a date.\n\nserial_number – A valid Excel date or reference.\n\n\n\nWEEKDAY(serial_number)\nReturns the day of the week as a number.\n\nserial_number – A valid Excel date.\n\nBy default: 1 = Sunday, 7 = Saturday.\n\n\nEDATE(start_date, months)\nReturns a date a specified number of months before or after a given date.\n\nstart_date – Starting date.\nmonths – Number of months to add (negative values subtract months).\n\nExample: =EDATE(A1,6)\n\n\nTEXT(value, format_text)\nConverts a number or date into text using a specified format.\n\nvalue – The number or date to format.\nformat_text – Formatting code (e.g., \"mm/dd/yyyy\").\n\nExample: =TEXT(A1,\"mmmm yyyy\")\n\n\n\nLookup Functions\n\n\n\nVLOOKUP(lookup_value,table_array,col_index_num,FALSE)\nSearches the first column of a table and returns a value from a specified column.\n\nlookup_value – Value to search for.\ntable_array – Range containing the lookup table.\ncol_index_num – Column number (within the table) to return a value from.\nFALSE – Specifies an exact match.\n\nExample: =VLOOKUP(A2,A1:D100,3,FALSE)\n\n\nXLOOKUP\nA modern replacement for VLOOKUP that searches a range and returns a matching value from another range.\nBasic syntax: XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], …)\n\nlookup_value – Value to search for.\nlookup_array – Range containing values to search.\nreturn_array – Range containing values to return.\n[if_not_found] – Optional value returned if no match is found.\n\nExample: =XLOOKUP(A2,A2:A100,B2:B100)\n\n\n\nTextual Functions\n\n\n\nCONCATENATE(text1,[text2],…) (similar to & operator)\nJoins multiple text strings into a single string.\n\ntext1 – First text value.\n[text2], … – Optional additional text values.\n\nExample: =CONCATENATE(A1,\" \",B1)\n\n\nLEN(text)\nReturns the number of characters in a text string.\n\ntext – The text or cell reference to evaluate.\n\n\n\nLEFT(text,[num_chars])\nReturns characters from the beginning of a text string.\n\ntext – Text string to extract from.\n[num_chars] – Number of characters to return (default = 1).\n\n\n\nRIGHT(text,[num_chars])\nReturns characters from the end of a text string.\n\ntext – Text string to extract from.\n[num_chars] – Number of characters to return.\n\n\n\nMID(text,start_num,num_chars)\nExtracts characters from the middle of a text string.\n\ntext – Original text string.\nstart_num – Position of the first character to extract.\nnum_chars – Number of characters to return.\n\n\n\nFIND(find_text, within_text, [start_num])\nFinds the position of one text string within another.\n\nfind_text – Text to locate.\nwithin_text – Text to search within.\n[start_num] – Optional starting position for the search.\n\n\n\n\nRandom Numbers functions\n\n\n\nRAND( )\nReturns a random decimal number between 0 and 1.\nThis function takes no arguments and recalculates each time the worksheet updates.\n\n\nRANDBETWEEN(bottom, top)\nReturns a random integer within a specified range.\n\nbottom – The smallest possible number.\ntop – The largest possible number.\n\nExample: =RANDBETWEEN(1,100)",
+    "crumbs": [
+      "Summary of Functions",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'><yrChapterNumber>16</yrChapterNumber> Summary of Functions</span>"
+    ]
+  },
+  {
     "objectID": "0020100-tablesSorting-v001.html",
     "href": "0020100-tablesSorting-v001.html",
-    "title": "16  16.  Sorting Data and working with Tables",
+    "title": "17  17.  Sorting Data and working with Tables",
     "section": "",
-    "text": "16.1 Use data tab to sort\nSee this video for an overview of Excel tables: https://www.youtube.com/watch?v=Bm_uWOUiUFI\nClick here to get the practice file: NBA Statistics for Excel Sorting.xlsx\nThis is also a good video: https://www.youtube.com/watch?v=-alMsXBF2D4&t=20s",
+    "text": "17.1 Use data tab to sort\nSee this video for an overview of Excel tables: https://www.youtube.com/watch?v=Bm_uWOUiUFI\nClick here to get the practice file: NBA Statistics for Excel Sorting.xlsx\nThis is also a good video: https://www.youtube.com/watch?v=-alMsXBF2D4&t=20s",
     "crumbs": [
       "Tables and Pivot Tables",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'><yrChapterNumber>16. </yrChapterNumber> Sorting Data and working with Tables</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'><yrChapterNumber>17. </yrChapterNumber> Sorting Data and working with Tables</span>"
     ]
   },
   {
     "objectID": "0020100-tablesSorting-v001.html#use-data-tab-to-sort",
     "href": "0020100-tablesSorting-v001.html#use-data-tab-to-sort",
-    "title": "16  16.  Sorting Data and working with Tables",
+    "title": "17  17.  Sorting Data and working with Tables",
     "section": "",
     "text": "Highlight the range for your data.\nOn the “Data” tab click the “Sort” button.\nIf the data contains column headers, check “My data has headers”.\nFill out the rest of the info for which columns to sort on and in which order.\nclick OK",
     "crumbs": [
       "Tables and Pivot Tables",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'><yrChapterNumber>16. </yrChapterNumber> Sorting Data and working with Tables</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'><yrChapterNumber>17. </yrChapterNumber> Sorting Data and working with Tables</span>"
     ]
   },
   {
     "objectID": "0020100-tablesSorting-v001.html#excel-tables",
     "href": "0020100-tablesSorting-v001.html#excel-tables",
-    "title": "16  16.  Sorting Data and working with Tables",
-    "section": "16.2 Excel Tables",
-    "text": "16.2 Excel Tables\nSee this video for an overview of Excel tables: https://www.youtube.com/watch?v=-alMsXBF2D4&t=20s\n\nCovert a range to a table\n\nClick inside your data (or highlight the range)\nOn the “Insert” tab click “Table”\nIf the data contains column headers, check “My data has headers”.\nClick OK\nTo change the look of the table, click inside the table and then click on the “Table Design” tab.\nYou can give a name to the table on this tab where it says “Table name” (in the upper left hand corner of the ribbon). The name of the table will be useful later.\n\n\n\nSorting/Filtering rows\n\nUse the buttons at the top of the columns to sort and/or filter the rows based on the values in the columns.\nIf you want to sort on multiple columns, apply the sorts in the reverse order of what you want the final order to be.\n\n\n\nConvert a table back to a “normal” range\nTo convert the table back to a “normal” cell range,\n\nclick inside the table\nclick on the “Table Design” tab then click on “Convert to Range”.\nNote that the formatting (eg. colors) will not change back. You will need to reformat the colors as you would format any other range. The “format painter” button on the “Home” tab could be helpful to copy the format of another cell. To use the format painter button:\n\nclick on a cell whose format you want to copy\nclick on the “Format Painter” button on the Home tab\nClick and drag over the cells that you want to copy the format to.",
+    "title": "17  17.  Sorting Data and working with Tables",
+    "section": "17.2 Excel Tables",
+    "text": "17.2 Excel Tables\nSee this video for an overview of Excel tables: https://www.youtube.com/watch?v=-alMsXBF2D4&t=20s\n\nCovert a range to a table\n\nClick inside your data (or highlight the range)\nOn the “Insert” tab click “Table”\nIf the data contains column headers, check “My data has headers”.\nClick OK\nTo change the look of the table, click inside the table and then click on the “Table Design” tab.\nYou can give a name to the table on this tab where it says “Table name” (in the upper left hand corner of the ribbon). The name of the table will be useful later.\n\n\n\nSorting/Filtering rows\n\nUse the buttons at the top of the columns to sort and/or filter the rows based on the values in the columns.\nIf you want to sort on multiple columns, apply the sorts in the reverse order of what you want the final order to be.\n\n\n\nConvert a table back to a “normal” range\nTo convert the table back to a “normal” cell range,\n\nclick inside the table\nclick on the “Table Design” tab then click on “Convert to Range”.\nNote that the formatting (eg. colors) will not change back. You will need to reformat the colors as you would format any other range. The “format painter” button on the “Home” tab could be helpful to copy the format of another cell. To use the format painter button:\n\nclick on a cell whose format you want to copy\nclick on the “Format Painter” button on the Home tab\nClick and drag over the cells that you want to copy the format to.",
     "crumbs": [
       "Tables and Pivot Tables",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'><yrChapterNumber>16. </yrChapterNumber> Sorting Data and working with Tables</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'><yrChapterNumber>17. </yrChapterNumber> Sorting Data and working with Tables</span>"
     ]
   },
   {
     "objectID": "0030100-pivotTables-v001.html",
     "href": "0030100-pivotTables-v001.html",
-    "title": "17  17.  Pivot Tables",
+    "title": "18  18.  Pivot Tables",
     "section": "",
-    "text": "17.1 Pivot table tutorial (video tutorial)\nFollow along with one (or both if you like) of the tutorials below. The first one is a video. The 2nd one is a webpage that is written out.\nSee this video for an overview of Excel pivot tables: https://www.youtube.com/watch?v=PdJzy956wo4\nClick here to get the practice file: PivotTables-KevinCookies.xlsx",
+    "text": "18.1 Pivot table tutorial (video tutorial)\nFollow along with one (or both if you like) of the tutorials below. The first one is a video. The 2nd one is a webpage that is written out.\nSee this video for an overview of Excel pivot tables: https://www.youtube.com/watch?v=PdJzy956wo4\nClick here to get the practice file: PivotTables-KevinCookies.xlsx",
     "crumbs": [
       "Tables and Pivot Tables",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'><yrChapterNumber>17. </yrChapterNumber> Pivot Tables</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'><yrChapterNumber>18. </yrChapterNumber> Pivot Tables</span>"
     ]
   },
   {
     "objectID": "0030100-pivotTables-v001.html#pivot-table-tutorial-webpage-to-read",
     "href": "0030100-pivotTables-v001.html#pivot-table-tutorial-webpage-to-read",
-    "title": "17  17.  Pivot Tables",
-    "section": "17.2 Pivot table tutorial (webpage to read)",
-    "text": "17.2 Pivot table tutorial (webpage to read)\nSee this writeup for an overview of Excel pivot tables: https://exceljet.net/articles/excel-pivot-tables\nClick here to get the practice file: sample data for pivot table.xlsx",
+    "title": "18  18.  Pivot Tables",
+    "section": "18.2 Pivot table tutorial (webpage to read)",
+    "text": "18.2 Pivot table tutorial (webpage to read)\nSee this writeup for an overview of Excel pivot tables: https://exceljet.net/articles/excel-pivot-tables\nClick here to get the practice file: sample data for pivot table.xlsx",
     "crumbs": [
       "Tables and Pivot Tables",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'><yrChapterNumber>17. </yrChapterNumber> Pivot Tables</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'><yrChapterNumber>18. </yrChapterNumber> Pivot Tables</span>"
     ]
   },
   {
     "objectID": "0800100-practice-deptStore-v001.html",
     "href": "0800100-practice-deptStore-v001.html",
-    "title": "18  18.  Practice - Department Store case",
+    "title": "19  19.  Practice - Department Store case",
     "section": "",
     "text": "The following is a set of practice questions.\nThis file contains the questions (in a word document).\n005000-practice-QUESTIONS-v008.docx\nThe following is an Excel file with blanks to enter your answers.\n005000-practice-WORKSHEET-STARTING-v008.xlsx\nThe following is an Excel file that contains suggested solutions.\n005000-practice-WORKSHEET-ANSWERS-v008.xlsx",
     "crumbs": [
       "Practice",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'><yrChapterNumber>18. </yrChapterNumber> Practice - Department Store case</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'><yrChapterNumber>19. </yrChapterNumber> Practice - Department Store case</span>"
     ]
   },
   {
     "objectID": "0800200-practice-salepeople-v001.html",
     "href": "0800200-practice-salepeople-v001.html",
-    "title": "19  19.  Practice - salepeople exercise",
+    "title": "20  20.  Practice - salepeople exercise",
     "section": "",
     "text": "To download the file for the exercise\nclick here\nThe questions appear on the “Questions” worksheet (the first tab).",
     "crumbs": [
       "Practice",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'><yrChapterNumber>19. </yrChapterNumber> Practice - salepeople exercise</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> Practice - salepeople exercise</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html",
     "href": "0000200-hotkeys-v001.html",
-    "title": "20  20.  “hot-keys”",
+    "title": "21  21.  “hot-keys”",
     "section": "",
-    "text": "20.1 The hotkeys\nExcel keyboard “hot-keys” can make you MUCH more productive.\nThe list of shortcuts below was adapted from https://corporatefinanceinstitute.com/resources/excel/excel-shortcuts-pc-mac/\nThe list below is arranged in order of “importance”. The importance info is based on my personal thoughts. I categorized the importance levels as follows:",
+    "text": "21.1 The hotkeys\nExcel keyboard “hot-keys” can make you MUCH more productive.\nThe list of shortcuts below was adapted from https://corporatefinanceinstitute.com/resources/excel/excel-shortcuts-pc-mac/\nThe list below is arranged in order of “importance”. The importance info is based on my personal thoughts. I categorized the importance levels as follows:",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'><yrChapterNumber>21. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#the-hotkeys",
     "href": "0000200-hotkeys-v001.html#the-hotkeys",
-    "title": "20  20.  “hot-keys”",
+    "title": "21  21.  “hot-keys”",
     "section": "",
     "text": "importance\nmeaning\n\n\n\n\n0\nBasic and “obvious” (these are common in many other programs too)\n\n\n1\nEvery Excel user should know these\n\n\n2\nExtremely useful to know\n\n\n3\nHelpful, but not so much\n\n\n4+\nMight not be worth memorizing but could be helpful. Can usually do these by pressing buttons.",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'><yrChapterNumber>21. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#basic-and-obvious-these-are-common-in-many-other-programs-too",
     "href": "0000200-hotkeys-v001.html#basic-and-obvious-these-are-common-in-many-other-programs-too",
-    "title": "20  20.  “hot-keys”",
-    "section": "20.2 Basic and “obvious” (these are common in many other programs too)",
-    "text": "20.2 Basic and “obvious” (these are common in many other programs too)\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n0\nediting cells\nClear cell data\nDelete\nDelete\n\n\n0\nediting-inside-cell\nConfirm change and get out of cell\nEnter\nReturn\n\n\n0\nediting-inside-cell\nDelete character to left\nBackspace\nDelete\n\n\n0\nediting-inside-cell\nDelete character to right\nDelete\nFn-Delete\n\n\n0\nnavigation/selection\nMove from cell to cell\nArrows\nArrows\n\n\n0\nnavigation/selection\nMove one screen up\nPageUp\nFn-Up\n\n\n0\nnavigation/selection\nMove one screen down\nPageDown\nFn-Down\n\n\n0\nnavigation/selection\nMove to the next cell (Move between items within a menu window)\nTab\nTab\n\n\n0\nworking with files\nNew File\nCtrl-N\n⌘-N\n\n\n0\nworking with files\nOpen File\nCtrl-O\n⌘-O\n\n\n0\nediting cells\nFind and replace\nCtrl-F\nCtrl-F\n\n\n0\nformatting cells\nBold\nCtrl-B\n⌘-B\n\n\n0\nformatting cells\nItalic\nCtrl-I\n⌘-I\n\n\n0\nformatting cells\nUndo\nCtrl-Z\n⌘-Z\n\n\n0\nformatting cells\nRedo\nCtrl-Y\n⌘-Y\n\n\n0\nnavigation/selection\nSelect all contiguous used cells (select entire worksheet if command is repeated)\nCtrl-A\n⌘-A\n\n\n0\ngeneral\nCut\nCtrl-X\n⌘-X\n\n\n0\ngeneral\nCopy\nCtrl-C\n⌘-C\n\n\n0\ngeneral\nPaste\nCtrl-V\n⌘-V\n\n\n0\nother\nNext open program\nAlt-Tab\n⌘-Tab\n\n\n0\nworking with files\nSave File\nCtrl-S\n⌘\n\n\n0\nworking with files\nPrint\nCtrl-P\n⌘-P",
+    "title": "21  21.  “hot-keys”",
+    "section": "21.2 Basic and “obvious” (these are common in many other programs too)",
+    "text": "21.2 Basic and “obvious” (these are common in many other programs too)\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n0\nediting cells\nClear cell data\nDelete\nDelete\n\n\n0\nediting-inside-cell\nConfirm change and get out of cell\nEnter\nReturn\n\n\n0\nediting-inside-cell\nDelete character to left\nBackspace\nDelete\n\n\n0\nediting-inside-cell\nDelete character to right\nDelete\nFn-Delete\n\n\n0\nnavigation/selection\nMove from cell to cell\nArrows\nArrows\n\n\n0\nnavigation/selection\nMove one screen up\nPageUp\nFn-Up\n\n\n0\nnavigation/selection\nMove one screen down\nPageDown\nFn-Down\n\n\n0\nnavigation/selection\nMove to the next cell (Move between items within a menu window)\nTab\nTab\n\n\n0\nworking with files\nNew File\nCtrl-N\n⌘-N\n\n\n0\nworking with files\nOpen File\nCtrl-O\n⌘-O\n\n\n0\nediting cells\nFind and replace\nCtrl-F\nCtrl-F\n\n\n0\nformatting cells\nBold\nCtrl-B\n⌘-B\n\n\n0\nformatting cells\nItalic\nCtrl-I\n⌘-I\n\n\n0\nformatting cells\nUndo\nCtrl-Z\n⌘-Z\n\n\n0\nformatting cells\nRedo\nCtrl-Y\n⌘-Y\n\n\n0\nnavigation/selection\nSelect all contiguous used cells (select entire worksheet if command is repeated)\nCtrl-A\n⌘-A\n\n\n0\ngeneral\nCut\nCtrl-X\n⌘-X\n\n\n0\ngeneral\nCopy\nCtrl-C\n⌘-C\n\n\n0\ngeneral\nPaste\nCtrl-V\n⌘-V\n\n\n0\nother\nNext open program\nAlt-Tab\n⌘-Tab\n\n\n0\nworking with files\nSave File\nCtrl-S\n⌘\n\n\n0\nworking with files\nPrint\nCtrl-P\n⌘-P",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'><yrChapterNumber>21. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#every-excel-user-should-know-these",
     "href": "0000200-hotkeys-v001.html#every-excel-user-should-know-these",
-    "title": "20  20.  “hot-keys”",
-    "section": "20.3 Every Excel user should know these",
-    "text": "20.3 Every Excel user should know these\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n1\nediting-inside-cell\nMove withing the contents of the cell\nArrow keys\nArrow keys\n\n\n1\nediting-inside-cell\nJump to beginning of cell contents\nHome\nFn-Left\n\n\n1\nediting-inside-cell\nCancel any changes you made while editing a cell\nEsc\nEsc\n\n\n1\nediting-inside-cell\nEnter new line while editing a cell\nAlt-Enter\nOption-Return\n\n\n1\nediting-inside-cell\nWhen editing a cell reference, automatically rotate between A1, $A$1, A$1 and $A1 forms\nF4\n⌘-T\n\n\n1\nother\nShow formula/show values (` key is to the left of the 1 key on most American keyboards)\nCtrl-`\nCtrl-`\n\n\n1\nediting-inside-cell\nAccept auto-complete suggestion\nTab\nTab",
+    "title": "21  21.  “hot-keys”",
+    "section": "21.3 Every Excel user should know these",
+    "text": "21.3 Every Excel user should know these\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n1\nediting-inside-cell\nMove withing the contents of the cell\nArrow keys\nArrow keys\n\n\n1\nediting-inside-cell\nJump to beginning of cell contents\nHome\nFn-Left\n\n\n1\nediting-inside-cell\nCancel any changes you made while editing a cell\nEsc\nEsc\n\n\n1\nediting-inside-cell\nEnter new line while editing a cell\nAlt-Enter\nOption-Return\n\n\n1\nediting-inside-cell\nWhen editing a cell reference, automatically rotate between A1, $A$1, A$1 and $A1 forms\nF4\n⌘-T\n\n\n1\nother\nShow formula/show values (` key is to the left of the 1 key on most American keyboards)\nCtrl-`\nCtrl-`\n\n\n1\nediting-inside-cell\nAccept auto-complete suggestion\nTab\nTab",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'><yrChapterNumber>21. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#extremely-useful-to-know",
     "href": "0000200-hotkeys-v001.html#extremely-useful-to-know",
-    "title": "20  20.  “hot-keys”",
-    "section": "20.4 Extremely useful to know",
-    "text": "20.4 Extremely useful to know\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n2\nnavigation/selection\nJump to last/first cell in a contiguous range of used cells\nCtrl-Arrow\nCtrl-Arrow\n\n\n2\nnavigation/selection\nJump to beginning of row\nHome\nFn-Left\n\n\n2\nnavigation/selection\nJump to cell A1\nCtrl-Home\nFn-Ctrl-Left\n\n\n2\nnavigation/selection\nSelect a contiguous range\nCtrl-Shift-Arrows\nCtrl-Shift-Arrows\n\n\n2\nnavigation/selection\nExtend selection 1 row or column\nShift-Arrows\nShift-Arrows\n\n\n2\nnavigation/selection\nExtend selection up one screen\nShift-PageUp\nFn-Shift-Up\n\n\n2\nnavigation/selection\nExtend selection down one screen\nShift-PageDown\nFn-Shift-Down\n\n\n2\nnavigation/selection\nExtend selection left one screen\nAlt-shift-PageUp\nFn-Shift-⌘-Up\n\n\n2\nnavigation/selection\nExtend selection right one screen\nAlt-shift-PageDown\nFn-Shift-⌘-Down\n\n\n2\nnavigation/selection\nExtend selection to the start of the sheet\nCtrl-Shift-Home\nCtrl-Shift-Home\n\n\n2\nnavigation/selection\nExtend selection to the last used cell of the sheet\nCtrl-Shift-End\nCtrl-Shift-End",
+    "title": "21  21.  “hot-keys”",
+    "section": "21.4 Extremely useful to know",
+    "text": "21.4 Extremely useful to know\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n2\nnavigation/selection\nJump to last/first cell in a contiguous range of used cells\nCtrl-Arrow\nCtrl-Arrow\n\n\n2\nnavigation/selection\nJump to beginning of row\nHome\nFn-Left\n\n\n2\nnavigation/selection\nJump to cell A1\nCtrl-Home\nFn-Ctrl-Left\n\n\n2\nnavigation/selection\nSelect a contiguous range\nCtrl-Shift-Arrows\nCtrl-Shift-Arrows\n\n\n2\nnavigation/selection\nExtend selection 1 row or column\nShift-Arrows\nShift-Arrows\n\n\n2\nnavigation/selection\nExtend selection up one screen\nShift-PageUp\nFn-Shift-Up\n\n\n2\nnavigation/selection\nExtend selection down one screen\nShift-PageDown\nFn-Shift-Down\n\n\n2\nnavigation/selection\nExtend selection left one screen\nAlt-shift-PageUp\nFn-Shift-⌘-Up\n\n\n2\nnavigation/selection\nExtend selection right one screen\nAlt-shift-PageDown\nFn-Shift-⌘-Down\n\n\n2\nnavigation/selection\nExtend selection to the start of the sheet\nCtrl-Shift-Home\nCtrl-Shift-Home\n\n\n2\nnavigation/selection\nExtend selection to the last used cell of the sheet\nCtrl-Shift-End\nCtrl-Shift-End",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'><yrChapterNumber>21. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#helpful-but-not-so-much",
     "href": "0000200-hotkeys-v001.html#helpful-but-not-so-much",
-    "title": "20  20.  “hot-keys”",
-    "section": "20.5 Helpful, but not so much",
-    "text": "20.5 Helpful, but not so much\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n3\nnavigation/selection\nSelect entire row\nShift-Spacebar\nShift-Spacebar\n\n\n3\nnavigation/selection\nSelect entire column\nCtrl-Spacebar\nCtrl-Spacebar\n\n\n3\ngeneral\nInsert row\nAlt-I-R\nCtrl-I\n\n\n3\ngeneral\nInsert column\nAlt-I-C\nCtrl-I\n\n\n3\nnavigation/selection\nJump one screen left\nAlt-PageUp\nFn-Option-Up\n\n\n3\nnavigation/selection\nJump one screen right\nAlt-PageDown\nFn-Option-Down\n\n\n3\nnavigation/selection\nMove to the next or previous worksheet (Move between tabs if you are in a menu window)\nCtrl-PageUp/Down\nCtrl-PageUp/Down\n\n\n3\nother\nSelect cells which refer to the active cell (useful before deleting a cell in a worksheet)\nCtrl-]\nCtrl-]",
+    "title": "21  21.  “hot-keys”",
+    "section": "21.5 Helpful, but not so much",
+    "text": "21.5 Helpful, but not so much\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n3\nnavigation/selection\nSelect entire row\nShift-Spacebar\nShift-Spacebar\n\n\n3\nnavigation/selection\nSelect entire column\nCtrl-Spacebar\nCtrl-Spacebar\n\n\n3\ngeneral\nInsert row\nAlt-I-R\nCtrl-I\n\n\n3\ngeneral\nInsert column\nAlt-I-C\nCtrl-I\n\n\n3\nnavigation/selection\nJump one screen left\nAlt-PageUp\nFn-Option-Up\n\n\n3\nnavigation/selection\nJump one screen right\nAlt-PageDown\nFn-Option-Down\n\n\n3\nnavigation/selection\nMove to the next or previous worksheet (Move between tabs if you are in a menu window)\nCtrl-PageUp/Down\nCtrl-PageUp/Down\n\n\n3\nother\nSelect cells which refer to the active cell (useful before deleting a cell in a worksheet)\nCtrl-]\nCtrl-]",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'><yrChapterNumber>21. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0000200-hotkeys-v001.html#might-not-be-worth-memorizing",
     "href": "0000200-hotkeys-v001.html#might-not-be-worth-memorizing",
-    "title": "20  20.  “hot-keys”",
-    "section": "20.6 Might not be worth memorizing",
-    "text": "20.6 Might not be worth memorizing\nCould be helpful for extreme power-users but you can usually do these by pressing buttons or in other ways. For most Excel users, it’s probably not worth memorizing these.\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n4\nediting cells\nClear cell formats\nAlt-h-e-f\n\n\n\n4\nediting cells\nClear all (data, formats, comments)\nAlt-h-e-a\n\n\n\n4\ngeneral\nInsert argument names and parentheses for a function after typing a function name in a formula\nCtrl-Shift-A\nCtrl-Shift-A\n\n\n4\nother\nEnter current date (also see today() function)\nCtrl-;\nCtrl-;\n\n\n4\nother\nEnter current time (also see now() function)\nCtrl-Shift-:\nCtrl-Shift-:\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n5\nediting cells\nCopy data “down” from above cells (highlight a range to copy to multiple cells)\nCtrl-D\nCtrl-D\n\n\n5\nediting cells\nCopy data to the “right” from cells on left (highlight a range to copy multiple cells)\nCtrl-R\nCtrl-R\n\n\n5\nediting-inside-cell\nEdit the active cell (edit mode)\nF2\nF2\n\n\n5\nediting-inside-cell\nJump to end of cell contents\nEnd\nFn-Right\n\n\n5\nformatting cells\nNumber format\nCtrl-Shift-!\nCtrl-Shift-!\n\n\n5\nformatting cells\nDate format\nCtrl-Shift-#\nCtrl-Shift-#\n\n\n5\nformatting cells\nPercent format\nCtrl-Shift-%\nCtrl-Shift-%\n\n\n5\ngeneral\nEdit active cell\nF2\nCtrl-U\n\n\n5\nnavigation\nGo to a specific cell\nF5\nF5\n\n\n5\nediting cells\nClear cell comments\nAlt-h-e-m\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n6\nformatting cells\nBrings up format cells menu\nCtrl-1\n⌘-1\n\n\n6\ngeneral\nInsert or edit cell comment\nShift-F2\nShift-F2\n\n\n6\npaste-special\nPaste Special formats\nCtrl-Alt-V-t\nCtrl-⌘-V-t\n\n\n6\npaste-special\nPaste Special values\nCtrl-Alt-V-v\nCtrl-⌘-V-v\n\n\n6\npaste-special\nPaste Special formulas\nCtrl-Alt-V-f\nCtrl-⌘-V-f\n\n\n6\npaste-special\nPaste Special comments\nCtrl-Alt-V-c\nCtrl-⌘-V-c\n\n\n6\nworking with files\nSave File With New Name (i.e. “Save As”)\nF12\n⌘-⇧-Shift-S\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n7\ngeneral\nDisplay shortcut menu (i.e. same as right click)\nShift-F10\nShift-F10\n\n\n7\nworking with files\nGo to next workbook\nCtrl-Tab\n⌘–\n\n\n7\nworking with files\nClose file\nCtrl-F4\n⌘-W\n\n\n7\nworking with files\nClose all open Excel files\nAlt-F4\n⌘-Q\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n8\nediting-inside-cell\nWhile editing cell, allow use of arrow keys to create reference\nF2\nF2\n\n\n8\nediting-inside-cell\nHighlight within a cell\nShift-Left/Right\nShift-Left/Right\n\n\n8\nediting-inside-cell\nHighlight contiguous items\nCtrl-Shift-Left/Right\nCtrl-Shift-Left/Right\n\n\n8\nediting-inside-cell\nReferencing a cell from another worksheet\nCtrl-PageUp/Down-Arrows\nCtrl-Fn-Down/Up-Arrows\n\n\n8\nformatting cells\nRepeat last action\nF4\n⌘-Y\n\n\n8\nformatting cells\nIncrease font size\nAlt-h-fg\n⌘-Shift-&gt;\n\n\n8\nformatting cells\nDecrease font size\nAlt-h-fk\n⌘-Shift-&lt;\n\n\n8\nformatting cells\nIncrease decimal\nAlt-h-O\n\n\n\n8\nformatting cells\nDecrease decimal\nAlt-h-9\n\n\n\n8\nformatting cells\nIncrease indent\nAlt-h-6\nCtrl-M\n\n\n8\nformatting cells\nDecrease indent\nAlt-h-5\n⌘-Shift-m\n\n\n8\ngeneral\nPaste Special\nAlt-E-S\n⌘-Option-V\n\n\n8\ngeneral\nPaste name into formula\nF3\n\n\n\n8\ngeneral\nInsert worksheet\nShift-F11\nShift-F11\n\n\n8\ngeneral\nDefine a name for a cell\nCtrl-F3\nCtrl-F3\n\n\n8\nother\nShow all constants\nF5-Alt-s-o\n\n\n\n8\nother\nHighlight cells with comments\nF5-Alt-s-c\n\n\n\n8\nother\nAutosum\nAlt-=\n⌘-T\n\n\n8\nribbon\nShow ribbon accelerator keys\nAlt\n\n\n\n8\nribbon\nShow/hide ribbon\nCtrl-F1\n⌘-⌥-R\n\n\n8\nworking with files\nOpen print preview window\nCtrl-F2",
+    "title": "21  21.  “hot-keys”",
+    "section": "21.6 Might not be worth memorizing",
+    "text": "21.6 Might not be worth memorizing\nCould be helpful for extreme power-users but you can usually do these by pressing buttons or in other ways. For most Excel users, it’s probably not worth memorizing these.\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n4\nediting cells\nClear cell formats\nAlt-h-e-f\n\n\n\n4\nediting cells\nClear all (data, formats, comments)\nAlt-h-e-a\n\n\n\n4\ngeneral\nInsert argument names and parentheses for a function after typing a function name in a formula\nCtrl-Shift-A\nCtrl-Shift-A\n\n\n4\nother\nEnter current date (also see today() function)\nCtrl-;\nCtrl-;\n\n\n4\nother\nEnter current time (also see now() function)\nCtrl-Shift-:\nCtrl-Shift-:\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n5\nediting cells\nCopy data “down” from above cells (highlight a range to copy to multiple cells)\nCtrl-D\nCtrl-D\n\n\n5\nediting cells\nCopy data to the “right” from cells on left (highlight a range to copy multiple cells)\nCtrl-R\nCtrl-R\n\n\n5\nediting-inside-cell\nEdit the active cell (edit mode)\nF2\nF2\n\n\n5\nediting-inside-cell\nJump to end of cell contents\nEnd\nFn-Right\n\n\n5\nformatting cells\nNumber format\nCtrl-Shift-!\nCtrl-Shift-!\n\n\n5\nformatting cells\nDate format\nCtrl-Shift-#\nCtrl-Shift-#\n\n\n5\nformatting cells\nPercent format\nCtrl-Shift-%\nCtrl-Shift-%\n\n\n5\ngeneral\nEdit active cell\nF2\nCtrl-U\n\n\n5\nnavigation\nGo to a specific cell\nF5\nF5\n\n\n5\nediting cells\nClear cell comments\nAlt-h-e-m\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n6\nformatting cells\nBrings up format cells menu\nCtrl-1\n⌘-1\n\n\n6\ngeneral\nInsert or edit cell comment\nShift-F2\nShift-F2\n\n\n6\npaste-special\nPaste Special formats\nCtrl-Alt-V-t\nCtrl-⌘-V-t\n\n\n6\npaste-special\nPaste Special values\nCtrl-Alt-V-v\nCtrl-⌘-V-v\n\n\n6\npaste-special\nPaste Special formulas\nCtrl-Alt-V-f\nCtrl-⌘-V-f\n\n\n6\npaste-special\nPaste Special comments\nCtrl-Alt-V-c\nCtrl-⌘-V-c\n\n\n6\nworking with files\nSave File With New Name (i.e. “Save As”)\nF12\n⌘-⇧-Shift-S\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n7\ngeneral\nDisplay shortcut menu (i.e. same as right click)\nShift-F10\nShift-F10\n\n\n7\nworking with files\nGo to next workbook\nCtrl-Tab\n⌘–\n\n\n7\nworking with files\nClose file\nCtrl-F4\n⌘-W\n\n\n7\nworking with files\nClose all open Excel files\nAlt-F4\n⌘-Q\n\n\n\n\n\n\n\n\n\n\n\n\n\nimportance\ncategory\nwhat\nwindows hotkey\nmac hotkey\n\n\n\n\n8\nediting-inside-cell\nWhile editing cell, allow use of arrow keys to create reference\nF2\nF2\n\n\n8\nediting-inside-cell\nHighlight within a cell\nShift-Left/Right\nShift-Left/Right\n\n\n8\nediting-inside-cell\nHighlight contiguous items\nCtrl-Shift-Left/Right\nCtrl-Shift-Left/Right\n\n\n8\nediting-inside-cell\nReferencing a cell from another worksheet\nCtrl-PageUp/Down-Arrows\nCtrl-Fn-Down/Up-Arrows\n\n\n8\nformatting cells\nRepeat last action\nF4\n⌘-Y\n\n\n8\nformatting cells\nIncrease font size\nAlt-h-fg\n⌘-Shift-&gt;\n\n\n8\nformatting cells\nDecrease font size\nAlt-h-fk\n⌘-Shift-&lt;\n\n\n8\nformatting cells\nIncrease decimal\nAlt-h-O\n\n\n\n8\nformatting cells\nDecrease decimal\nAlt-h-9\n\n\n\n8\nformatting cells\nIncrease indent\nAlt-h-6\nCtrl-M\n\n\n8\nformatting cells\nDecrease indent\nAlt-h-5\n⌘-Shift-m\n\n\n8\ngeneral\nPaste Special\nAlt-E-S\n⌘-Option-V\n\n\n8\ngeneral\nPaste name into formula\nF3\n\n\n\n8\ngeneral\nInsert worksheet\nShift-F11\nShift-F11\n\n\n8\ngeneral\nDefine a name for a cell\nCtrl-F3\nCtrl-F3\n\n\n8\nother\nShow all constants\nF5-Alt-s-o\n\n\n\n8\nother\nHighlight cells with comments\nF5-Alt-s-c\n\n\n\n8\nother\nAutosum\nAlt-=\n⌘-T\n\n\n8\nribbon\nShow ribbon accelerator keys\nAlt\n\n\n\n8\nribbon\nShow/hide ribbon\nCtrl-F1\n⌘-⌥-R\n\n\n8\nworking with files\nOpen print preview window\nCtrl-F2",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'><yrChapterNumber>20. </yrChapterNumber> \"hot-keys\"</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'><yrChapterNumber>21. </yrChapterNumber> \"hot-keys\"</span>"
     ]
   },
   {
     "objectID": "0900000-listOfDatasets-v001.html",
     "href": "0900000-listOfDatasets-v001.html",
-    "title": "21  21.  Sample Datasets",
+    "title": "22  22.  Sample Datasets",
     "section": "",
     "text": "The following are some datasets that can be downloaded.\nClick the headers to sort by that column.\n\n\n\n\n\n\n\n\n\n\n\nDataset\nTopic\nRows\n# Nominal Variables\n# Numeric Variables\nDownload Link\n\n\n\n\nTitanic\nPassenger survival prediction\n891\n5\n4\nhttps://www.openml.org/d/40945\n\n\nAdult Income\nPredict income &gt;50K\n48842\n8\n6\nhttps://archive.ics.uci.edu/ml/datasets/adult\n\n\nBank Marketing\nMarketing campaign term deposit prediction\n45211\n10\n6\nhttps://archive.ics.uci.edu/ml/datasets/bank+marketing\n\n\nOnline Retail\nE-commerce transactions\n541909\n4\n2\nhttps://archive.ics.uci.edu/ml/datasets/online+retail\n\n\nAmes Housing\nHouse price prediction\n2930\n40\n35\nhttps://www.kaggle.com/datasets/prevek18/ames-housing-dataset\n\n\nBoston Housing\nBoston housing prices\n506\n1\n12\nhttps://scikit-learn.org/stable/datasets/real_world.html#boston-dataset\n\n\nTelco Customer Churn\nTelecom churn prediction\n7043\n10\n3\nhttps://www.kaggle.com/datasets/blastchar/telco-customer-churn\n\n\nIBM HR Attrition\nEmployee attrition prediction\n1470\n9\n26\nhttps://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset\n\n\nSuperstore Sales\nRetail sales analytics\n9994\n6\n4\nhttps://www.kaggle.com/datasets/vivek468/superstore-dataset-final\n\n\nMarketing Campaign\nCustomer marketing response\n2240\n5\n10\nhttps://www.kaggle.com/datasets/imakash3011/customer-personality-analysis\n\n\nAirbnb NYC Listings\nShort-term rental marketplace\n48895\n3\n4\nhttps://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data\n\n\nVideo Game Sales\nGlobal video game sales\n16598\n3\n4\nhttps://www.kaggle.com/datasets/gregorut/videogamesales\n\n\nWine Quality\nWine chemistry and quality prediction\n6497\n1\n11\nhttps://archive.ics.uci.edu/ml/datasets/wine+quality\n\n\nAuto MPG\nCar fuel efficiency\n398\n2\n5\nhttps://archive.ics.uci.edu/ml/datasets/auto+mpg\n\n\nHeart Disease (Cleveland)\nHeart disease diagnosis\n303\n4\n9\nhttps://archive.ics.uci.edu/ml/datasets/heart+disease\n\n\nCar Evaluation\nCar purchase decision classification\n1728\n6\n0\nhttps://archive.ics.uci.edu/ml/datasets/car+evaluation\n\n\nDefault of Credit Card Clients\nCredit default prediction\n30000\n3\n20\nhttps://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients\n\n\nAdvertising\nAdvertising spend vs sales\n200\n0\n4\nhttps://www.kaggle.com/datasets/ashydv/advertising-dataset\n\n\nGerman Credit\nCredit risk classification\n1000\n13\n7\nhttps://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)\n\n\nBanknote Authentication\nDetect counterfeit banknotes\n1372\n0\n4\nhttps://archive.ics.uci.edu/ml/datasets/banknote+authentication\n\n\nMushroom\nEdible vs poisonous mushrooms classification\n8124\n22\n0\nhttps://archive.ics.uci.edu/ml/datasets/mushroom\n\n\nStudent Performance\nStudent grade prediction\n395\n17\n16\nhttps://archive.ics.uci.edu/ml/datasets/student+performance",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'><yrChapterNumber>21. </yrChapterNumber> Sample Datasets</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'><yrChapterNumber>22. </yrChapterNumber> Sample Datasets</span>"
     ]
   },
   {
     "objectID": "0010330-moreTopics-v001.html",
     "href": "0010330-moreTopics-v001.html",
-    "title": "22  22.  Other topics (not finished editing yet)",
+    "title": "23  23.  Other topics (not finished editing yet)",
     "section": "",
     "text": "Custom formatting dates and times.\ntext function\n\nfunctions that spill\nvlookup\nxlookup\nmatch\nindex",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'><yrChapterNumber>22. </yrChapterNumber> Other topics (not finished editing yet)</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'><yrChapterNumber>23. </yrChapterNumber> Other topics (not finished editing yet)</span>"
     ]
   },
   {
     "objectID": "0999000-toDo-v001.html",
     "href": "0999000-toDo-v001.html",
-    "title": "23  23.  Links to more info",
+    "title": "24  24.  Links to more info",
     "section": "",
     "text": "Dynamic arrays, functions and formulas\nhttps://www.ablebits.com/office-addins-blog/excel-dynamic-arrays-functions-formulas/",
     "crumbs": [
       "Apendices",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'><yrChapterNumber>23. </yrChapterNumber> Links to more info</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'><yrChapterNumber>24. </yrChapterNumber> Links to more info</span>"
     ]
   }
 ]

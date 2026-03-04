@@ -41,22 +41,26 @@ book:
       chapters:
       - 0200100-countCounta-v001.qmd            # yrChapterNumber 15
     
+    - part: Summary of Functions
+      chapters:
+      - 0204000-summaryOfFunctions-v001.qmd    # yrChapterNumber 16
+      
     - part: Tables and Pivot Tables
       chapters:
-      - 0020100-tablesSorting-v001.qmd        # yrChapterNumber 16
-      - 0030100-pivotTables-v001.qmd        # yrChapterNumber 17
+      - 0020100-tablesSorting-v001.qmd        # yrChapterNumber 17
+      - 0030100-pivotTables-v001.qmd        # yrChapterNumber 18
       
     - part: Practice
       chapters:
-      - 0800100-practice-deptStore-v001.qmd        # yrChapterNumber 18
-      - 0800200-practice-salepeople-v001.qmd        # yrChapterNumber 19
+      - 0800100-practice-deptStore-v001.qmd        # yrChapterNumber 19
+      - 0800200-practice-salepeople-v001.qmd        # yrChapterNumber 20
 
     - part: Apendices
       chapters:
-      - 0000200-hotkeys-v001.qmd        # yrChapterNumber 20
-      - 0900000-listOfDatasets-v001.qmd # yrChapterNumber 21
-      - 0010330-moreTopics-v001.qmd        # yrChapterNumber 22
-      - 0999000-toDo-v001.qmd        # yrChapterNumber 23
+      - 0000200-hotkeys-v001.qmd        # yrChapterNumber 21
+      - 0900000-listOfDatasets-v001.qmd # yrChapterNumber 22
+      - 0010330-moreTopics-v001.qmd        # yrChapterNumber 23
+      - 0999000-toDo-v001.qmd        # yrChapterNumber 24
 
 #    - intro.qmd
 #    - summary.qmd
