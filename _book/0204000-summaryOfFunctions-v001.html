@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>16&nbsp; 16 Summary of Functions – YR Excel Notes</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./0020100-tablesSorting-v001.html" rel="next">
+<link href="./0200100-countCounta-v001.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-dcbfc57d77cecfb36a223989b6e6cd2b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<script src="yrstuff.js"></script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0204000-summaryOfFunctions-v001.html">Summary of Functions</a></li><li class="breadcrumb-item"><a href="./0204000-summaryOfFunctions-v001.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title"><yrchapternumber>16</yrchapternumber> Summary of Functions</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">YR Excel Notes</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About this book</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">The very basics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0000100-mostBasicConcepts-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title"><yrchapternumber>1. </yrchapternumber> Getting Around and Entering Data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0000135-formatting-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title"><yrchapternumber>2. </yrchapternumber> Formatting cells</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0000165-selecting-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title"><yrchapternumber>3. </yrchapternumber> Selecting cells</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Formulas</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0010200-introToFormulas-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title"><yrchapternumber>4. </yrchapternumber> Intro to Formulas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0010205-relativeAbsoluteRefs-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title"><yrchapternumber>5. </yrchapternumber> Different types of cell references (e.g. A1, $A$1, A$1, $A1, 1:1 A:A, etc)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0010215-mouseToEnterCellReferences-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title"><yrchapternumber>6. </yrchapternumber> Using the mouse to create formulas</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Intro to Excel Functions</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0010220-introToFunctions-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title"><yrchapternumber>7. </yrchapternumber> Intro to Functions</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0010225-randomValues-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title"><yrchapternumber>8. </yrchapternumber> Simulations and random numbers - RANDBETWEEN(low,high) and RAND()</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0010240-logicalData-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title"><yrchapternumber>9. </yrchapternumber> logical values (i.e. TRUE, FALSE)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0700100-complexFormulas-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title"><yrchapternumber>10. </yrchapternumber> Tips for working with formulas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0010300-dateTimeData-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title"><yrchapternumber>11. </yrchapternumber> dates and times</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0010300-textData-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title"><yrchapternumber>12. </yrchapternumber> Text Data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0010308-castingToText-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title"><yrchapternumber>13. </yrchapternumber> Treating numbers as "plain text"</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0010309-dataTypes-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title"><yrchapternumber>14. </yrchapternumber> Summary of Data Types (numeric, text, logical, date)</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">More Functions</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0200100-countCounta-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title"><yrchapternumber>15. </yrchapternumber> COUNT and COUNTA in Excel</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Summary of Functions</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0204000-summaryOfFunctions-v001.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title"><yrchapternumber>16</yrchapternumber> Summary of Functions</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">Tables and Pivot Tables</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0020100-tablesSorting-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title"><yrchapternumber>17. </yrchapternumber> Sorting Data and working with Tables</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0030100-pivotTables-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title"><yrchapternumber>18. </yrchapternumber> Pivot Tables</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0800300-excel_groupby_lesson.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title"><yrchapternumber>19</yrchapternumber> GROUPBY Function</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+ <span class="menu-text">Practice</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0800100-practice-deptStore-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title"><yrchapternumber>19. </yrchapternumber> Practice - Department Store case</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0800200-practice-salepeople-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title"><yrchapternumber>20. </yrchapternumber> Practice - salepeople exercise</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
+ <span class="menu-text">Apendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0000200-hotkeys-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title"><yrchapternumber>21. </yrchapternumber> "hot-keys"</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0900000-listOfDatasets-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title"><yrchapternumber>22. </yrchapternumber> Sample Datasets</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0010330-moreTopics-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title"><yrchapternumber>23. </yrchapternumber> Other topics (not finished editing yet)</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0999000-toDo-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title"><yrchapternumber>24. </yrchapternumber> Links to more info</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#averagenumber1number2" id="toc-averagenumber1number2" class="nav-link active" data-scroll-target="#averagenumber1number2">AVERAGE(number1,[number2],…)</a></li>
+  <li><a href="#sumnumber1number2" id="toc-sumnumber1number2" class="nav-link" data-scroll-target="#sumnumber1number2">SUM(number1,[number2],…)</a></li>
+  <li><a href="#countvalue1value2" id="toc-countvalue1value2" class="nav-link" data-scroll-target="#countvalue1value2">COUNT(value1,[value2],…)</a></li>
+  <li><a href="#countavalue1value2" id="toc-countavalue1value2" class="nav-link" data-scroll-target="#countavalue1value2">COUNTA(value1,[value2],…)</a></li>
+  <li><a href="#also-see-countif-and-countifs-in-the-ififs-functions-section-below" id="toc-also-see-countif-and-countifs-in-the-ififs-functions-section-below" class="nav-link" data-scroll-target="#also-see-countif-and-countifs-in-the-ififs-functions-section-below">… also see COUNTIF and COUNTIFS in the “…IF/…IFS” functions section below</a></li>
+  <li><a href="#maxnumber1number2" id="toc-maxnumber1number2" class="nav-link" data-scroll-target="#maxnumber1number2">MAX(number1,[number2],…)</a></li>
+  <li><a href="#minnumber1number2" id="toc-minnumber1number2" class="nav-link" data-scroll-target="#minnumber1number2">MIN(number1,[number2],…)</a></li>
+  <li><a href="#largearrayk" id="toc-largearrayk" class="nav-link" data-scroll-target="#largearrayk">LARGE(array,k)</a></li>
+  <li><a href="#smallarrayk" id="toc-smallarrayk" class="nav-link" data-scroll-target="#smallarrayk">SMALL(array,k)</a></li>
+  <li><a href="#iflogical_testvalue_if_truevalue_if_false" id="toc-iflogical_testvalue_if_truevalue_if_false" class="nav-link" data-scroll-target="#iflogical_testvalue_if_truevalue_if_false">IF(logical_test,[value_if_true],[value_if_false])</a></li>
+  <li><a href="#ifslogical_test1-value_if_true1" id="toc-ifslogical_test1-value_if_true1" class="nav-link" data-scroll-target="#ifslogical_test1-value_if_true1">IFS(logical_test1 , value_if_true1 , … )</a></li>
+  <li><a href="#andlogical1logical2" id="toc-andlogical1logical2" class="nav-link" data-scroll-target="#andlogical1logical2">AND(logical1,[logical2],…)</a></li>
+  <li><a href="#orlogical1logical2" id="toc-orlogical1logical2" class="nav-link" data-scroll-target="#orlogical1logical2">OR(logical1,[logical2],…)</a></li>
+  <li><a href="#iferrorvaluevalue_if_error" id="toc-iferrorvaluevalue_if_error" class="nav-link" data-scroll-target="#iferrorvaluevalue_if_error">IFERROR(value,value_if_error)</a></li>
+  <li><a href="#isblankvalue" id="toc-isblankvalue" class="nav-link" data-scroll-target="#isblankvalue">ISBLANK(value)</a></li>
+  <li><a href="#iserrorvalue-also-se-iferror-in-the-logical-functions-section" id="toc-iserrorvalue-also-se-iferror-in-the-logical-functions-section" class="nav-link" data-scroll-target="#iserrorvalue-also-se-iferror-in-the-logical-functions-section">ISERROR(value) … also se IFERROR in the Logical Functions section</a></li>
+  <li><a href="#isevennumber" id="toc-isevennumber" class="nav-link" data-scroll-target="#isevennumber">ISEVEN(number)</a></li>
+  <li><a href="#isoddnumber" id="toc-isoddnumber" class="nav-link" data-scroll-target="#isoddnumber">ISODD(number)</a></li>
+  <li><a href="#sumifrangecriteriasum_range" id="toc-sumifrangecriteriasum_range" class="nav-link" data-scroll-target="#sumifrangecriteriasum_range">SUMIF(range,criteria,[sum_range])</a></li>
+  <li><a href="#sumifssum_rangecriteria_range1criteria1" id="toc-sumifssum_rangecriteria_range1criteria1" class="nav-link" data-scroll-target="#sumifssum_rangecriteria_range1criteria1">SUMIFS(sum_range,criteria_range1,criteria1,…)</a></li>
+  <li><a href="#averageifrangecriteriaaverage_range" id="toc-averageifrangecriteriaaverage_range" class="nav-link" data-scroll-target="#averageifrangecriteriaaverage_range">AVERAGEIF(range,criteria,[average_range])</a></li>
+  <li><a href="#averageifsaverage_rangecriteria_range1criteria1" id="toc-averageifsaverage_rangecriteria_range1criteria1" class="nav-link" data-scroll-target="#averageifsaverage_rangecriteria_range1criteria1">AVERAGEIFS(average_range,criteria_range1,criteria1,…)</a></li>
+  <li><a href="#countifrangecriteria" id="toc-countifrangecriteria" class="nav-link" data-scroll-target="#countifrangecriteria">COUNTIF(range,criteria)</a></li>
+  <li><a href="#countifscriteria_range1criteria1" id="toc-countifscriteria_range1criteria1" class="nav-link" data-scroll-target="#countifscriteria_range1criteria1">COUNTIFS(criteria_range1,criteria1,…)</a></li>
+  <li><a href="#today" id="toc-today" class="nav-link" data-scroll-target="#today">TODAY()</a></li>
+  <li><a href="#dateyear-month-day" id="toc-dateyear-month-day" class="nav-link" data-scroll-target="#dateyear-month-day">DATE(year, month, day)</a></li>
+  <li><a href="#monthserial_number" id="toc-monthserial_number" class="nav-link" data-scroll-target="#monthserial_number">MONTH(serial_number)</a></li>
+  <li><a href="#yearserial_number" id="toc-yearserial_number" class="nav-link" data-scroll-target="#yearserial_number">YEAR(serial_number)</a></li>
+  <li><a href="#weekdayserial_number" id="toc-weekdayserial_number" class="nav-link" data-scroll-target="#weekdayserial_number">WEEKDAY(serial_number)</a></li>
+  <li><a href="#edatestart_date-months" id="toc-edatestart_date-months" class="nav-link" data-scroll-target="#edatestart_date-months">EDATE(start_date, months)</a></li>
+  <li><a href="#textvalue-format_text" id="toc-textvalue-format_text" class="nav-link" data-scroll-target="#textvalue-format_text">TEXT(value, format_text)</a></li>
+  <li><a href="#vlookuplookup_valuetable_arraycol_index_numfalse" id="toc-vlookuplookup_valuetable_arraycol_index_numfalse" class="nav-link" data-scroll-target="#vlookuplookup_valuetable_arraycol_index_numfalse">VLOOKUP(lookup_value,table_array,col_index_num,FALSE)</a></li>
+  <li><a href="#xlookup" id="toc-xlookup" class="nav-link" data-scroll-target="#xlookup">XLOOKUP</a></li>
+  <li><a href="#concatenatetext1text2-similar-to-operator" id="toc-concatenatetext1text2-similar-to-operator" class="nav-link" data-scroll-target="#concatenatetext1text2-similar-to-operator">CONCATENATE(text1,[text2],…) (similar to &amp; operator)</a></li>
+  <li><a href="#lentext" id="toc-lentext" class="nav-link" data-scroll-target="#lentext">LEN(text)</a></li>
+  <li><a href="#lefttextnum_chars" id="toc-lefttextnum_chars" class="nav-link" data-scroll-target="#lefttextnum_chars">LEFT(text,[num_chars])</a></li>
+  <li><a href="#righttextnum_chars" id="toc-righttextnum_chars" class="nav-link" data-scroll-target="#righttextnum_chars">RIGHT(text,[num_chars])</a></li>
+  <li><a href="#midtextstart_numnum_chars" id="toc-midtextstart_numnum_chars" class="nav-link" data-scroll-target="#midtextstart_numnum_chars">MID(text,start_num,num_chars)</a></li>
+  <li><a href="#findfind_text-within_text-start_num" id="toc-findfind_text-within_text-start_num" class="nav-link" data-scroll-target="#findfind_text-within_text-start_num">FIND(find_text, within_text, [start_num])</a></li>
+  <li><a href="#rand" id="toc-rand" class="nav-link" data-scroll-target="#rand">RAND( )</a></li>
+  <li><a href="#randbetweenbottom-top" id="toc-randbetweenbottom-top" class="nav-link" data-scroll-target="#randbetweenbottom-top">RANDBETWEEN(bottom, top)</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0204000-summaryOfFunctions-v001.html">Summary of Functions</a></li><li class="breadcrumb-item"><a href="./0204000-summaryOfFunctions-v001.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title"><yrchapternumber>16</yrchapternumber> Summary of Functions</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title"><yrchapternumber>16</yrchapternumber> Summary of Functions</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<button onclick="expandAll()">
+Expand All
+</button>
+<button onclick="collapseAll()">
+Collapse All
+</button>
+<script>
+function expandAll() {
+  document.querySelectorAll("details").forEach(d => d.open = true);
+}
+function collapseAll() {
+  document.querySelectorAll("details").forEach(d => d.open = false);
+}
+</script>
+<style>
+details > summary {
+  font-size: 1.6em;
+  font-weight: 700;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+details {
+  margin-bottom: 0.5rem;
+}
+</style>
+<details>
+<summary>
+Numeric Functions
+</summary>
+<section id="averagenumber1number2" class="level3">
+<h3 class="anchored" data-anchor-id="averagenumber1number2">AVERAGE(number1,[number2],…)</h3>
+<p>Returns the arithmetic mean of the supplied numbers. Text and empty cells are ignored.</p>
+<ul>
+<li><strong>number1</strong> – The first number, cell reference, or range to average.</li>
+<li><strong>[number2], …</strong> – Optional additional numbers, ranges, or references to include in the average.</li>
+</ul>
+<p>Example: <code>=AVERAGE(A1:A10)</code> returns the mean of values in A1 through A10.</p>
+</section>
+<section id="sumnumber1number2" class="level3">
+<h3 class="anchored" data-anchor-id="sumnumber1number2">SUM(number1,[number2],…)</h3>
+<p>Adds numbers together and returns their total.</p>
+<ul>
+<li><strong>number1</strong> – The first number, cell reference, or range to add.</li>
+<li><strong>[number2], …</strong> – Optional additional numbers, ranges, or references to include in the total.</li>
+</ul>
+<p>Example: <code>=SUM(A1:A10)</code> adds all values in A1 through A10.</p>
+</section></details>
+<details>
+<summary>
+Counting Functions
+</summary>
+
+<section id="countvalue1value2" class="level3">
+<h3 class="anchored" data-anchor-id="countvalue1value2">COUNT(value1,[value2],…)</h3>
+<p>Counts the number of cells containing numeric values.</p>
+<ul>
+<li><strong>value1</strong> – The first value, cell reference, or range to evaluate.</li>
+<li><strong>[value2], …</strong> – Optional additional values or ranges to include.</li>
+</ul>
+<p>Example: <code>=COUNT(A1:A10)</code> counts how many cells in the range contain numbers.</p>
+</section>
+<section id="countavalue1value2" class="level3">
+<h3 class="anchored" data-anchor-id="countavalue1value2">COUNTA(value1,[value2],…)</h3>
+<p>Counts the number of non-empty cells (numbers, text, logical values, or errors).</p>
+<ul>
+<li><strong>value1</strong> – The first value, reference, or range to evaluate.</li>
+<li><strong>[value2], …</strong> – Optional additional values or ranges to include.</li>
+</ul>
+<p>Example: <code>=COUNTA(A1:A10)</code> counts all cells in the range that are not empty.</p>
+</section>
+<section id="also-see-countif-and-countifs-in-the-ififs-functions-section-below" class="level3">
+<h3 class="anchored" data-anchor-id="also-see-countif-and-countifs-in-the-ififs-functions-section-below">… also see COUNTIF and COUNTIFS in the “…IF/…IFS” functions section below</h3>
+</section></details>
+<details>
+<summary>
+max, min, large, small functions
+</summary>
+
+<section id="maxnumber1number2" class="level3">
+<h3 class="anchored" data-anchor-id="maxnumber1number2">MAX(number1,[number2],…)</h3>
+<p>Returns the largest numeric value in a list or range.</p>
+<ul>
+<li><strong>number1</strong> – The first number, reference, or range.</li>
+<li><strong>[number2], …</strong> – Optional additional numbers or ranges.</li>
+</ul>
+<p>Example: <code>=MAX(A1:A10)</code> returns the largest value in the range.</p>
+</section>
+<section id="minnumber1number2" class="level3">
+<h3 class="anchored" data-anchor-id="minnumber1number2">MIN(number1,[number2],…)</h3>
+<p>Returns the smallest numeric value in a list or range.</p>
+<ul>
+<li><strong>number1</strong> – The first number, reference, or range.</li>
+<li><strong>[number2], …</strong> – Optional additional numbers or ranges.</li>
+</ul>
+<p>Example: <code>=MIN(A1:A10)</code> returns the smallest value in the range.</p>
+</section>
+<section id="largearrayk" class="level3">
+<h3 class="anchored" data-anchor-id="largearrayk">LARGE(array,k)</h3>
+<p>Returns the <em>k</em>-th largest value in a dataset.</p>
+<ul>
+<li><strong>array</strong> – The range or array containing numeric values.</li>
+<li><strong>k</strong> – The position from largest (1 = largest value, 2 = second largest, etc.).</li>
+</ul>
+<p>Example: <code>=LARGE(A1:A10,2)</code> returns the second-largest value.</p>
+</section>
+<section id="smallarrayk" class="level3">
+<h3 class="anchored" data-anchor-id="smallarrayk">SMALL(array,k)</h3>
+<p>Returns the <em>k</em>-th smallest value in a dataset.</p>
+<ul>
+<li><strong>array</strong> – The range or array containing numeric values.</li>
+<li><strong>k</strong> – The position from smallest (1 = smallest value, 2 = second smallest, etc.).</li>
+</ul>
+<p>Example: <code>=SMALL(A1:A10,3)</code> returns the third-smallest value.</p>
+</section></details>
+<details>
+<summary>
+Logical Functions
+</summary>
+
+<section id="iflogical_testvalue_if_truevalue_if_false" class="level3">
+<h3 class="anchored" data-anchor-id="iflogical_testvalue_if_truevalue_if_false">IF(logical_test,[value_if_true],[value_if_false])</h3>
+<p>Performs a logical test and returns one value if the test is TRUE and another if FALSE.</p>
+<ul>
+<li><strong>logical_test</strong> – A condition that evaluates to TRUE or FALSE (e.g., <code>A1&gt;10</code>).</li>
+<li><strong>[value_if_true]</strong> – Value returned if the test is TRUE.</li>
+<li><strong>[value_if_false]</strong> – Value returned if the test is FALSE.</li>
+</ul>
+<p>Example: <code>=IF(A1&gt;50,"Pass","Fail")</code></p>
+</section>
+<section id="ifslogical_test1-value_if_true1" class="level3">
+<h3 class="anchored" data-anchor-id="ifslogical_test1-value_if_true1">IFS(logical_test1 , value_if_true1 , … )</h3>
+<p>Evaluates multiple conditions and returns the value associated with the first TRUE condition.</p>
+<ul>
+<li><strong>logical_test1</strong> – First condition to evaluate.</li>
+<li><strong>value_if_true1</strong> – Value returned if the first condition is TRUE.</li>
+<li>Additional logical tests and results can follow.</li>
+</ul>
+<p>Example: <code>=IFS(A1&gt;=90,"A",A1&gt;=80,"B",A1&gt;=70,"C")</code></p>
+</section>
+<section id="andlogical1logical2" class="level3">
+<h3 class="anchored" data-anchor-id="andlogical1logical2">AND(logical1,[logical2],…)</h3>
+<p>Returns TRUE if <strong>all</strong> supplied conditions evaluate to TRUE.</p>
+<ul>
+<li><strong>logical1</strong> – First logical condition.</li>
+<li><strong>[logical2], …</strong> – Optional additional logical conditions.</li>
+</ul>
+<p>Example: <code>=AND(A1&gt;0,A1&lt;100)</code></p>
+</section>
+<section id="orlogical1logical2" class="level3">
+<h3 class="anchored" data-anchor-id="orlogical1logical2">OR(logical1,[logical2],…)</h3>
+<p>Returns TRUE if <strong>any</strong> of the supplied conditions evaluate to TRUE.</p>
+<ul>
+<li><strong>logical1</strong> – First logical condition.</li>
+<li><strong>[logical2], …</strong> – Optional additional logical conditions.</li>
+</ul>
+<p>Example: <code>=OR(A1="Yes",A1="Y")</code></p>
+</section>
+<section id="iferrorvaluevalue_if_error" class="level3">
+<h3 class="anchored" data-anchor-id="iferrorvaluevalue_if_error">IFERROR(value,value_if_error)</h3>
+<p>Returns a specified value if a formula results in an error.</p>
+<ul>
+<li><strong>value</strong> – The formula or expression to evaluate.</li>
+<li><strong>value_if_error</strong> – Value returned if an error occurs.</li>
+</ul>
+<p>Example: <code>=IFERROR(A1/B1,"Division Error")</code></p>
+</section></details>
+<details>
+<summary>
+“IS” Functions
+</summary>
+
+<section id="isblankvalue" class="level3">
+<h3 class="anchored" data-anchor-id="isblankvalue">ISBLANK(value)</h3>
+<p>Checks whether a cell is empty.</p>
+<ul>
+<li><strong>value</strong> – The cell or expression to test.</li>
+</ul>
+<p>Returns TRUE if the cell is blank, otherwise FALSE.</p>
+</section>
+<section id="iserrorvalue-also-se-iferror-in-the-logical-functions-section" class="level3">
+<h3 class="anchored" data-anchor-id="iserrorvalue-also-se-iferror-in-the-logical-functions-section">ISERROR(value) … also se IFERROR in the Logical Functions section</h3>
+<p>Checks whether a value results in an error.</p>
+<ul>
+<li><strong>value</strong> – The value or formula to test.</li>
+</ul>
+<p>Returns TRUE if the result is any Excel error (e.g., <code>#DIV/0!</code>, <code>#N/A</code>).</p>
+</section>
+<section id="isevennumber" class="level3">
+<h3 class="anchored" data-anchor-id="isevennumber">ISEVEN(number)</h3>
+<p>Checks whether a number is even.</p>
+<ul>
+<li><strong>number</strong> – The number to evaluate.</li>
+</ul>
+<p>Returns TRUE if the number is even, otherwise FALSE.</p>
+</section>
+<section id="isoddnumber" class="level3">
+<h3 class="anchored" data-anchor-id="isoddnumber">ISODD(number)</h3>
+<p>Checks whether a number is odd.</p>
+<ul>
+<li><strong>number</strong> – The number to evaluate.</li>
+</ul>
+<p>Returns TRUE if the number is odd, otherwise FALSE.</p>
+</section></details>
+<details>
+<summary>
+“…IF/…IFS” functions
+</summary>
+
+<section id="sumifrangecriteriasum_range" class="level3">
+<h3 class="anchored" data-anchor-id="sumifrangecriteriasum_range">SUMIF(range,criteria,[sum_range])</h3>
+<p>Adds values that meet a specified condition.</p>
+<ul>
+<li><strong>range</strong> – Cells evaluated against the condition.</li>
+<li><strong>criteria</strong> – The condition used to determine which cells to include.</li>
+<li><strong>[sum_range]</strong> – Optional range of values to sum; if omitted, <strong>range</strong> is summed.</li>
+</ul>
+<p>Example: <code>=SUMIF(A1:A10,"&gt;10",B1:B10)</code></p>
+</section>
+<section id="sumifssum_rangecriteria_range1criteria1" class="level3">
+<h3 class="anchored" data-anchor-id="sumifssum_rangecriteria_range1criteria1">SUMIFS(sum_range,criteria_range1,criteria1,…)</h3>
+<p>Adds values that meet multiple conditions.</p>
+<ul>
+<li><strong>sum_range</strong> – The range of numbers to sum.</li>
+<li><strong>criteria_range1</strong> – First range to evaluate.</li>
+<li><strong>criteria1</strong> – Condition applied to the first range.</li>
+<li>Additional criteria ranges and conditions may follow.</li>
+</ul>
+</section>
+<section id="averageifrangecriteriaaverage_range" class="level3">
+<h3 class="anchored" data-anchor-id="averageifrangecriteriaaverage_range">AVERAGEIF(range,criteria,[average_range])</h3>
+<p>Calculates the average of values that meet a specified condition.</p>
+<ul>
+<li><strong>range</strong> – Range evaluated against the condition.</li>
+<li><strong>criteria</strong> – Condition used to select cells.</li>
+<li><strong>[average_range]</strong> – Optional range containing the values to average.</li>
+</ul>
+</section>
+<section id="averageifsaverage_rangecriteria_range1criteria1" class="level3">
+<h3 class="anchored" data-anchor-id="averageifsaverage_rangecriteria_range1criteria1">AVERAGEIFS(average_range,criteria_range1,criteria1,…)</h3>
+<p>Calculates the average of values that meet multiple conditions.</p>
+<ul>
+<li><strong>average_range</strong> – Range containing numbers to average.</li>
+<li><strong>criteria_range1</strong> – First range evaluated.</li>
+<li><strong>criteria1</strong> – Condition applied to the range.</li>
+</ul>
+</section>
+<section id="countifrangecriteria" class="level3">
+<h3 class="anchored" data-anchor-id="countifrangecriteria">COUNTIF(range,criteria)</h3>
+<p>Counts the number of cells that meet a specified condition.</p>
+<ul>
+<li><strong>range</strong> – Cells to evaluate.</li>
+<li><strong>criteria</strong> – Condition used to count matching cells.</li>
+</ul>
+<p>Example: <code>=COUNTIF(A1:A10,"&gt;=50")</code></p>
+</section>
+<section id="countifscriteria_range1criteria1" class="level3">
+<h3 class="anchored" data-anchor-id="countifscriteria_range1criteria1">COUNTIFS(criteria_range1,criteria1,…)</h3>
+<p>Counts cells that meet multiple conditions.</p>
+<ul>
+<li><strong>criteria_range1</strong> – First range evaluated.</li>
+<li><strong>criteria1</strong> – Condition applied to the range.</li>
+<li>Additional range–criteria pairs can follow.</li>
+</ul>
+</section></details>
+<details>
+<summary>
+Date and Time Functions
+</summary>
+
+<section id="today" class="level3">
+<h3 class="anchored" data-anchor-id="today">TODAY()</h3>
+<p>Returns the current system date.</p>
+<p>This function takes <strong>no arguments</strong> and updates automatically when the worksheet recalculates.</p>
+</section>
+<section id="dateyear-month-day" class="level3">
+<h3 class="anchored" data-anchor-id="dateyear-month-day">DATE(year, month, day)</h3>
+<p>Creates a valid Excel date from separate year, month, and day values.</p>
+<ul>
+<li><strong>year</strong> – Four-digit year.</li>
+<li><strong>month</strong> – Month number (1–12).</li>
+<li><strong>day</strong> – Day of the month.</li>
+</ul>
+<p>Example: <code>=DATE(2026,3,4)</code></p>
+</section>
+<section id="monthserial_number" class="level3">
+<h3 class="anchored" data-anchor-id="monthserial_number">MONTH(serial_number)</h3>
+<p>Returns the month (1–12) from a date.</p>
+<ul>
+<li><strong>serial_number</strong> – A valid Excel date or reference containing a date.</li>
+</ul>
+</section>
+<section id="yearserial_number" class="level3">
+<h3 class="anchored" data-anchor-id="yearserial_number">YEAR(serial_number)</h3>
+<p>Returns the year from a date.</p>
+<ul>
+<li><strong>serial_number</strong> – A valid Excel date or reference.</li>
+</ul>
+</section>
+<section id="weekdayserial_number" class="level3">
+<h3 class="anchored" data-anchor-id="weekdayserial_number">WEEKDAY(serial_number)</h3>
+<p>Returns the day of the week as a number.</p>
+<ul>
+<li><strong>serial_number</strong> – A valid Excel date.</li>
+</ul>
+<p>By default: 1 = Sunday, 7 = Saturday.</p>
+</section>
+<section id="edatestart_date-months" class="level3">
+<h3 class="anchored" data-anchor-id="edatestart_date-months">EDATE(start_date, months)</h3>
+<p>Returns a date a specified number of months before or after a given date.</p>
+<ul>
+<li><strong>start_date</strong> – Starting date.</li>
+<li><strong>months</strong> – Number of months to add (negative values subtract months).</li>
+</ul>
+<p>Example: <code>=EDATE(A1,6)</code></p>
+</section>
+<section id="textvalue-format_text" class="level3">
+<h3 class="anchored" data-anchor-id="textvalue-format_text">TEXT(value, format_text)</h3>
+<p>Converts a number or date into text using a specified format.</p>
+<ul>
+<li><strong>value</strong> – The number or date to format.</li>
+<li><strong>format_text</strong> – Formatting code (e.g., <code>"mm/dd/yyyy"</code>).</li>
+</ul>
+<p>Example: <code>=TEXT(A1,"mmmm yyyy")</code></p>
+</section></details>
+<details>
+<summary>
+Lookup Functions
+</summary>
+
+<section id="vlookuplookup_valuetable_arraycol_index_numfalse" class="level3">
+<h3 class="anchored" data-anchor-id="vlookuplookup_valuetable_arraycol_index_numfalse">VLOOKUP(lookup_value,table_array,col_index_num,FALSE)</h3>
+<p>Searches the first column of a table and returns a value from a specified column.</p>
+<ul>
+<li><strong>lookup_value</strong> – Value to search for.</li>
+<li><strong>table_array</strong> – Range containing the lookup table.</li>
+<li><strong>col_index_num</strong> – Column number (within the table) to return a value from.</li>
+<li><strong>FALSE</strong> – Specifies an exact match.</li>
+</ul>
+<p>Example: <code>=VLOOKUP(A2,A1:D100,3,FALSE)</code></p>
+</section>
+<section id="xlookup" class="level3">
+<h3 class="anchored" data-anchor-id="xlookup">XLOOKUP</h3>
+<p>A modern replacement for VLOOKUP that searches a range and returns a matching value from another range.</p>
+<p>Basic syntax: <code>XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], …)</code></p>
+<ul>
+<li><strong>lookup_value</strong> – Value to search for.</li>
+<li><strong>lookup_array</strong> – Range containing values to search.</li>
+<li><strong>return_array</strong> – Range containing values to return.</li>
+<li><strong>[if_not_found]</strong> – Optional value returned if no match is found.</li>
+</ul>
+<p>Example: <code>=XLOOKUP(A2,A2:A100,B2:B100)</code></p>
+</section></details>
+<details>
+<summary>
+Textual Functions
+</summary>
+
+<section id="concatenatetext1text2-similar-to-operator" class="level3">
+<h3 class="anchored" data-anchor-id="concatenatetext1text2-similar-to-operator">CONCATENATE(text1,[text2],…) (similar to &amp; operator)</h3>
+<p>Joins multiple text strings into a single string.</p>
+<ul>
+<li><strong>text1</strong> – First text value.</li>
+<li><strong>[text2], …</strong> – Optional additional text values.</li>
+</ul>
+<p>Example: <code>=CONCATENATE(A1," ",B1)</code></p>
+</section>
+<section id="lentext" class="level3">
+<h3 class="anchored" data-anchor-id="lentext">LEN(text)</h3>
+<p>Returns the number of characters in a text string.</p>
+<ul>
+<li><strong>text</strong> – The text or cell reference to evaluate.</li>
+</ul>
+</section>
+<section id="lefttextnum_chars" class="level3">
+<h3 class="anchored" data-anchor-id="lefttextnum_chars">LEFT(text,[num_chars])</h3>
+<p>Returns characters from the beginning of a text string.</p>
+<ul>
+<li><strong>text</strong> – Text string to extract from.</li>
+<li><strong>[num_chars]</strong> – Number of characters to return (default = 1).</li>
+</ul>
+</section>
+<section id="righttextnum_chars" class="level3">
+<h3 class="anchored" data-anchor-id="righttextnum_chars">RIGHT(text,[num_chars])</h3>
+<p>Returns characters from the end of a text string.</p>
+<ul>
+<li><strong>text</strong> – Text string to extract from.</li>
+<li><strong>[num_chars]</strong> – Number of characters to return.</li>
+</ul>
+</section>
+<section id="midtextstart_numnum_chars" class="level3">
+<h3 class="anchored" data-anchor-id="midtextstart_numnum_chars">MID(text,start_num,num_chars)</h3>
+<p>Extracts characters from the middle of a text string.</p>
+<ul>
+<li><strong>text</strong> – Original text string.</li>
+<li><strong>start_num</strong> – Position of the first character to extract.</li>
+<li><strong>num_chars</strong> – Number of characters to return.</li>
+</ul>
+</section>
+<section id="findfind_text-within_text-start_num" class="level3">
+<h3 class="anchored" data-anchor-id="findfind_text-within_text-start_num">FIND(find_text, within_text, [start_num])</h3>
+<p>Finds the position of one text string within another.</p>
+<ul>
+<li><strong>find_text</strong> – Text to locate.</li>
+<li><strong>within_text</strong> – Text to search within.</li>
+<li><strong>[start_num]</strong> – Optional starting position for the search.</li>
+</ul>
+</section></details>
+<details>
+<summary>
+Random Numbers functions
+</summary>
+
+<section id="rand" class="level3">
+<h3 class="anchored" data-anchor-id="rand">RAND( )</h3>
+<p>Returns a random decimal number between 0 and 1.</p>
+<p>This function takes <strong>no arguments</strong> and recalculates each time the worksheet updates.</p>
+</section>
+<section id="randbetweenbottom-top" class="level3">
+<h3 class="anchored" data-anchor-id="randbetweenbottom-top">RANDBETWEEN(bottom, top)</h3>
+<p>Returns a random integer within a specified range.</p>
+<ul>
+<li><strong>bottom</strong> – The smallest possible number.</li>
+<li><strong>top</strong> – The largest possible number.</li>
+</ul>
+<p>Example: <code>=RANDBETWEEN(1,100)</code></p>
+</section></details>
+
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./0200100-countCounta-v001.html" class="pagination-link" aria-label="<yrChapterNumber>15. </yrChapterNumber> COUNT and COUNTA in Excel">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title"><yrchapternumber>15. </yrchapternumber> COUNT and COUNTA in Excel</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./0020100-tablesSorting-v001.html" class="pagination-link" aria-label="<yrChapterNumber>17. </yrChapterNumber> Sorting Data and working with Tables">
+        <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title"><yrchapternumber>17. </yrchapternumber> Sorting Data and working with Tables</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<script>
+const titles = document.querySelectorAll('.title');
+
+titles.forEach(title => {
+  if (title.textContent.trim().startsWith('Appendix')) {
+    const chapterNumber = title.querySelector('yrChapterNumber');
+    if (chapterNumber) {
+      chapterNumber.classList.add('yrAppendixChapterNumber');
+    }
+  }
+});
+</script>
+
+
+
+
+</body></html>
