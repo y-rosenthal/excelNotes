@@ -45,11 +45,15 @@ book:
       chapters:
       - 0204000-summaryOfFunctions-v001.qmd    # yrChapterNumber 16
       
-    - part: Tables and Pivot Tables
+    - part: tables, pivot tables, dynamic arrays
       chapters:
       - 0020100-tablesSorting-v001.qmd        # yrChapterNumber 17
+
       - 0030100-pivotTables-v001.qmd        # yrChapterNumber 18
-      
+      # REMOVE THIS LINE - RENAMED TO 0030200-groupby-pivotby.qmd      - 0800300-excel_groupby_lesson.qmd        # yrChapterNumber 20
+      #- 0030200-groupby-pivotby.qmd        # yrChapterNumber 19
+      - 0040100-dynamic-arrays.qmd # yrChapterNumber 19
+      #- 0040200-excel-spill-ranges-tutorial.qmd # yrChapterNumber 20
     - part: Practice
       chapters:
       - 0800100-practice-deptStore-v001.qmd        # yrChapterNumber 19

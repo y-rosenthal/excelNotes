@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./0800100-practice-deptStore-v001.html" rel="next">
+<link href="./0040100-dynamic-arrays.html" rel="next">
 <link href="./0020100-tablesSorting-v001.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0020100-tablesSorting-v001.html">Tables and Pivot Tables</a></li><li class="breadcrumb-item"><a href="./0030100-pivotTables-v001.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title"><yrchapternumber>18. </yrchapternumber> Pivot Tables</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0020100-tablesSorting-v001.html">tables, pivot tables, dynamic arrays</a></li><li class="breadcrumb-item"><a href="./0030100-pivotTables-v001.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title"><yrchapternumber>18. </yrchapternumber> Pivot Tables</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -264,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0204000-summaryOfFunctions-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title"><yrchapternumber>16</yrchapternumber> Summary of Functions</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title"><yrchapternumber>16. </yrchapternumber> Summary of Functions</span></span></a>
   </div>
 </li>
       </ul>
@@ -272,7 +272,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
- <span class="menu-text">Tables and Pivot Tables</span></a>
+ <span class="menu-text">tables, pivot tables, dynamic arrays</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -290,6 +290,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title"><yrchapternumber>18. </yrchapternumber> Pivot Tables</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0040100-dynamic-arrays.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">dynamic arrays and functions that spill</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -304,13 +310,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0800100-practice-deptStore-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title"><yrchapternumber>19. </yrchapternumber> Practice - Department Store case</span></span></a>
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title"><yrchapternumber>19. </yrchapternumber> Practice - Department Store case</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0800200-practice-salepeople-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title"><yrchapternumber>20. </yrchapternumber> Practice - salepeople exercise</span></span></a>
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title"><yrchapternumber>20. </yrchapternumber> Practice - salepeople exercise</span></span></a>
   </div>
 </li>
       </ul>
@@ -327,25 +333,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0000200-hotkeys-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title"><yrchapternumber>21. </yrchapternumber> "hot-keys"</span></span></a>
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title"><yrchapternumber>21. </yrchapternumber> "hot-keys"</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0900000-listOfDatasets-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title"><yrchapternumber>22. </yrchapternumber> Sample Datasets</span></span></a>
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title"><yrchapternumber>22. </yrchapternumber> Sample Datasets</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0010330-moreTopics-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title"><yrchapternumber>23. </yrchapternumber> Other topics (not finished editing yet)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title"><yrchapternumber>23. </yrchapternumber> Other topics (not finished editing yet)</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0999000-toDo-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title"><yrchapternumber>24. </yrchapternumber> Links to more info</span></span></a>
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title"><yrchapternumber>24. </yrchapternumber> Links to more info</span></span></a>
   </div>
 </li>
       </ul>
@@ -362,13 +368,32 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#pivot-table-tutorial-video-tutorial" id="toc-pivot-table-tutorial-video-tutorial" class="nav-link active" data-scroll-target="#pivot-table-tutorial-video-tutorial"><span class="header-section-number">18.1</span> Pivot table tutorial (video tutorial)</a></li>
   <li><a href="#pivot-table-tutorial-webpage-to-read" id="toc-pivot-table-tutorial-webpage-to-read" class="nav-link" data-scroll-target="#pivot-table-tutorial-webpage-to-read"><span class="header-section-number">18.2</span> Pivot table tutorial (webpage to read)</a></li>
+  <li><a href="#additional-material" id="toc-additional-material" class="nav-link" data-scroll-target="#additional-material"><span class="header-section-number">18.3</span> Additional material</a></li>
+  <li><a href="#groupby-and-pivotby-functions" id="toc-groupby-and-pivotby-functions" class="nav-link" data-scroll-target="#groupby-and-pivotby-functions"><span class="header-section-number">18.4</span> groupby and pivotby functions</a></li>
+  <li><a href="#sample-excel-data" id="toc-sample-excel-data" class="nav-link" data-scroll-target="#sample-excel-data"><span class="header-section-number">18.5</span> Sample Excel Data</a></li>
+  <li><a href="#groupby-syntax" id="toc-groupby-syntax" class="nav-link" data-scroll-target="#groupby-syntax"><span class="header-section-number">18.6</span> GROUPBY Syntax</a></li>
+  <li><a href="#example-1-total-sales-by-region" id="toc-example-1-total-sales-by-region" class="nav-link" data-scroll-target="#example-1-total-sales-by-region"><span class="header-section-number">18.7</span> Example 1 – Total Sales by Region</a></li>
+  <li><a href="#example-2-average-quantity-by-product" id="toc-example-2-average-quantity-by-product" class="nav-link" data-scroll-target="#example-2-average-quantity-by-product"><span class="header-section-number">18.8</span> Example 2 – Average Quantity by Product</a></li>
+  <li><a href="#pivotby-syntax" id="toc-pivotby-syntax" class="nav-link" data-scroll-target="#pivotby-syntax"><span class="header-section-number">18.9</span> PIVOTBY Syntax</a></li>
+  <li><a href="#example-3-total-sales-by-region-and-product" id="toc-example-3-total-sales-by-region-and-product" class="nav-link" data-scroll-target="#example-3-total-sales-by-region-and-product"><span class="header-section-number">18.10</span> Example 3 – Total Sales by Region and Product</a></li>
+  <li><a href="#example-4-total-quantity-by-rep-and-region" id="toc-example-4-total-quantity-by-rep-and-region" class="nav-link" data-scroll-target="#example-4-total-quantity-by-rep-and-region"><span class="header-section-number">18.11</span> Example 4 – Total Quantity by Rep and Region</a></li>
+  <li><a href="#groupby-vs.-pivotby" id="toc-groupby-vs.-pivotby" class="nav-link" data-scroll-target="#groupby-vs.-pivotby"><span class="header-section-number">18.12</span> GROUPBY vs.&nbsp;PIVOTBY</a></li>
+  <li><a href="#formula-functions-vs.-pivottables" id="toc-formula-functions-vs.-pivottables" class="nav-link" data-scroll-target="#formula-functions-vs.-pivottables"><span class="header-section-number">18.13</span> Formula Functions vs.&nbsp;PivotTables</a></li>
+  <li><a href="#practice-exercises" id="toc-practice-exercises" class="nav-link" data-scroll-target="#practice-exercises"><span class="header-section-number">19</span> Practice Exercises</a>
+  <ul class="collapse">
+  <li><a href="#question-1" id="toc-question-1" class="nav-link" data-scroll-target="#question-1">Question 1</a></li>
+  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2">Question 2</a></li>
+  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3">Question 3</a></li>
+  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4">Question 4</a></li>
+  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5">Question 5</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0020100-tablesSorting-v001.html">Tables and Pivot Tables</a></li><li class="breadcrumb-item"><a href="./0030100-pivotTables-v001.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title"><yrchapternumber>18. </yrchapternumber> Pivot Tables</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0020100-tablesSorting-v001.html">tables, pivot tables, dynamic arrays</a></li><li class="breadcrumb-item"><a href="./0030100-pivotTables-v001.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title"><yrchapternumber>18. </yrchapternumber> Pivot Tables</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title"><yrchapternumber>18. </yrchapternumber> Pivot Tables</span></h1>
 </div>
@@ -397,8 +422,799 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="18.2" class="anchored" data-anchor-id="pivot-table-tutorial-webpage-to-read"><span class="header-section-number">18.2</span> Pivot table tutorial (webpage to read)</h2>
 <p>See this writeup for an overview of Excel pivot tables: <a href="https://exceljet.net/articles/excel-pivot-tables" class="uri">https://exceljet.net/articles/excel-pivot-tables</a></p>
 <p>Click here to get the practice file: <a href="xlFiles/3rdparty/sample data for pivot table.xlsx">sample data for pivot table.xlsx</a></p>
+</section>
+<section id="additional-material" class="level2" data-number="18.3">
+<h2 data-number="18.3" class="anchored" data-anchor-id="additional-material"><span class="header-section-number">18.3</span> Additional material</h2>
+<p>I thought the following pages also give good explanations and covereage. However, if you read/watched the material above that is enough for our class.</p>
+<p><a href="https://www.computergaga.com/blog/learn-pivot-tables-excel-pivot-tables-tutorial/" class="uri">https://www.computergaga.com/blog/learn-pivot-tables-excel-pivot-tables-tutorial/</a></p>
+<p><a href="https://www.excel-easy.com/data-analysis/pivot-tables.html" class="uri">https://www.excel-easy.com/data-analysis/pivot-tables.html</a></p>
+<p><a href="https://exceljet.net/articles/excel-pivot-tables" class="uri">https://exceljet.net/articles/excel-pivot-tables</a></p>
+</section>
+<section id="groupby-and-pivotby-functions" class="level2" data-number="18.4">
+<h2 data-number="18.4" class="anchored" data-anchor-id="groupby-and-pivotby-functions"><span class="header-section-number">18.4</span> groupby and pivotby functions</h2>
+<p>Modern excel has added the functions, groupby and pivotby that allow you to create much of what pivot tables are used for directly in a regular worksheet. See below for more info.</p>
+<p>The <strong>GROUPBY</strong> function in Excel summarizes data by grouping rows and applying an aggregation function such as SUM, AVERAGE, or COUNT.</p>
+<p>The <strong>PIVOTBY</strong> function is similar, but it summarizes data across both rows and columns. It creates a formula-based summary that looks like a PivotTable, but it is written directly as a worksheet formula.</p>
+<p>Because GROUPBY and PIVOTBY are <strong>dynamic array formulas</strong>, you enter the formula in one cell only. Excel then spills the results into the nearby cells automatically.</p>
+<hr>
+</section>
+<section id="sample-excel-data" class="level2" data-number="18.5">
+<h2 data-number="18.5" class="anchored" data-anchor-id="sample-excel-data"><span class="header-section-number">18.5</span> Sample Excel Data</h2>
+<p>The table below represents a small Excel worksheet. The letters across the top are Excel <strong>column headers</strong>, and the numbers down the side are Excel <strong>row headers</strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+<th>D</th>
+<th>E</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Product</td>
+<td>Sales</td>
+<td>Rep</td>
+<td>Quantity</td>
+<td>Region</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>Laptop</td>
+<td>1200</td>
+<td>Jones</td>
+<td>3</td>
+<td>East</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>Monitor</td>
+<td>450</td>
+<td>Smith</td>
+<td>2</td>
+<td>West</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>Laptop</td>
+<td>1500</td>
+<td>Jones</td>
+<td>4</td>
+<td>East</td>
+</tr>
+<tr class="odd">
+<td><strong>5</strong></td>
+<td>Keyboard</td>
+<td>150</td>
+<td>Lee</td>
+<td>5</td>
+<td>South</td>
+</tr>
+<tr class="even">
+<td><strong>6</strong></td>
+<td>Monitor</td>
+<td>600</td>
+<td>Smith</td>
+<td>3</td>
+<td>West</td>
+</tr>
+<tr class="odd">
+<td><strong>7</strong></td>
+<td>Laptop</td>
+<td>900</td>
+<td>Lee</td>
+<td>2</td>
+<td>South</td>
+</tr>
+<tr class="even">
+<td><strong>8</strong></td>
+<td>Keyboard</td>
+<td>200</td>
+<td>Jones</td>
+<td>6</td>
+<td>East</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="groupby-syntax" class="level2" data-number="18.6">
+<h2 data-number="18.6" class="anchored" data-anchor-id="groupby-syntax"><span class="header-section-number">18.6</span> GROUPBY Syntax</h2>
+<pre><code>GROUPBY(row_fields, values, function)</code></pre>
+<p><strong>Arguments</strong></p>
+<ul>
+<li><strong>row_fields</strong> – column used to group rows</li>
+<li><strong>values</strong> – values to aggregate</li>
+<li><strong>function</strong> – aggregation function</li>
+</ul>
+<hr>
+</section>
+<section id="example-1-total-sales-by-region" class="level2" data-number="18.7">
+<h2 data-number="18.7" class="anchored" data-anchor-id="example-1-total-sales-by-region"><span class="header-section-number">18.7</span> Example 1 – Total Sales by Region</h2>
+<p>Enter this formula in <strong>cell G1</strong>:</p>
+<pre><code>=GROUPBY(E2:E8, B2:B8, SUM)</code></pre>
+<p>The formula is typed only in <strong>G1</strong>. The results spill into <strong>G1:H4</strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Region</td>
+<td>Total Sales</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>East</td>
+<td>2900</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>South</td>
+<td>1050</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>West</td>
+<td>1050</td>
+</tr>
+</tbody>
+</table>
+<p>This formula groups the data by <strong>Region</strong> and adds the <strong>Sales</strong> values for each region.</p>
+<hr>
+</section>
+<section id="example-2-average-quantity-by-product" class="level2" data-number="18.8">
+<h2 data-number="18.8" class="anchored" data-anchor-id="example-2-average-quantity-by-product"><span class="header-section-number">18.8</span> Example 2 – Average Quantity by Product</h2>
+<p>Enter this formula in <strong>cell G1</strong>:</p>
+<pre><code>=GROUPBY(A2:A8, D2:D8, AVERAGE)</code></pre>
+<p>The formula is typed only in <strong>G1</strong>. The results spill into <strong>G1:H4</strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Product</td>
+<td>Average Quantity</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>Keyboard</td>
+<td>5.5</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>Laptop</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>Monitor</td>
+<td>2.5</td>
+</tr>
+</tbody>
+</table>
+<p>This formula groups the data by <strong>Product</strong> and calculates the average <strong>Quantity</strong> for each product.</p>
+<hr>
+</section>
+<section id="pivotby-syntax" class="level2" data-number="18.9">
+<h2 data-number="18.9" class="anchored" data-anchor-id="pivotby-syntax"><span class="header-section-number">18.9</span> PIVOTBY Syntax</h2>
+<pre><code>PIVOTBY(row_fields, col_fields, values, function)</code></pre>
+<p><strong>Arguments</strong></p>
+<ul>
+<li><strong>row_fields</strong> – field used for the rows of the summary</li>
+<li><strong>col_fields</strong> – field used for the columns of the summary</li>
+<li><strong>values</strong> – values to aggregate</li>
+<li><strong>function</strong> – aggregation function</li>
+</ul>
+<hr>
+</section>
+<section id="example-3-total-sales-by-region-and-product" class="level2" data-number="18.10">
+<h2 data-number="18.10" class="anchored" data-anchor-id="example-3-total-sales-by-region-and-product"><span class="header-section-number">18.10</span> Example 3 – Total Sales by Region and Product</h2>
+<p>Enter this formula in <strong>cell G1</strong>:</p>
+<pre><code>=PIVOTBY(E2:E8, A2:A8, B2:B8, SUM)</code></pre>
+<p>The formula is typed only in <strong>G1</strong>. The results spill into <strong>G1:J4</strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+<th>I</th>
+<th>J</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Region</td>
+<td>Keyboard</td>
+<td>Laptop</td>
+<td>Monitor</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>East</td>
+<td>200</td>
+<td>2700</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>South</td>
+<td>150</td>
+<td>900</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>West</td>
+<td>0</td>
+<td>0</td>
+<td>1050</td>
+</tr>
+</tbody>
+</table>
+<p>This formula places <strong>Region</strong> down the rows, <strong>Product</strong> across the columns, and calculates total <strong>Sales</strong> for each combination.</p>
+<hr>
+</section>
+<section id="example-4-total-quantity-by-rep-and-region" class="level2" data-number="18.11">
+<h2 data-number="18.11" class="anchored" data-anchor-id="example-4-total-quantity-by-rep-and-region"><span class="header-section-number">18.11</span> Example 4 – Total Quantity by Rep and Region</h2>
+<p>Enter this formula in <strong>cell G1</strong>:</p>
+<pre><code>=PIVOTBY(C2:C8, E2:E8, D2:D8, SUM)</code></pre>
+<p>The formula is typed only in <strong>G1</strong>. The results spill into <strong>G1:J4</strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+<th>I</th>
+<th>J</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Rep</td>
+<td>East</td>
+<td>South</td>
+<td>West</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>Jones</td>
+<td>13</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>Lee</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>Smith</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p>This formula places <strong>Rep</strong> down the rows, <strong>Region</strong> across the columns, and calculates total <strong>Quantity</strong>.</p>
+<hr>
+</section>
+<section id="groupby-vs.-pivotby" class="level2" data-number="18.12">
+<h2 data-number="18.12" class="anchored" data-anchor-id="groupby-vs.-pivotby"><span class="header-section-number">18.12</span> GROUPBY vs.&nbsp;PIVOTBY</h2>
+<p>Use <strong>GROUPBY</strong> when you want a one-direction summary, such as:</p>
+<pre><code>Total Sales by Region</code></pre>
+<p>Use <strong>PIVOTBY</strong> when you want a two-direction summary, such as:</p>
+<pre><code>Total Sales by Region and Product</code></pre>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Tool</td>
+<td>Layout</td>
+<td>Best Use</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>GROUPBY</td>
+<td>One list of grouped results</td>
+<td>Summaries by one field</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>PIVOTBY</td>
+<td>Rows and columns</td>
+<td>Cross-tab summaries</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>PivotTable</td>
+<td>Interactive report</td>
+<td>Drag-and-drop analysis</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="formula-functions-vs.-pivottables" class="level2" data-number="18.13">
+<h2 data-number="18.13" class="anchored" data-anchor-id="formula-functions-vs.-pivottables"><span class="header-section-number">18.13</span> Formula Functions vs.&nbsp;PivotTables</h2>
+<p>GROUPBY and PIVOTBY are worksheet formulas. They update like formulas and can be combined with other Excel functions.</p>
+<p>PivotTables are interactive Excel objects. They are better when users want to drag fields, filter data visually, expand or collapse groups, or build reports without writing formulas.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>A</th>
+<th>B</th>
+<th>C</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Feature</td>
+<td>GROUPBY / PIVOTBY</td>
+<td>PivotTable</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>Created with a formula</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>Updates with worksheet recalculation</td>
+<td>Yes</td>
+<td>Usually requires refresh</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>Easy to copy into formulas</td>
+<td>Yes</td>
+<td>Less direct</td>
+</tr>
+<tr class="odd">
+<td><strong>5</strong></td>
+<td>Drag-and-drop interface</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td><strong>6</strong></td>
+<td>Best for formula models</td>
+<td>Yes</td>
+<td>Sometimes</td>
+</tr>
+<tr class="odd">
+<td><strong>7</strong></td>
+<td>Best for interactive exploration</td>
+<td>Sometimes</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><span style="font-size:2em"> <strong>Refer to the following spreadsheet:</strong> </span></p>
+<p><span style="font-size:1.4em"> <a href="files/groupby_practice_data.xlsx">Download the file</a> </span></p>
+<p><img src="images/gropuby_practice_data.png" class="img-fluid"></p>
+<!--
+------------------------------------------------------------------------
+
+## Question 1 -- Total Sales by Region
+
+    =GROUPBY(E2:E8, B2:B8, SUM)
+
+------------------------------------------------------------------------
+
+## Question 2 -- Average Quantity by Product
+
+    =GROUPBY(A2:A8, D2:D8, AVERAGE)
+
+------------------------------------------------------------------------
+
+## Question 3 -- Total Sales by Region and Product
+
+    =PIVOTBY(E2:E8, A2:A8, B2:B8, SUM)
+
+------------------------------------------------------------------------
+
+## Question 4 -- Total Quantity by Rep and Region
+
+    =PIVOTBY(C2:C8, E2:E8, D2:D8, SUM)
+
+-->
+</section>
+<section id="practice-exercises" class="level1" data-number="19">
+<h1 data-number="19"><span class="header-section-number">19</span> Practice Exercises</h1>
+<p>Use the sample worksheet above to answer the following questions. The answer are below.</p>
+<section id="question-1" class="level3">
+<h3 class="anchored" data-anchor-id="question-1">Question 1</h3>
+<p>Find the <strong>total Sales for each Region</strong>.</p>
+<p>Your answer should produce a result like this:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Region</td>
+<td>Total Sales</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>East</td>
+<td>2900</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>South</td>
+<td>1050</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>West</td>
+<td>1050</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="question-2" class="level3">
+<h3 class="anchored" data-anchor-id="question-2">Question 2</h3>
+<p>Find the <strong>average Quantity for each Product</strong>.</p>
+<p>Your answer should produce a result like this:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Product</td>
+<td>Average Quantity</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>Keyboard</td>
+<td>5.5</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>Laptop</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>Monitor</td>
+<td>2.5</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="question-3" class="level3">
+<h3 class="anchored" data-anchor-id="question-3">Question 3</h3>
+<p>Use <strong>PIVOTBY</strong> to find the <strong>total Sales for each Region and Product</strong>.</p>
+<p>Your answer should produce a result like this:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+<th>I</th>
+<th>J</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Region</td>
+<td>Keyboard</td>
+<td>Laptop</td>
+<td>Monitor</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>East</td>
+<td>200</td>
+<td>2700</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>South</td>
+<td>150</td>
+<td>900</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>West</td>
+<td>0</td>
+<td>0</td>
+<td>1050</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="question-4" class="level3">
+<h3 class="anchored" data-anchor-id="question-4">Question 4</h3>
+<p>Use <strong>PIVOTBY</strong> to find the <strong>total Quantity for each Rep and Region</strong>.</p>
+<p>Your answer should produce a result like this:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+<th>I</th>
+<th>J</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Rep</td>
+<td>East</td>
+<td>South</td>
+<td>West</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>Jones</td>
+<td>13</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>Lee</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>Smith</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="question-5" class="level3">
+<h3 class="anchored" data-anchor-id="question-5">Question 5</h3>
+<p>In your own words, explain when you would use <strong>PIVOTBY</strong> instead of a regular <strong>PivotTable</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Answers
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Q1</strong></p>
+<p>Enter this formula in <strong>cell G1</strong>:</p>
+<pre><code>=GROUPBY(E2:E8, B2:B8, SUM)</code></pre>
+<p>The formula spills into <strong>G1:H4</strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Region</td>
+<td>Total Sales</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>East</td>
+<td>2900</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>South</td>
+<td>1050</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>West</td>
+<td>1050</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Q2</strong></p>
+<p>Enter this formula in <strong>cell G1</strong>:</p>
+<pre><code>=GROUPBY(A2:A8, D2:D8, AVERAGE)</code></pre>
+<p>The formula spills into <strong>G1:H4</strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Product</td>
+<td>Average Quantity</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>Keyboard</td>
+<td>5.5</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>Laptop</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>Monitor</td>
+<td>2.5</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Q3</strong></p>
+<p>Enter this formula in <strong>cell G1</strong>:</p>
+<pre><code>=PIVOTBY(E2:E8, A2:A8, B2:B8, SUM)</code></pre>
+<p>The formula spills into <strong>G1:J4</strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+<th>I</th>
+<th>J</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Region</td>
+<td>Keyboard</td>
+<td>Laptop</td>
+<td>Monitor</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>East</td>
+<td>200</td>
+<td>2700</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>South</td>
+<td>150</td>
+<td>900</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>West</td>
+<td>0</td>
+<td>0</td>
+<td>1050</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Q4</strong></p>
+<p>Enter this formula in <strong>cell G1</strong>:</p>
+<pre><code>=PIVOTBY(C2:C8, E2:E8, D2:D8, SUM)</code></pre>
+<p>The formula spills into <strong>G1:J4</strong>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th></th>
+<th>G</th>
+<th>H</th>
+<th>I</th>
+<th>J</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1</strong></td>
+<td>Rep</td>
+<td>East</td>
+<td>South</td>
+<td>West</td>
+</tr>
+<tr class="even">
+<td><strong>2</strong></td>
+<td>Jones</td>
+<td>13</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td><strong>3</strong></td>
+<td>Lee</td>
+<td>0</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td><strong>4</strong></td>
+<td>Smith</td>
+<td>0</td>
+<td>0</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Q5</strong></p>
+<p>Use <strong>PIVOTBY</strong> when you want a formula-based cross-tab summary that updates with the worksheet. Use a <strong>PivotTable</strong> when you want an interactive report where you can drag fields, filter visually, and explore the data.</p>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -813,8 +1629,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./0800100-practice-deptStore-v001.html" class="pagination-link" aria-label="<yrChapterNumber>19. </yrChapterNumber> Practice - Department Store case">
-        <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title"><yrchapternumber>19. </yrchapternumber> Practice - Department Store case</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./0040100-dynamic-arrays.html" class="pagination-link" aria-label="dynamic arrays and functions that spill">
+        <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">dynamic arrays and functions that spill</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

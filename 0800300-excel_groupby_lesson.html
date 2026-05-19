@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>15&nbsp; 15.  COUNT and COUNTA in Excel – YR Excel Notes</title>
+<title>20&nbsp; 20.  GROUPBY Function – YR Excel Notes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./0204000-summaryOfFunctions-v001.html" rel="next">
-<link href="./0010309-dataTypes-v001.html" rel="prev">
+<link href="./0800100-practice-deptStore-v001.html" rel="next">
+<link href="./0030100-pivotTables-v001.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -87,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0200100-countCounta-v001.html">More Functions</a></li><li class="breadcrumb-item"><a href="./0200100-countCounta-v001.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title"><yrchapternumber>15. </yrchapternumber> COUNT and COUNTA in Excel</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0020100-tablesSorting-v001.html">Tables and Pivot Tables</a></li><li class="breadcrumb-item"><a href="./0800300-excel_groupby_lesson.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title"><yrchapternumber>20. </yrchapternumber> GROUPBY Function</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -246,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./0200100-countCounta-v001.html" class="sidebar-item-text sidebar-link active">
+  <a href="./0200100-countCounta-v001.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title"><yrchapternumber>15. </yrchapternumber> COUNT and COUNTA in Excel</span></span></a>
   </div>
 </li>
@@ -272,7 +272,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
- <span class="menu-text">tables, pivot tables, dynamic arrays</span></a>
+ <span class="menu-text">Tables and Pivot Tables</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -286,14 +286,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./0030100-pivotTables-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title"><yrchapternumber>18. </yrchapternumber> Pivot Tables</span></span></a>
+  <a href="./0020200-excel-spill-ranges-tutorial.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Working with Spill Ranges in Excel</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./0040100-dynamic-arrays.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">dynamic arrays and functions that spill</span></span></a>
+  <a href="./0030100-pivotTables-v001.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title"><yrchapternumber>19. </yrchapternumber> Pivot Tables</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./0800300-excel_groupby_lesson.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title"><yrchapternumber>20. </yrchapternumber> GROUPBY Function</span></span></a>
   </div>
 </li>
       </ul>
@@ -310,13 +316,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0800100-practice-deptStore-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title"><yrchapternumber>19. </yrchapternumber> Practice - Department Store case</span></span></a>
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title"><yrchapternumber>21. </yrchapternumber> Practice - Department Store case</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0800200-practice-salepeople-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title"><yrchapternumber>20. </yrchapternumber> Practice - salepeople exercise</span></span></a>
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title"><yrchapternumber>22. </yrchapternumber> Practice - salepeople exercise</span></span></a>
   </div>
 </li>
       </ul>
@@ -333,25 +339,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0000200-hotkeys-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title"><yrchapternumber>21. </yrchapternumber> "hot-keys"</span></span></a>
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title"><yrchapternumber>23. </yrchapternumber> "hot-keys"</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0900000-listOfDatasets-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title"><yrchapternumber>22. </yrchapternumber> Sample Datasets</span></span></a>
+ <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title"><yrchapternumber>24. </yrchapternumber> Sample Datasets</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0010330-moreTopics-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">24</span>&nbsp; <span class="chapter-title"><yrchapternumber>23. </yrchapternumber> Other topics (not finished editing yet)</span></span></a>
+ <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title"><yrchapternumber>25. </yrchapternumber> Other topics (not finished editing yet)</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./0999000-toDo-v001.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title"><yrchapternumber>24. </yrchapternumber> Links to more info</span></span></a>
+ <span class="menu-text"><span class="chapter-number">26</span>&nbsp; <span class="chapter-title"><yrchapternumber>26. </yrchapternumber> Links to more info</span></span></a>
   </div>
 </li>
       </ul>
@@ -366,11 +372,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#combined-example-count-and-counta" id="toc-combined-example-count-and-counta" class="nav-link active" data-scroll-target="#combined-example-count-and-counta"><span class="header-section-number">15.1</span> Combined Example: COUNT and COUNTA</a>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">20.1</span> Overview</a>
   <ul class="collapse">
-  <li><a href="#formulas-view" id="toc-formulas-view" class="nav-link" data-scroll-target="#formulas-view">Formulas View</a></li>
-  <li><a href="#values-view" id="toc-values-view" class="nav-link" data-scroll-target="#values-view">Values View</a></li>
-  <li><a href="#why-the-results-differ" id="toc-why-the-results-differ" class="nav-link" data-scroll-target="#why-the-results-differ">Why the Results Differ</a></li>
+  <li><a href="#syntax" id="toc-syntax" class="nav-link" data-scroll-target="#syntax">Syntax</a></li>
+  </ul></li>
+  <li><a href="#practice-exercises" id="toc-practice-exercises" class="nav-link" data-scroll-target="#practice-exercises"><span class="header-section-number">21</span> Practice Exercises</a>
+  <ul class="collapse">
+  <li><a href="#question-1" id="toc-question-1" class="nav-link" data-scroll-target="#question-1">Question 1</a></li>
+  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2">Question 2</a></li>
+  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3">Question 3</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -378,9 +388,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0200100-countCounta-v001.html">More Functions</a></li><li class="breadcrumb-item"><a href="./0200100-countCounta-v001.html"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title"><yrchapternumber>15. </yrchapternumber> COUNT and COUNTA in Excel</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0020100-tablesSorting-v001.html">Tables and Pivot Tables</a></li><li class="breadcrumb-item"><a href="./0800300-excel_groupby_lesson.html"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title"><yrchapternumber>20. </yrchapternumber> GROUPBY Function</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title"><yrchapternumber>15. </yrchapternumber> COUNT and COUNTA in Excel</span></h1>
+<h1 class="title"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title"><yrchapternumber>20. </yrchapternumber> GROUPBY Function</span></h1>
 </div>
 
 
@@ -397,54 +407,77 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><code>COUNT</code> counts <strong>numeric cells only</strong> (including dates and times).<br>
-<code>COUNTA</code> counts <strong>all non-empty cells</strong>.</p>
-<p><strong>Syntax</strong></p>
-<pre class="excel"><code>=COUNT(range)
-=COUNTA(range)</code></pre>
-<hr>
-<section id="combined-example-count-and-counta" class="level2" data-number="15.1">
-<h2 data-number="15.1" class="anchored" data-anchor-id="combined-example-count-and-counta"><span class="header-section-number">15.1</span> Combined Example: COUNT and COUNTA</h2>
-<section id="formulas-view" class="level3">
-<h3 class="anchored" data-anchor-id="formulas-view">Formulas View</h3>
-<pre><code>        A                B        C                  D
-   +----------------+----------+------------------+--------------------+
-1  | VALUES         |          | Count Numbers    | Count Non-Blank    |
-   +----------------+----------+------------------+--------------------+
-2  | 10             |          | =COUNT(A2:A6)    | =COUNTA(A2:A6)     |
-   +----------------+----------+------------------+--------------------+
-3  | 25             |          |                  |                    |
-   +----------------+----------+------------------+--------------------+
-4  | Apple          |          |                  |                    |
-   +----------------+----------+------------------+--------------------+
-5  |                |          |                  |                    |
-   +----------------+----------+------------------+--------------------+
-6  | 12/1/2025      |          |                  |                    |
-   +----------------+----------+------------------+--------------------+</code></pre>
-</section>
-<section id="values-view" class="level3">
-<h3 class="anchored" data-anchor-id="values-view">Values View</h3>
-<pre><code>        A                B        C                  D
-   +----------------+----------+------------------+--------------------+
-1  | VALUES         |          | Count Numbers    | Count Non-Blank    |
-   +----------------+----------+------------------+--------------------+
-2  | 10             |          | 3                | 4                  |
-   +----------------+----------+------------------+--------------------+
-3  | 25             |          |                  |                    |
-   +----------------+----------+------------------+--------------------+
-4  | Apple          |          |                  |                    |
-   +----------------+----------+------------------+--------------------+
-5  |                |          |                  |                    |
-   +----------------+----------+------------------+--------------------+
-6  | 12/1/2025      |          |                  |                    |
-   +----------------+----------+------------------+--------------------+</code></pre>
-</section>
-<section id="why-the-results-differ" class="level3">
-<h3 class="anchored" data-anchor-id="why-the-results-differ">Why the Results Differ</h3>
+<section id="overview" class="level2" data-number="20.1">
+<h2 data-number="20.1" class="anchored" data-anchor-id="overview"><span class="header-section-number">20.1</span> Overview</h2>
+<p>The <strong>GROUPBY</strong> function in Excel summarizes data by grouping rows and applying an aggregation function such as SUM, AVERAGE, or COUNT.</p>
+<section id="syntax" class="level3">
+<h3 class="anchored" data-anchor-id="syntax">Syntax</h3>
+<pre><code>GROUPBY(array, by_array, function)</code></pre>
+<p><strong>Arguments</strong></p>
 <ul>
-<li><code>COUNT(A2:A6)</code> returns <strong>3</strong> : 10, 25, and the date are numeric (see info about dates). “Apple” is not numeric so it wasn’t counted.</li>
-<li><code>COUNTA(A2:A6)</code> returns <strong>4</strong> : all non-empty cells are counted (includeing “Apple”)</li>
+<li><strong>array</strong> – values to aggregate</li>
+<li><strong>by_array</strong> – column used to group rows</li>
+<li><strong>function</strong> – aggregation function</li>
 </ul>
+<p><span style="font-size:2em"> <strong>Refer to the following spreadsheet:</strong> </span></p>
+<p><span style="font-size:1.4em"> <a href="files/groupby_practice_data.xlsx">Download the file</a> </span></p>
+<p><img src="images/gropuby_practice_data.png" class="img-fluid"></p>
+<!--
+------------------------------------------------------------------------
+
+## Question 1 -- Total Sales by Region
+
+    =GROUPBY(A2:A16, E2:E16, SUM)
+
+------------------------------------------------------------------------
+
+## Question 2 -- Average Quantity by Product
+
+    =GROUPBY(B2:B16, D2:D16, AVERAGE)
+
+------------------------------------------------------------------------
+
+## Question 3 -- Count of Transactions per Rep
+
+    =GROUPBY(C2:C16, C2:C16, COUNT)
+
+-->
+</section>
+</section>
+<section id="practice-exercises" class="level1" data-number="21">
+<h1 data-number="21"><span class="header-section-number">21</span> Practice Exercises</h1>
+<section id="question-1" class="level3">
+<h3 class="anchored" data-anchor-id="question-1">Question 1</h3>
+<p>Find the <strong>total Sales for each Region</strong>.</p>
+</section>
+<section id="question-2" class="level3">
+<h3 class="anchored" data-anchor-id="question-2">Question 2</h3>
+<p>Find the <strong>average Quantity for each Product</strong>.</p>
+</section>
+<section id="question-3" class="level3">
+<h3 class="anchored" data-anchor-id="question-3">Question 3</h3>
+<p>Count <strong>how many transactions each Rep handled</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Answers
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Q1</strong></p>
+<pre><code>=GROUPBY(A2:A16, E2:E16, SUM)</code></pre>
+<p><strong>Q2</strong></p>
+<pre><code>=GROUPBY(B2:B16, D2:D16, AVERAGE)</code></pre>
+<p><strong>Q3</strong></p>
+<pre><code>=GROUPBY(C2:C16, C2:C16, COUNT)</code></pre>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -857,13 +890,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./0010309-dataTypes-v001.html" class="pagination-link" aria-label="<yrChapterNumber>14. </yrChapterNumber> Summary of Data Types (numeric, text, logical, date)">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title"><yrchapternumber>14. </yrchapternumber> Summary of Data Types (numeric, text, logical, date)</span></span>
+      <a href="./0030100-pivotTables-v001.html" class="pagination-link" aria-label="<yrChapterNumber>19. </yrChapterNumber> Pivot Tables">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title"><yrchapternumber>19. </yrchapternumber> Pivot Tables</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./0204000-summaryOfFunctions-v001.html" class="pagination-link" aria-label="<yrChapterNumber>16. </yrChapterNumber> Summary of Functions">
-        <span class="nav-page-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title"><yrchapternumber>16. </yrchapternumber> Summary of Functions</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./0800100-practice-deptStore-v001.html" class="pagination-link" aria-label="<yrChapterNumber>21. </yrChapterNumber> Practice - Department Store case">
+        <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title"><yrchapternumber>21. </yrchapternumber> Practice - Department Store case</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

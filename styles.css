@@ -11,3 +11,76 @@ yrchapternumber { font-size: 99%; color: red; }
 .yrAppendixChapterNumber {
     display: none;
 }
+
+/* yrExcel class: use this with Quarto markdown that you 
+ * want to look like an Excel spreadsheet, eg.
+
+::: {.yrExcel}
+
+| Name | Department | Sales |
+|---|---|---:|
+| Ava | East | 120 |
+| Ben | West | 95 |
+| Cara | East | 140 |
+
+:::
+
+*/
+.yrExcel {
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.yrExcel table {
+  border-collapse: collapse;
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 14px;
+  background: white;
+  color: #111;
+  width: auto;
+}
+
+.yrExcel th,
+.yrExcel td {
+  border: 1px solid #d0d7de;
+  padding: 6px 10px;
+  vertical-align: middle;
+}
+
+/* Excel column headers: A, B, C, etc. */
+.yrExcel thead th {
+  background: #f3f3f3;
+  color: #333;
+  font-weight: 400;
+  text-align: center;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+/* Excel row headers: 1, 2, 3, etc. */
+.yrExcel tbody td:first-child {
+  background: #f3f3f3;
+  color: #333;
+  font-weight: 400;
+  text-align: center;
+  width: 36px;
+  min-width: 36px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+/* Top-left corner cell */
+.yrExcel thead th:first-child {
+  width: 36px;
+  min-width: 36px;
+}
+
+/* Light worksheet striping, but not on row headers */
+.yrExcel tbody tr:nth-child(even) td:not(:first-child) {
+  background: #f8fbf5;
+}
+
+/* Keep right-aligned markdown columns right-aligned */
+.yrExcel td[style*="text-align: right"],
+.yrExcel th[style*="text-align: right"] {
+  text-align: right;
+}
